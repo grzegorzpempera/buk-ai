@@ -1,167 +1,1008 @@
 {
-  "generated_at": "2026-11-22T22:25:23.697953+00:00",
+  "generated_at": "2026-11-22T22:35:22.122677+00:00",
+  "timezone": "Europe/Warsaw",
+  "betting_day_end": "06:00",
+  "available_dates": [
+    "2026-11-22",
+    "2026-11-23",
+    "2026-11-24",
+    "2026-11-25",
+    "2026-11-26"
+  ],
+  "by_date": {
+    "2026-11-22": {
+      "fixtures": 12,
+      "eligible_picks": 9,
+      "coupons": [
+        {
+          "name": "Ostrożniejszy",
+          "picks": [
+            {
+              "id": "hockey-nhl-401892770",
+              "sport": "NHL",
+              "league": "nhl",
+              "event": "St. Louis Blues — Edmonton Oilers",
+              "time": "2026-11-23T00:00:00+00:00",
+              "home_rate": 0.5652173913043478,
+              "away_rate": 0.75,
+              "source": "ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261122&limit=100",
+              "market": "Zwycięstwo gospodarzy (z dogrywką)",
+              "p_proxy": 0.462,
+              "estimated_odds": 2.32,
+              "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+            },
+            {
+              "id": "hockey-nhl-401892771",
+              "sport": "NHL",
+              "league": "nhl",
+              "event": "Dallas Stars — Pittsburgh Penguins",
+              "time": "2026-11-23T00:00:00+00:00",
+              "home_rate": 0.6818181818181818,
+              "away_rate": 0.36363636363636365,
+              "source": "ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261122&limit=100",
+              "market": "Zwycięstwo gospodarzy (z dogrywką)",
+              "p_proxy": 0.688,
+              "estimated_odds": 1.55,
+              "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+            },
+            {
+              "id": "basketball-nba-401910034",
+              "sport": "Koszykówka",
+              "league": "nba",
+              "event": "New York Knicks — Indiana Pacers",
+              "time": "2026-11-23T01:00:00+00:00",
+              "home_rate": 0.6111111111111112,
+              "away_rate": 0.3333333333333333,
+              "source": "ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=100",
+              "market": "Zwycięstwo gospodarzy (z dogrywką)",
+              "p_proxy": 0.67,
+              "estimated_odds": 1.6,
+              "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+            }
+          ],
+          "estimated_total_odds": 5.75,
+          "warning": "Wyłącznie orientacyjne kursy z heurystyki; brak weryfikacji rynkowej i prawdopodobieństwa trafienia."
+        },
+        {
+          "name": "Zrównoważony",
+          "picks": [
+            {
+              "id": "basketball-nba-401910031",
+              "sport": "Koszykówka",
+              "league": "nba",
+              "event": "Washington Wizards — Orlando Magic",
+              "time": "2026-11-23T00:00:00+00:00",
+              "home_rate": 0.3684210526315789,
+              "away_rate": 0.47058823529411764,
+              "source": "ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=100",
+              "market": "Zwycięstwo gospodarzy (z dogrywką)",
+              "p_proxy": 0.499,
+              "estimated_odds": 2.14,
+              "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+            },
+            {
+              "id": "hockey-nhl-401892772",
+              "sport": "NHL",
+              "league": "nhl",
+              "event": "Vancouver Canucks — Chicago Blackhawks",
+              "time": "2026-11-23T01:00:00+00:00",
+              "home_rate": 0.2692307692307692,
+              "away_rate": 0.34782608695652173,
+              "source": "ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261122&limit=100",
+              "market": "Zwycięstwo gospodarzy (z dogrywką)",
+              "p_proxy": 0.51,
+              "estimated_odds": 2.1,
+              "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+            },
+            {
+              "id": "basketball-nba-401910035",
+              "sport": "Koszykówka",
+              "league": "nba",
+              "event": "Golden State Warriors — Boston Celtics",
+              "time": "2026-11-23T01:30:00+00:00",
+              "home_rate": 0.5,
+              "away_rate": 0.6666666666666666,
+              "source": "ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=100",
+              "market": "Zwycięstwo gospodarzy (z dogrywką)",
+              "p_proxy": 0.47,
+              "estimated_odds": 2.28,
+              "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+            }
+          ],
+          "estimated_total_odds": 10.25,
+          "warning": "Wyłącznie orientacyjne kursy z heurystyki; brak weryfikacji rynkowej i prawdopodobieństwa trafienia."
+        },
+        {
+          "name": "Wysoki kurs",
+          "picks": [
+            {
+              "id": "basketball-nba-401910030",
+              "sport": "Koszykówka",
+              "league": "nba",
+              "event": "Miami Heat — Oklahoma City Thunder",
+              "time": "2026-11-22T23:00:00+00:00",
+              "home_rate": 0.5882352941176471,
+              "away_rate": 0.6111111111111112,
+              "source": "ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=100",
+              "market": "Zwycięstwo gospodarzy (z dogrywką)",
+              "p_proxy": 0.535,
+              "estimated_odds": 2.0,
+              "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+            },
+            {
+              "id": "basketball-nba-401910032",
+              "sport": "Koszykówka",
+              "league": "nba",
+              "event": "Chicago Bulls — Denver Nuggets",
+              "time": "2026-11-23T00:00:00+00:00",
+              "home_rate": 0.29411764705882354,
+              "away_rate": 0.625,
+              "source": "ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=100",
+              "market": "Zwycięstwo gospodarzy (z dogrywką)",
+              "p_proxy": 0.396,
+              "estimated_odds": 2.7,
+              "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+            },
+            {
+              "id": "basketball-nba-401910033",
+              "sport": "Koszykówka",
+              "league": "nba",
+              "event": "Utah Jazz — Dallas Mavericks",
+              "time": "2026-11-23T00:00:00+00:00",
+              "home_rate": 0.21052631578947367,
+              "away_rate": 0.5555555555555556,
+              "source": "ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=100",
+              "market": "Zwycięstwo gospodarzy (z dogrywką)",
+              "p_proxy": 0.39,
+              "estimated_odds": 2.75,
+              "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+            }
+          ],
+          "estimated_total_odds": 14.85,
+          "warning": "Wyłącznie orientacyjne kursy z heurystyki; brak weryfikacji rynkowej i prawdopodobieństwa trafienia."
+        }
+      ]
+    },
+    "2026-11-23": {
+      "fixtures": 39,
+      "eligible_picks": 29,
+      "coupons": [
+        {
+          "name": "Ostrożniejszy",
+          "picks": [
+            {
+              "id": "basketball-nba-401910031",
+              "sport": "Koszykówka",
+              "league": "nba",
+              "event": "Washington Wizards — Orlando Magic",
+              "time": "2026-11-23T00:00:00+00:00",
+              "home_rate": 0.3684210526315789,
+              "away_rate": 0.47058823529411764,
+              "source": "ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=100",
+              "market": "Zwycięstwo gospodarzy (z dogrywką)",
+              "p_proxy": 0.499,
+              "estimated_odds": 2.14,
+              "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+            },
+            {
+              "id": "basketball-nba-401910037",
+              "sport": "Koszykówka",
+              "league": "nba",
+              "event": "Philadelphia 76ers — Portland Trail Blazers",
+              "time": "2026-11-24T00:00:00+00:00",
+              "home_rate": 0.7894736842105263,
+              "away_rate": 0.6111111111111112,
+              "source": "ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=100",
+              "market": "Zwycięstwo gospodarzy (z dogrywką)",
+              "p_proxy": 0.625,
+              "estimated_odds": 1.71,
+              "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+            },
+            {
+              "id": "hockey-nhl-401892775",
+              "sport": "NHL",
+              "league": "nhl",
+              "event": "Ottawa Senators — Calgary Flames",
+              "time": "2026-11-24T00:30:00+00:00",
+              "home_rate": 0.6956521739130435,
+              "away_rate": 0.4583333333333333,
+              "source": "ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261123&limit=100",
+              "market": "Zwycięstwo gospodarzy (z dogrywką)",
+              "p_proxy": 0.652,
+              "estimated_odds": 1.64,
+              "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+            }
+          ],
+          "estimated_total_odds": 6.0,
+          "warning": "Wyłącznie orientacyjne kursy z heurystyki; brak weryfikacji rynkowej i prawdopodobieństwa trafienia."
+        },
+        {
+          "name": "Zrównoważony",
+          "picks": [
+            {
+              "id": "hockey-nhl-401892770",
+              "sport": "NHL",
+              "league": "nhl",
+              "event": "St. Louis Blues — Edmonton Oilers",
+              "time": "2026-11-23T00:00:00+00:00",
+              "home_rate": 0.5652173913043478,
+              "away_rate": 0.75,
+              "source": "ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261122&limit=100",
+              "market": "Zwycięstwo gospodarzy (z dogrywką)",
+              "p_proxy": 0.462,
+              "estimated_odds": 2.32,
+              "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+            },
+            {
+              "id": "basketball-nba-401910035",
+              "sport": "Koszykówka",
+              "league": "nba",
+              "event": "Golden State Warriors — Boston Celtics",
+              "time": "2026-11-23T01:30:00+00:00",
+              "home_rate": 0.5,
+              "away_rate": 0.6666666666666666,
+              "source": "ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=100",
+              "market": "Zwycięstwo gospodarzy (z dogrywką)",
+              "p_proxy": 0.47,
+              "estimated_odds": 2.28,
+              "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+            },
+            {
+              "id": "hockey-nhl-401892778",
+              "sport": "NHL",
+              "league": "nhl",
+              "event": "Seattle Kraken — Anaheim Ducks",
+              "time": "2026-11-24T02:40:00+00:00",
+              "home_rate": 0.5238095238095238,
+              "away_rate": 0.48,
+              "source": "ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261123&limit=100",
+              "market": "Zwycięstwo gospodarzy (z dogrywką)",
+              "p_proxy": 0.565,
+              "estimated_odds": 1.89,
+              "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+            }
+          ],
+          "estimated_total_odds": 10.0,
+          "warning": "Wyłącznie orientacyjne kursy z heurystyki; brak weryfikacji rynkowej i prawdopodobieństwa trafienia."
+        },
+        {
+          "name": "Wysoki kurs",
+          "picks": [
+            {
+              "id": "basketball-nba-401910033",
+              "sport": "Koszykówka",
+              "league": "nba",
+              "event": "Utah Jazz — Dallas Mavericks",
+              "time": "2026-11-23T00:00:00+00:00",
+              "home_rate": 0.21052631578947367,
+              "away_rate": 0.5555555555555556,
+              "source": "ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=100",
+              "market": "Zwycięstwo gospodarzy (z dogrywką)",
+              "p_proxy": 0.39,
+              "estimated_odds": 2.75,
+              "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+            },
+            {
+              "id": "hockey-nhl-401892772",
+              "sport": "NHL",
+              "league": "nhl",
+              "event": "Vancouver Canucks — Chicago Blackhawks",
+              "time": "2026-11-23T01:00:00+00:00",
+              "home_rate": 0.2692307692307692,
+              "away_rate": 0.34782608695652173,
+              "source": "ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261122&limit=100",
+              "market": "Zwycięstwo gospodarzy (z dogrywką)",
+              "p_proxy": 0.51,
+              "estimated_odds": 2.1,
+              "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+            },
+            {
+              "id": "basketball-nba-401910036",
+              "sport": "Koszykówka",
+              "league": "nba",
+              "event": "Charlotte Hornets — Memphis Grizzlies",
+              "time": "2026-11-24T00:00:00+00:00",
+              "home_rate": 0.29411764705882354,
+              "away_rate": 0.6842105263157895,
+              "source": "ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=100",
+              "market": "Zwycięstwo gospodarzy (z dogrywką)",
+              "p_proxy": 0.369,
+              "estimated_odds": 2.9,
+              "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+            }
+          ],
+          "estimated_total_odds": 16.75,
+          "warning": "Wyłącznie orientacyjne kursy z heurystyki; brak weryfikacji rynkowej i prawdopodobieństwa trafienia."
+        }
+      ]
+    },
+    "2026-11-24": {
+      "fixtures": 38,
+      "eligible_picks": 29,
+      "coupons": [
+        {
+          "name": "Ostrożniejszy",
+          "picks": [
+            {
+              "id": "basketball-nba-401910038",
+              "sport": "Koszykówka",
+              "league": "nba",
+              "event": "Indiana Pacers — Oklahoma City Thunder",
+              "time": "2026-11-24T00:30:00+00:00",
+              "home_rate": 0.3333333333333333,
+              "away_rate": 0.6111111111111112,
+              "source": "ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=100",
+              "market": "Zwycięstwo gospodarzy (z dogrywką)",
+              "p_proxy": 0.42,
+              "estimated_odds": 2.55,
+              "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+            },
+            {
+              "id": "basketball-nba-401910039",
+              "sport": "Koszykówka",
+              "league": "nba",
+              "event": "Toronto Raptors — Milwaukee Bucks",
+              "time": "2026-11-24T00:30:00+00:00",
+              "home_rate": 0.3888888888888889,
+              "away_rate": 0.10526315789473684,
+              "source": "ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=100",
+              "market": "Zwycięstwo gospodarzy (z dogrywką)",
+              "p_proxy": 0.673,
+              "estimated_odds": 1.59,
+              "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+            },
+            {
+              "id": "soccer-uefa.champions-401915294",
+              "sport": "Piłka nożna",
+              "league": "uefa.champions",
+              "event": "Feyenoord Rotterdam — FC Porto",
+              "time": "2026-11-24T20:00:00+00:00",
+              "home_rate": 0.6666666666666666,
+              "away_rate": 0.6666666666666666,
+              "source": "ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124&limit=100",
+              "market": "1X (gospodarze lub remis)",
+              "p_proxy": 0.725,
+              "estimated_odds": 1.48,
+              "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+            }
+          ],
+          "estimated_total_odds": 6.0,
+          "warning": "Wyłącznie orientacyjne kursy z heurystyki; brak weryfikacji rynkowej i prawdopodobieństwa trafienia."
+        },
+        {
+          "name": "Zrównoważony",
+          "picks": [
+            {
+              "id": "hockey-nhl-401892773",
+              "sport": "NHL",
+              "league": "nhl",
+              "event": "New Jersey Devils — Columbus Blue Jackets",
+              "time": "2026-11-24T00:00:00+00:00",
+              "home_rate": 0.64,
+              "away_rate": 0.43478260869565216,
+              "source": "ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261123&limit=100",
+              "market": "Zwycięstwo gospodarzy (z dogrywką)",
+              "p_proxy": 0.637,
+              "estimated_odds": 1.68,
+              "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+            },
+            {
+              "id": "hockey-nhl-401892778",
+              "sport": "NHL",
+              "league": "nhl",
+              "event": "Seattle Kraken — Anaheim Ducks",
+              "time": "2026-11-24T02:40:00+00:00",
+              "home_rate": 0.5238095238095238,
+              "away_rate": 0.48,
+              "source": "ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261123&limit=100",
+              "market": "Zwycięstwo gospodarzy (z dogrywką)",
+              "p_proxy": 0.565,
+              "estimated_odds": 1.89,
+              "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+            },
+            {
+              "id": "basketball-nba-401910045",
+              "sport": "Koszykówka",
+              "league": "nba",
+              "event": "Sacramento Kings — San Antonio Spurs",
+              "time": "2026-11-24T03:00:00+00:00",
+              "home_rate": 0.16666666666666666,
+              "away_rate": 0.7894736842105263,
+              "source": "ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=100",
+              "market": "Zwycięstwo gospodarzy (z dogrywką)",
+              "p_proxy": 0.34,
+              "estimated_odds": 3.15,
+              "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+            }
+          ],
+          "estimated_total_odds": 10.0,
+          "warning": "Wyłącznie orientacyjne kursy z heurystyki; brak weryfikacji rynkowej i prawdopodobieństwa trafienia."
+        },
+        {
+          "name": "Wysoki kurs",
+          "picks": [
+            {
+              "id": "basketball-nba-401910036",
+              "sport": "Koszykówka",
+              "league": "nba",
+              "event": "Charlotte Hornets — Memphis Grizzlies",
+              "time": "2026-11-24T00:00:00+00:00",
+              "home_rate": 0.29411764705882354,
+              "away_rate": 0.6842105263157895,
+              "source": "ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=100",
+              "market": "Zwycięstwo gospodarzy (z dogrywką)",
+              "p_proxy": 0.369,
+              "estimated_odds": 2.9,
+              "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+            },
+            {
+              "id": "hockey-nhl-401892779",
+              "sport": "NHL",
+              "league": "nhl",
+              "event": "San Jose Sharks — Minnesota Wild",
+              "time": "2026-11-24T03:00:00+00:00",
+              "home_rate": 0.48,
+              "away_rate": 0.8181818181818182,
+              "source": "ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261123&limit=100",
+              "market": "Zwycięstwo gospodarzy (z dogrywką)",
+              "p_proxy": 0.393,
+              "estimated_odds": 2.72,
+              "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+            },
+            {
+              "id": "basketball-nba-401909314",
+              "sport": "Koszykówka",
+              "league": "nba",
+              "event": "Orlando Magic — Detroit Pistons",
+              "time": "2026-11-25T00:00:00+00:00",
+              "home_rate": 0.47058823529411764,
+              "away_rate": 0.6470588235294118,
+              "source": "ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261124&limit=100",
+              "market": "Zwycięstwo gospodarzy (z dogrywką)",
+              "p_proxy": 0.466,
+              "estimated_odds": 2.3,
+              "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+            }
+          ],
+          "estimated_total_odds": 18.14,
+          "warning": "Wyłącznie orientacyjne kursy z heurystyki; brak weryfikacji rynkowej i prawdopodobieństwa trafienia."
+        }
+      ]
+    },
+    "2026-11-25": {
+      "fixtures": 51,
+      "eligible_picks": 36,
+      "coupons": [
+        {
+          "name": "Ostrożniejszy",
+          "picks": [
+            {
+              "id": "soccer-uefa.champions-401915373",
+              "sport": "Piłka nożna",
+              "league": "uefa.champions",
+              "event": "Sporting CP — Manchester United",
+              "time": "2026-11-25T20:00:00+00:00",
+              "home_rate": 0.8,
+              "away_rate": 0.75,
+              "source": "ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261125&limit=100",
+              "market": "1X (gospodarze lub remis)",
+              "p_proxy": 0.748,
+              "estimated_odds": 1.43,
+              "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+            },
+            {
+              "id": "basketball-nba-401909318",
+              "sport": "Koszykówka",
+              "league": "nba",
+              "event": "Charlotte Hornets — Chicago Bulls",
+              "time": "2026-11-26T00:00:00+00:00",
+              "home_rate": 0.29411764705882354,
+              "away_rate": 0.29411764705882354,
+              "source": "ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261125&limit=100",
+              "market": "Zwycięstwo gospodarzy (z dogrywką)",
+              "p_proxy": 0.545,
+              "estimated_odds": 1.96,
+              "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+            },
+            {
+              "id": "hockey-nhl-401892783",
+              "sport": "NHL",
+              "league": "nhl",
+              "event": "Tampa Bay Lightning — Carolina Hurricanes",
+              "time": "2026-11-26T00:00:00+00:00",
+              "home_rate": 0.7272727272727273,
+              "away_rate": 0.8260869565217391,
+              "source": "ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
+              "market": "Zwycięstwo gospodarzy (z dogrywką)",
+              "p_proxy": 0.501,
+              "estimated_odds": 2.14,
+              "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+            }
+          ],
+          "estimated_total_odds": 6.0,
+          "warning": "Wyłącznie orientacyjne kursy z heurystyki; brak weryfikacji rynkowej i prawdopodobieństwa trafienia."
+        },
+        {
+          "name": "Zrównoważony",
+          "picks": [
+            {
+              "id": "basketball-nba-401909315",
+              "sport": "Koszykówka",
+              "league": "nba",
+              "event": "Washington Wizards — Boston Celtics",
+              "time": "2026-11-25T01:00:00+00:00",
+              "home_rate": 0.3684210526315789,
+              "away_rate": 0.6666666666666666,
+              "source": "ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261124&limit=100",
+              "market": "Zwycięstwo gospodarzy (z dogrywką)",
+              "p_proxy": 0.411,
+              "estimated_odds": 2.6,
+              "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+            },
+            {
+              "id": "hockey-nhl-401892781",
+              "sport": "NHL",
+              "league": "nhl",
+              "event": "Boston Bruins — Winnipeg Jets",
+              "time": "2026-11-26T00:00:00+00:00",
+              "home_rate": 0.6666666666666666,
+              "away_rate": 0.5454545454545454,
+              "source": "ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
+              "market": "Zwycięstwo gospodarzy (z dogrywką)",
+              "p_proxy": 0.6,
+              "estimated_odds": 1.78,
+              "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+            },
+            {
+              "id": "hockey-nhl-401892782",
+              "sport": "NHL",
+              "league": "nhl",
+              "event": "Buffalo Sabres — New York Rangers",
+              "time": "2026-11-26T00:00:00+00:00",
+              "home_rate": 0.47619047619047616,
+              "away_rate": 0.5833333333333334,
+              "source": "ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
+              "market": "Zwycięstwo gospodarzy (z dogrywką)",
+              "p_proxy": 0.497,
+              "estimated_odds": 2.15,
+              "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+            }
+          ],
+          "estimated_total_odds": 9.95,
+          "warning": "Wyłącznie orientacyjne kursy z heurystyki; brak weryfikacji rynkowej i prawdopodobieństwa trafienia."
+        },
+        {
+          "name": "Wysoki kurs",
+          "picks": [
+            {
+              "id": "basketball-nba-401909314",
+              "sport": "Koszykówka",
+              "league": "nba",
+              "event": "Orlando Magic — Detroit Pistons",
+              "time": "2026-11-25T00:00:00+00:00",
+              "home_rate": 0.47058823529411764,
+              "away_rate": 0.6470588235294118,
+              "source": "ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261124&limit=100",
+              "market": "Zwycięstwo gospodarzy (z dogrywką)",
+              "p_proxy": 0.466,
+              "estimated_odds": 2.3,
+              "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+            },
+            {
+              "id": "basketball-nba-401909315",
+              "sport": "Koszykówka",
+              "league": "nba",
+              "event": "Washington Wizards — Boston Celtics",
+              "time": "2026-11-25T01:00:00+00:00",
+              "home_rate": 0.3684210526315789,
+              "away_rate": 0.6666666666666666,
+              "source": "ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261124&limit=100",
+              "market": "Zwycięstwo gospodarzy (z dogrywką)",
+              "p_proxy": 0.411,
+              "estimated_odds": 2.6,
+              "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+            },
+            {
+              "id": "hockey-nhl-401892788",
+              "sport": "NHL",
+              "league": "nhl",
+              "event": "Columbus Blue Jackets — New Jersey Devils",
+              "time": "2026-11-26T00:00:00+00:00",
+              "home_rate": 0.43478260869565216,
+              "away_rate": 0.64,
+              "source": "ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
+              "market": "Zwycięstwo gospodarzy (z dogrywką)",
+              "p_proxy": 0.453,
+              "estimated_odds": 2.36,
+              "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+            }
+          ],
+          "estimated_total_odds": 14.11,
+          "warning": "Wyłącznie orientacyjne kursy z heurystyki; brak weryfikacji rynkowej i prawdopodobieństwa trafienia."
+        }
+      ]
+    },
+    "2026-11-26": {
+      "fixtures": 36,
+      "eligible_picks": 22,
+      "coupons": [
+        {
+          "name": "Ostrożniejszy",
+          "picks": [
+            {
+              "id": "hockey-nhl-401892790",
+              "sport": "NHL",
+              "league": "nhl",
+              "event": "Dallas Stars — Nashville Predators",
+              "time": "2026-11-26T01:00:00+00:00",
+              "home_rate": 0.6818181818181818,
+              "away_rate": 0.65,
+              "source": "ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
+              "market": "Zwycięstwo gospodarzy (z dogrywką)",
+              "p_proxy": 0.559,
+              "estimated_odds": 1.91,
+              "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+            },
+            {
+              "id": "hockey-nhl-401892792",
+              "sport": "NHL",
+              "league": "nhl",
+              "event": "Colorado Avalanche — Montreal Canadiens",
+              "time": "2026-11-26T02:30:00+00:00",
+              "home_rate": 0.6363636363636364,
+              "away_rate": 0.6818181818181818,
+              "source": "ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
+              "market": "Zwycięstwo gospodarzy (z dogrywką)",
+              "p_proxy": 0.525,
+              "estimated_odds": 2.04,
+              "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+            },
+            {
+              "id": "basketball-nba-401909324",
+              "sport": "Koszykówka",
+              "league": "nba",
+              "event": "Golden State Warriors — Sacramento Kings",
+              "time": "2026-11-26T03:00:00+00:00",
+              "home_rate": 0.5,
+              "away_rate": 0.16666666666666666,
+              "source": "ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261125&limit=100",
+              "market": "Zwycięstwo gospodarzy (z dogrywką)",
+              "p_proxy": 0.695,
+              "estimated_odds": 1.54,
+              "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+            }
+          ],
+          "estimated_total_odds": 6.0,
+          "warning": "Wyłącznie orientacyjne kursy z heurystyki; brak weryfikacji rynkowej i prawdopodobieństwa trafienia."
+        },
+        {
+          "name": "Zrównoważony",
+          "picks": [
+            {
+              "id": "hockey-nhl-401892783",
+              "sport": "NHL",
+              "league": "nhl",
+              "event": "Tampa Bay Lightning — Carolina Hurricanes",
+              "time": "2026-11-26T00:00:00+00:00",
+              "home_rate": 0.7272727272727273,
+              "away_rate": 0.8260869565217391,
+              "source": "ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
+              "market": "Zwycięstwo gospodarzy (z dogrywką)",
+              "p_proxy": 0.501,
+              "estimated_odds": 2.14,
+              "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+            },
+            {
+              "id": "hockey-nhl-401892784",
+              "sport": "NHL",
+              "league": "nhl",
+              "event": "Florida Panthers — Ottawa Senators",
+              "time": "2026-11-26T00:00:00+00:00",
+              "home_rate": 0.6086956521739131,
+              "away_rate": 0.6956521739130435,
+              "source": "ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
+              "market": "Zwycięstwo gospodarzy (z dogrywką)",
+              "p_proxy": 0.506,
+              "estimated_odds": 2.12,
+              "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+            },
+            {
+              "id": "basketball-nba-401909322",
+              "sport": "Koszykówka",
+              "league": "nba",
+              "event": "Milwaukee Bucks — Brooklyn Nets",
+              "time": "2026-11-26T01:00:00+00:00",
+              "home_rate": 0.10526315789473684,
+              "away_rate": 0.23529411764705882,
+              "source": "ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261125&limit=100",
+              "market": "Zwycięstwo gospodarzy (z dogrywką)",
+              "p_proxy": 0.486,
+              "estimated_odds": 2.2,
+              "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+            }
+          ],
+          "estimated_total_odds": 9.98,
+          "warning": "Wyłącznie orientacyjne kursy z heurystyki; brak weryfikacji rynkowej i prawdopodobieństwa trafienia."
+        },
+        {
+          "name": "Wysoki kurs",
+          "picks": [
+            {
+              "id": "hockey-nhl-401892782",
+              "sport": "NHL",
+              "league": "nhl",
+              "event": "Buffalo Sabres — New York Rangers",
+              "time": "2026-11-26T00:00:00+00:00",
+              "home_rate": 0.47619047619047616,
+              "away_rate": 0.5833333333333334,
+              "source": "ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
+              "market": "Zwycięstwo gospodarzy (z dogrywką)",
+              "p_proxy": 0.497,
+              "estimated_odds": 2.15,
+              "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+            },
+            {
+              "id": "hockey-nhl-401892786",
+              "sport": "NHL",
+              "league": "nhl",
+              "event": "Pittsburgh Penguins — Calgary Flames",
+              "time": "2026-11-26T00:00:00+00:00",
+              "home_rate": 0.36363636363636365,
+              "away_rate": 0.4583333333333333,
+              "source": "ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
+              "market": "Zwycięstwo gospodarzy (z dogrywką)",
+              "p_proxy": 0.502,
+              "estimated_odds": 2.13,
+              "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+            },
+            {
+              "id": "hockey-nhl-401892794",
+              "sport": "NHL",
+              "league": "nhl",
+              "event": "Seattle Kraken — Chicago Blackhawks",
+              "time": "2026-11-26T02:40:00+00:00",
+              "home_rate": 0.5238095238095238,
+              "away_rate": 0.34782608695652173,
+              "source": "ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
+              "market": "Zwycięstwo gospodarzy (z dogrywką)",
+              "p_proxy": 0.624,
+              "estimated_odds": 1.71,
+              "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+            },
+            {
+              "id": "basketball-nba-401909325",
+              "sport": "Koszykówka",
+              "league": "nba",
+              "event": "Portland Trail Blazers — San Antonio Spurs",
+              "time": "2026-11-26T03:00:00+00:00",
+              "home_rate": 0.6111111111111112,
+              "away_rate": 0.7894736842105263,
+              "source": "ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261125&limit=100",
+              "market": "Zwycięstwo gospodarzy (z dogrywką)",
+              "p_proxy": 0.465,
+              "estimated_odds": 2.3,
+              "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+            }
+          ],
+          "estimated_total_odds": 18.01,
+          "warning": "Wyłącznie orientacyjne kursy z heurystyki; brak weryfikacji rynkowej i prawdopodobieństwa trafienia."
+        }
+      ]
+    }
+  },
   "status": "ok",
-  "fixtures": 98,
-  "eligible_picks": 64,
+  "fixtures": 115,
+  "eligible_picks": 73,
   "coupons": [
     {
       "name": "Ostrożniejszy",
       "picks": [
         {
-          "id": "basketball-nba-401910038",
-          "sport": "Koszykówka",
-          "league": "nba",
-          "event": "Indiana Pacers — Oklahoma City Thunder",
-          "time": "2026-11-24T00:30:00+00:00",
-          "home_rate": 0.3333333333333333,
-          "away_rate": 0.6111111111111112,
+          "id": "hockey-nhl-401892770",
+          "sport": "NHL",
+          "league": "nhl",
+          "event": "St. Louis Blues — Edmonton Oilers",
+          "time": "2026-11-23T00:00:00+00:00",
+          "home_rate": 0.5652173913043478,
+          "away_rate": 0.75,
           "source": "ESPN",
-          "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=100",
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261122&limit=100",
           "market": "Zwycięstwo gospodarzy (z dogrywką)",
-          "p_proxy": 0.42,
-          "estimated_odds": 2.55,
+          "p_proxy": 0.462,
+          "estimated_odds": 2.32,
           "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
         },
         {
-          "id": "basketball-nba-401910039",
-          "sport": "Koszykówka",
-          "league": "nba",
-          "event": "Toronto Raptors — Milwaukee Bucks",
-          "time": "2026-11-24T00:30:00+00:00",
-          "home_rate": 0.3888888888888889,
-          "away_rate": 0.10526315789473684,
+          "id": "hockey-nhl-401892771",
+          "sport": "NHL",
+          "league": "nhl",
+          "event": "Dallas Stars — Pittsburgh Penguins",
+          "time": "2026-11-23T00:00:00+00:00",
+          "home_rate": 0.6818181818181818,
+          "away_rate": 0.36363636363636365,
           "source": "ESPN",
-          "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=100",
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261122&limit=100",
           "market": "Zwycięstwo gospodarzy (z dogrywką)",
-          "p_proxy": 0.673,
-          "estimated_odds": 1.59,
+          "p_proxy": 0.688,
+          "estimated_odds": 1.55,
           "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
         },
         {
-          "id": "soccer-uefa.champions-401915294",
-          "sport": "Piłka nożna",
-          "league": "uefa.champions",
-          "event": "Feyenoord Rotterdam — FC Porto",
-          "time": "2026-11-24T20:00:00+00:00",
-          "home_rate": 0.6666666666666666,
-          "away_rate": 0.6666666666666666,
+          "id": "basketball-nba-401910034",
+          "sport": "Koszykówka",
+          "league": "nba",
+          "event": "New York Knicks — Indiana Pacers",
+          "time": "2026-11-23T01:00:00+00:00",
+          "home_rate": 0.6111111111111112,
+          "away_rate": 0.3333333333333333,
           "source": "ESPN",
-          "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124&limit=100",
-          "market": "1X (gospodarze lub remis)",
-          "p_proxy": 0.725,
-          "estimated_odds": 1.48,
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=100",
+          "market": "Zwycięstwo gospodarzy (z dogrywką)",
+          "p_proxy": 0.67,
+          "estimated_odds": 1.6,
           "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
         }
       ],
-      "estimated_total_odds": 6.0,
+      "estimated_total_odds": 5.75,
       "warning": "Wyłącznie orientacyjne kursy z heurystyki; brak weryfikacji rynkowej i prawdopodobieństwa trafienia."
     },
     {
       "name": "Zrównoważony",
       "picks": [
         {
-          "id": "hockey-nhl-401892773",
-          "sport": "NHL",
-          "league": "nhl",
-          "event": "New Jersey Devils — Columbus Blue Jackets",
-          "time": "2026-11-24T00:00:00+00:00",
-          "home_rate": 0.64,
-          "away_rate": 0.43478260869565216,
-          "source": "ESPN",
-          "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261123&limit=100",
-          "market": "Zwycięstwo gospodarzy (z dogrywką)",
-          "p_proxy": 0.637,
-          "estimated_odds": 1.68,
-          "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
-        },
-        {
-          "id": "hockey-nhl-401892778",
-          "sport": "NHL",
-          "league": "nhl",
-          "event": "Seattle Kraken — Anaheim Ducks",
-          "time": "2026-11-24T02:40:00+00:00",
-          "home_rate": 0.5238095238095238,
-          "away_rate": 0.48,
-          "source": "ESPN",
-          "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261123&limit=100",
-          "market": "Zwycięstwo gospodarzy (z dogrywką)",
-          "p_proxy": 0.565,
-          "estimated_odds": 1.89,
-          "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
-        },
-        {
-          "id": "basketball-nba-401910045",
+          "id": "basketball-nba-401910031",
           "sport": "Koszykówka",
           "league": "nba",
-          "event": "Sacramento Kings — San Antonio Spurs",
-          "time": "2026-11-24T03:00:00+00:00",
-          "home_rate": 0.16666666666666666,
-          "away_rate": 0.7894736842105263,
+          "event": "Washington Wizards — Orlando Magic",
+          "time": "2026-11-23T00:00:00+00:00",
+          "home_rate": 0.3684210526315789,
+          "away_rate": 0.47058823529411764,
           "source": "ESPN",
-          "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=100",
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=100",
           "market": "Zwycięstwo gospodarzy (z dogrywką)",
-          "p_proxy": 0.34,
-          "estimated_odds": 3.15,
+          "p_proxy": 0.499,
+          "estimated_odds": 2.14,
+          "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+        },
+        {
+          "id": "hockey-nhl-401892772",
+          "sport": "NHL",
+          "league": "nhl",
+          "event": "Vancouver Canucks — Chicago Blackhawks",
+          "time": "2026-11-23T01:00:00+00:00",
+          "home_rate": 0.2692307692307692,
+          "away_rate": 0.34782608695652173,
+          "source": "ESPN",
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261122&limit=100",
+          "market": "Zwycięstwo gospodarzy (z dogrywką)",
+          "p_proxy": 0.51,
+          "estimated_odds": 2.1,
+          "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+        },
+        {
+          "id": "basketball-nba-401910035",
+          "sport": "Koszykówka",
+          "league": "nba",
+          "event": "Golden State Warriors — Boston Celtics",
+          "time": "2026-11-23T01:30:00+00:00",
+          "home_rate": 0.5,
+          "away_rate": 0.6666666666666666,
+          "source": "ESPN",
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=100",
+          "market": "Zwycięstwo gospodarzy (z dogrywką)",
+          "p_proxy": 0.47,
+          "estimated_odds": 2.28,
           "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
         }
       ],
-      "estimated_total_odds": 10.0,
+      "estimated_total_odds": 10.25,
       "warning": "Wyłącznie orientacyjne kursy z heurystyki; brak weryfikacji rynkowej i prawdopodobieństwa trafienia."
     },
     {
       "name": "Wysoki kurs",
       "picks": [
         {
-          "id": "basketball-nba-401910036",
+          "id": "basketball-nba-401910030",
           "sport": "Koszykówka",
           "league": "nba",
-          "event": "Charlotte Hornets — Memphis Grizzlies",
-          "time": "2026-11-24T00:00:00+00:00",
+          "event": "Miami Heat — Oklahoma City Thunder",
+          "time": "2026-11-22T23:00:00+00:00",
+          "home_rate": 0.5882352941176471,
+          "away_rate": 0.6111111111111112,
+          "source": "ESPN",
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=100",
+          "market": "Zwycięstwo gospodarzy (z dogrywką)",
+          "p_proxy": 0.535,
+          "estimated_odds": 2.0,
+          "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+        },
+        {
+          "id": "basketball-nba-401910032",
+          "sport": "Koszykówka",
+          "league": "nba",
+          "event": "Chicago Bulls — Denver Nuggets",
+          "time": "2026-11-23T00:00:00+00:00",
           "home_rate": 0.29411764705882354,
-          "away_rate": 0.6842105263157895,
+          "away_rate": 0.625,
           "source": "ESPN",
-          "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=100",
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=100",
           "market": "Zwycięstwo gospodarzy (z dogrywką)",
-          "p_proxy": 0.369,
-          "estimated_odds": 2.9,
+          "p_proxy": 0.396,
+          "estimated_odds": 2.7,
           "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
         },
         {
-          "id": "basketball-nba-401910042",
+          "id": "basketball-nba-401910033",
           "sport": "Koszykówka",
           "league": "nba",
-          "event": "New Orleans Pelicans — Phoenix Suns",
-          "time": "2026-11-24T01:00:00+00:00",
-          "home_rate": 0.3,
-          "away_rate": 0.5294117647058824,
+          "event": "Utah Jazz — Dallas Mavericks",
+          "time": "2026-11-23T00:00:00+00:00",
+          "home_rate": 0.21052631578947367,
+          "away_rate": 0.5555555555555556,
           "source": "ESPN",
-          "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=100",
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261122&limit=100",
           "market": "Zwycięstwo gospodarzy (z dogrywką)",
-          "p_proxy": 0.442,
-          "estimated_odds": 2.42,
-          "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
-        },
-        {
-          "id": "hockey-nhl-401892779",
-          "sport": "NHL",
-          "league": "nhl",
-          "event": "San Jose Sharks — Minnesota Wild",
-          "time": "2026-11-24T03:00:00+00:00",
-          "home_rate": 0.48,
-          "away_rate": 0.8181818181818182,
-          "source": "ESPN",
-          "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261123&limit=100",
-          "market": "Zwycięstwo gospodarzy (z dogrywką)",
-          "p_proxy": 0.393,
-          "estimated_odds": 2.72,
+          "p_proxy": 0.39,
+          "estimated_odds": 2.75,
           "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
         }
       ],
-      "estimated_total_odds": 19.09,
+      "estimated_total_odds": 14.85,
       "warning": "Wyłącznie orientacyjne kursy z heurystyki; brak weryfikacji rynkowej i prawdopodobieństwa trafienia."
     }
   ],
   "diagnostics": [
+    {
+      "source": "ESPN eng.1 20261122",
+      "status": "ok",
+      "events": 2
+    },
     {
       "source": "ESPN eng.1 20261123",
       "status": "ok",
@@ -181,6 +1022,11 @@
       "source": "ESPN eng.1 20261126",
       "status": "ok",
       "events": 0
+    },
+    {
+      "source": "ESPN esp.1 20261122",
+      "status": "ok",
+      "events": 4
     },
     {
       "source": "ESPN esp.1 20261123",
@@ -203,6 +1049,11 @@
       "events": 0
     },
     {
+      "source": "ESPN ger.1 20261122",
+      "status": "ok",
+      "events": 2
+    },
+    {
       "source": "ESPN ger.1 20261123",
       "status": "ok",
       "events": 0
@@ -221,6 +1072,11 @@
       "source": "ESPN ger.1 20261126",
       "status": "ok",
       "events": 0
+    },
+    {
+      "source": "ESPN ita.1 20261122",
+      "status": "ok",
+      "events": 5
     },
     {
       "source": "ESPN ita.1 20261123",
@@ -243,6 +1099,11 @@
       "events": 0
     },
     {
+      "source": "ESPN fra.1 20261122",
+      "status": "ok",
+      "events": 3
+    },
+    {
       "source": "ESPN fra.1 20261123",
       "status": "ok",
       "events": 0
@@ -259,6 +1120,11 @@
     },
     {
       "source": "ESPN fra.1 20261126",
+      "status": "ok",
+      "events": 0
+    },
+    {
+      "source": "ESPN uefa.champions 20261122",
       "status": "ok",
       "events": 0
     },
@@ -283,6 +1149,11 @@
       "events": 0
     },
     {
+      "source": "ESPN nba 20261122",
+      "status": "ok",
+      "events": 7
+    },
+    {
       "source": "ESPN nba 20261123",
       "status": "ok",
       "events": 10
@@ -301,6 +1172,11 @@
       "source": "ESPN nba 20261126",
       "status": "ok",
       "events": 0
+    },
+    {
+      "source": "ESPN nhl 20261122",
+      "status": "ok",
+      "events": 5
     },
     {
       "source": "ESPN nhl 20261123",
@@ -323,16 +1199,21 @@
       "events": 0
     },
     {
-      "source": "NHL official 2026-11-23",
+      "source": "NHL official 2026-11-22",
       "status": "ok",
-      "events": 52
+      "events": 55
     },
     {
-      "source": "NHL official 2026-11-25",
+      "source": "NHL official 2026-11-24",
       "status": "ok",
-      "events": 59
+      "events": 51
+    },
+    {
+      "source": "NHL official 2026-11-26",
+      "status": "ok",
+      "events": 48
     }
   ],
   "errors": [],
-  "disclaimer": "Brak kursów Superbet. Bez danych o rynkowych kursach i kalibracji nie można podać wiarygodnej szansy trafienia. Brak kuponów oznacza brak wystarczających danych, nie awarię przycisku."
+  "disclaimer": "Orientacyjne kursy są heurystyczne, nie rynkowe. Brak wiarygodnej oceny prawdopodobieństwa."
 }
