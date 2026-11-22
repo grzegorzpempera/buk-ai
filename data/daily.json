@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T23:10:39.246085+00:00",
+  "generated_at": "2026-11-22T23:21:06.403542+00:00",
   "timezone": "Europe/Warsaw",
   "betting_day_end": "06:00",
   "available_dates": [
@@ -30,6 +30,7 @@
               "market": "1X (gospodarze lub remis)",
               "p_proxy": 0.763,
               "estimated_odds": 1.4,
+              "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 54%, a gości około 45%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
               "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
             },
             {
@@ -45,6 +46,7 @@
               "market": "Zwycięstwo gospodarzy (z dogrywką)",
               "p_proxy": 0.637,
               "estimated_odds": 1.68,
+              "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 64%, a gości około 43%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
               "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
             },
             {
@@ -60,6 +62,7 @@
               "market": "Zwycięstwo gospodarzy (z dogrywką)",
               "p_proxy": 0.42,
               "estimated_odds": 2.55,
+              "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 33%, a gości około 61%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
               "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
             }
           ],
@@ -82,6 +85,7 @@
               "market": "1X (gospodarze lub remis)",
               "p_proxy": 0.706,
               "estimated_odds": 1.52,
+              "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 33%, a gości około 38%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
               "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
             },
             {
@@ -97,6 +101,7 @@
               "market": "Zwycięstwo gospodarzy (z dogrywką)",
               "p_proxy": 0.442,
               "estimated_odds": 2.42,
+              "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 30%, a gości około 53%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
               "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
             },
             {
@@ -112,6 +117,7 @@
               "market": "Zwycięstwo gospodarzy (z dogrywką)",
               "p_proxy": 0.393,
               "estimated_odds": 2.72,
+              "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 48%, a gości około 82%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
               "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
             }
           ],
@@ -134,6 +140,7 @@
               "market": "Zwycięstwo gospodarzy (z dogrywką)",
               "p_proxy": 0.369,
               "estimated_odds": 2.9,
+              "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 29%, a gości około 68%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
               "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
             },
             {
@@ -149,6 +156,7 @@
               "market": "Zwycięstwo gospodarzy (z dogrywką)",
               "p_proxy": 0.536,
               "estimated_odds": 2.0,
+              "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 55%, a gości około 57%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
               "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
             },
             {
@@ -164,6 +172,7 @@
               "market": "Zwycięstwo gospodarzy (z dogrywką)",
               "p_proxy": 0.34,
               "estimated_odds": 3.15,
+              "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 17%, a gości około 79%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
               "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
             }
           ],
@@ -192,6 +201,7 @@
               "market": "Zwycięstwo gospodarzy (z dogrywką)",
               "p_proxy": 0.66,
               "estimated_odds": 1.62,
+              "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 63%, a gości około 38%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
               "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
             },
             {
@@ -207,6 +217,7 @@
               "market": "Zwycięstwo gospodarzy (z dogrywką)",
               "p_proxy": 0.565,
               "estimated_odds": 1.89,
+              "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 52%, a gości około 48%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
               "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
             },
             {
@@ -222,6 +233,7 @@
               "market": "Zwycięstwo gospodarzy (z dogrywką)",
               "p_proxy": 0.545,
               "estimated_odds": 1.96,
+              "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 71%, a gości około 71%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
               "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
             }
           ],
@@ -244,6 +256,7 @@
               "market": "1X (gospodarze lub remis)",
               "p_proxy": 0.705,
               "estimated_odds": 1.52,
+              "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 55%, a gości około 59%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
               "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
             },
             {
@@ -259,6 +272,7 @@
               "market": "Zwycięstwo gospodarzy (z dogrywką)",
               "p_proxy": 0.442,
               "estimated_odds": 2.42,
+              "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 30%, a gości około 53%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
               "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
             },
             {
@@ -274,6 +288,7 @@
               "market": "Zwycięstwo gospodarzy (z dogrywką)",
               "p_proxy": 0.393,
               "estimated_odds": 2.72,
+              "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 48%, a gości około 82%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
               "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
             }
           ],
@@ -296,6 +311,7 @@
               "market": "Zwycięstwo gospodarzy (z dogrywką)",
               "p_proxy": 0.369,
               "estimated_odds": 2.9,
+              "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 29%, a gości około 68%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
               "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
             },
             {
@@ -311,6 +327,7 @@
               "market": "Zwycięstwo gospodarzy (z dogrywką)",
               "p_proxy": 0.536,
               "estimated_odds": 2.0,
+              "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 55%, a gości około 57%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
               "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
             },
             {
@@ -326,6 +343,7 @@
               "market": "Zwycięstwo gospodarzy (z dogrywką)",
               "p_proxy": 0.34,
               "estimated_odds": 3.15,
+              "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 17%, a gości około 79%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
               "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
             }
           ],
@@ -354,6 +372,7 @@
               "market": "Zwycięstwo gospodarzy (z dogrywką)",
               "p_proxy": 0.432,
               "estimated_odds": 2.47,
+              "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 62%, a gości około 88%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
               "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
             },
             {
@@ -369,6 +388,7 @@
               "market": "Zwycięstwo gospodarzy (z dogrywką)",
               "p_proxy": 0.631,
               "estimated_odds": 1.7,
+              "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 86%, a gości około 67%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
               "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
             },
             {
@@ -384,6 +404,7 @@
               "market": "1X (gospodarze lub remis)",
               "p_proxy": 0.748,
               "estimated_odds": 1.43,
+              "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 80%, a gości około 75%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
               "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
             }
           ],
@@ -406,6 +427,7 @@
               "market": "Zwycięstwo gospodarzy (z dogrywką)",
               "p_proxy": 0.411,
               "estimated_odds": 2.6,
+              "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 37%, a gości około 67%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
               "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
             },
             {
@@ -421,6 +443,7 @@
               "market": "Zwycięstwo gospodarzy (z dogrywką)",
               "p_proxy": 0.459,
               "estimated_odds": 2.33,
+              "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 67%, a gości około 86%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
               "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
             },
             {
@@ -436,6 +459,7 @@
               "market": "1X (gospodarze lub remis)",
               "p_proxy": 0.65,
               "estimated_odds": 1.65,
+              "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 33%, a gości około 50%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
               "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
             }
           ],
@@ -458,6 +482,7 @@
               "market": "Zwycięstwo gospodarzy (z dogrywką)",
               "p_proxy": 0.482,
               "estimated_odds": 2.22,
+              "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 47%, a gości około 61%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
               "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
             },
             {
@@ -473,6 +498,7 @@
               "market": "Zwycięstwo gospodarzy (z dogrywką)",
               "p_proxy": 0.411,
               "estimated_odds": 2.6,
+              "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 37%, a gości około 67%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
               "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
             },
             {
@@ -488,6 +514,7 @@
               "market": "Zwycięstwo gospodarzy (z dogrywką)",
               "p_proxy": 0.426,
               "estimated_odds": 2.51,
+              "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 62%, a gości około 89%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
               "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
             }
           ],
@@ -516,6 +543,7 @@
               "market": "Zwycięstwo gospodarzy (z dogrywką)",
               "p_proxy": 0.512,
               "estimated_odds": 2.09,
+              "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 61%, a gości około 68%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
               "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
             },
             {
@@ -531,6 +559,7 @@
               "market": "Zwycięstwo gospodarzy (z dogrywką)",
               "p_proxy": 0.615,
               "estimated_odds": 1.74,
+              "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 68%, a gości około 53%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
               "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
             },
             {
@@ -546,6 +575,7 @@
               "market": "1X (gospodarze lub remis)",
               "p_proxy": 0.65,
               "estimated_odds": 1.65,
+              "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 67%, a gości około 83%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
               "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
             }
           ],
@@ -568,6 +598,7 @@
               "market": "Zwycięstwo gospodarzy (z dogrywką)",
               "p_proxy": 0.502,
               "estimated_odds": 2.13,
+              "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 36%, a gości około 46%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
               "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
             },
             {
@@ -583,6 +614,7 @@
               "market": "Zwycięstwo gospodarzy (z dogrywką)",
               "p_proxy": 0.525,
               "estimated_odds": 2.04,
+              "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 64%, a gości około 68%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
               "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
             },
             {
@@ -598,6 +630,7 @@
               "market": "Zwycięstwo gospodarzy (z dogrywką)",
               "p_proxy": 0.465,
               "estimated_odds": 2.3,
+              "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 61%, a gości około 79%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
               "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
             }
           ],
@@ -620,6 +653,7 @@
               "market": "Zwycięstwo gospodarzy (z dogrywką)",
               "p_proxy": 0.501,
               "estimated_odds": 2.14,
+              "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 73%, a gości około 83%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
               "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
             },
             {
@@ -635,6 +669,7 @@
               "market": "Zwycięstwo gospodarzy (z dogrywką)",
               "p_proxy": 0.453,
               "estimated_odds": 2.36,
+              "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 43%, a gości około 64%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
               "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
             },
             {
@@ -650,6 +685,7 @@
               "market": "Zwycięstwo gospodarzy (z dogrywką)",
               "p_proxy": 0.486,
               "estimated_odds": 2.2,
+              "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 11%, a gości około 24%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
               "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
             },
             {
@@ -665,6 +701,7 @@
               "market": "Zwycięstwo gospodarzy (z dogrywką)",
               "p_proxy": 0.659,
               "estimated_odds": 1.62,
+              "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 82%, a gości około 57%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
               "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
             }
           ],
@@ -693,6 +730,7 @@
               "market": "Zwycięstwo gospodarzy (z dogrywką)",
               "p_proxy": 0.493,
               "estimated_odds": 2.17,
+              "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 57%, a gości około 68%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
               "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
             },
             {
@@ -708,6 +746,7 @@
               "market": "1X (gospodarze lub remis)",
               "p_proxy": 0.744,
               "estimated_odds": 1.44,
+              "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 67%, a gości około 62%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
               "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
             },
             {
@@ -723,6 +762,7 @@
               "market": "Zwycięstwo gospodarzy (z dogrywką)",
               "p_proxy": 0.557,
               "estimated_odds": 1.92,
+              "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 43%, a gości około 41%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
               "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
             }
           ],
@@ -745,6 +785,7 @@
               "market": "Zwycięstwo gospodarzy (z dogrywką)",
               "p_proxy": 0.482,
               "estimated_odds": 2.22,
+              "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 75%, a gości około 89%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
               "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
             },
             {
@@ -760,6 +801,7 @@
               "market": "Zwycięstwo gospodarzy (z dogrywką)",
               "p_proxy": 0.559,
               "estimated_odds": 1.91,
+              "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 73%, a gości około 70%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
               "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
             },
             {
@@ -775,6 +817,7 @@
               "market": "Zwycięstwo gospodarzy (z dogrywką)",
               "p_proxy": 0.454,
               "estimated_odds": 2.36,
+              "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 48%, a gości około 68%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
               "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
             }
           ],
@@ -797,6 +840,7 @@
               "market": "Zwycięstwo gospodarzy (z dogrywką)",
               "p_proxy": 0.486,
               "estimated_odds": 2.2,
+              "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 48%, a gości około 61%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
               "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
             },
             {
@@ -812,6 +856,7 @@
               "market": "Zwycięstwo gospodarzy (z dogrywką)",
               "p_proxy": 0.454,
               "estimated_odds": 2.36,
+              "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 48%, a gości około 68%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
               "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
             },
             {
@@ -827,6 +872,7 @@
               "market": "Zwycięstwo gospodarzy (z dogrywką)",
               "p_proxy": 0.439,
               "estimated_odds": 2.44,
+              "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 35%, a gości około 58%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
               "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
             }
           ],
@@ -850,6 +896,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.802,
       "estimated_odds": 1.33,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 60%, a gości około 43%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -865,6 +912,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.68,
       "estimated_odds": 1.57,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 40%, a gości około 50%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -880,6 +928,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.706,
       "estimated_odds": 1.52,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 33%, a gości około 38%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -895,6 +944,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.556,
       "estimated_odds": 1.93,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 86%, a gości około 83%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -910,6 +960,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.672,
       "estimated_odds": 1.59,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 45%, a gości około 57%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -925,6 +976,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.705,
       "estimated_odds": 1.52,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 55%, a gości około 59%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -940,6 +992,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.763,
       "estimated_odds": 1.4,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 54%, a gości około 45%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -955,6 +1008,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.369,
       "estimated_odds": 2.9,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 29%, a gości około 68%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -970,6 +1024,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.625,
       "estimated_odds": 1.71,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 79%, a gości około 61%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -985,6 +1040,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.637,
       "estimated_odds": 1.68,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 64%, a gości około 43%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1011,6 +1067,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.42,
       "estimated_odds": 2.55,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 33%, a gości około 61%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1026,6 +1083,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.673,
       "estimated_odds": 1.59,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 39%, a gości około 11%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1041,6 +1099,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.72,
       "estimated_odds": 1.49,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 68%, a gości około 24%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1056,6 +1115,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.68,
       "estimated_odds": 1.57,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 68%, a gości około 38%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1071,6 +1131,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.652,
       "estimated_odds": 1.64,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 70%, a gości około 46%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1086,6 +1147,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.66,
       "estimated_odds": 1.62,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 63%, a gości około 38%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1101,6 +1163,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.536,
       "estimated_odds": 2.0,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 55%, a gości około 57%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1171,6 +1234,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.441,
       "estimated_odds": 2.43,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 29%, a gości około 53%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1186,6 +1250,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.442,
       "estimated_odds": 2.42,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 30%, a gości około 53%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1201,6 +1266,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.72,
       "estimated_odds": 1.49,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 75%, a gości około 12%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1216,6 +1282,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.72,
       "estimated_odds": 1.49,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 75%, a gości około 29%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1231,6 +1298,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.72,
       "estimated_odds": 1.49,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 68%, a gości około 29%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1246,6 +1314,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.565,
       "estimated_odds": 1.89,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 52%, a gości około 48%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1272,6 +1341,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.72,
       "estimated_odds": 1.49,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 79%, a gości około 21%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1287,6 +1357,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.34,
       "estimated_odds": 3.15,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 17%, a gości około 79%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1302,6 +1373,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.393,
       "estimated_odds": 2.72,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 48%, a gości około 82%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1328,6 +1400,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.545,
       "estimated_odds": 1.96,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 71%, a gości około 71%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1343,6 +1416,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.613,
       "estimated_odds": 1.75,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 50%, a gości około 75%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1358,6 +1432,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.702,
       "estimated_odds": 1.52,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 75%, a gości około 80%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1373,6 +1448,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.787,
       "estimated_odds": 1.36,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 60%, a gości około 46%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1388,6 +1464,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.72,
       "estimated_odds": 1.49,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 42%, a gości około 43%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1403,6 +1480,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.68,
       "estimated_odds": 1.57,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 45%, a gości około 56%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1418,6 +1496,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.695,
       "estimated_odds": 1.54,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 62%, a gości około 69%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1433,6 +1512,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.85,
       "estimated_odds": 1.26,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 90%, a gości około 53%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1448,6 +1528,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.742,
       "estimated_odds": 1.44,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 54%, a gości około 50%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1463,6 +1544,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.702,
       "estimated_odds": 1.52,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 62%, a gości około 67%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1478,6 +1560,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.665,
       "estimated_odds": 1.61,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 67%, a gości około 80%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1493,6 +1576,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.785,
       "estimated_odds": 1.36,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 80%, a gości około 67%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1508,6 +1592,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.725,
       "estimated_odds": 1.48,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 67%, a gości około 67%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1523,6 +1608,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.785,
       "estimated_odds": 1.36,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 80%, a gości około 67%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1538,6 +1624,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.725,
       "estimated_odds": 1.48,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 67%, a gości około 67%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1553,6 +1640,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.85,
       "estimated_odds": 1.26,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 83%, a gości około 50%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1579,6 +1667,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.85,
       "estimated_odds": 1.26,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 67%, a gości około 38%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1594,6 +1683,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.416,
       "estimated_odds": 2.57,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 57%, a gości około 86%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1609,6 +1699,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.529,
       "estimated_odds": 2.02,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 71%, a gości około 75%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1624,6 +1715,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.584,
       "estimated_odds": 1.83,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 33%, a gości około 65%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1639,6 +1731,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.481,
       "estimated_odds": 2.23,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 57%, a gości około 71%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1654,6 +1747,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.482,
       "estimated_odds": 2.22,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 47%, a gości około 61%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1669,6 +1763,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.72,
       "estimated_odds": 1.49,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 78%, a gości około 38%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1684,6 +1779,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.432,
       "estimated_odds": 2.47,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 62%, a gości około 88%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1699,6 +1795,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.411,
       "estimated_odds": 2.6,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 37%, a gości około 67%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1714,6 +1811,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.459,
       "estimated_odds": 2.33,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 67%, a gości około 86%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1729,6 +1827,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.576,
       "estimated_odds": 1.86,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 75%, a gości około 68%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1766,6 +1865,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.576,
       "estimated_odds": 1.86,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 62%, a gości około 56%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1781,6 +1881,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.609,
       "estimated_odds": 1.76,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 86%, a gości około 71%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1796,6 +1897,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.631,
       "estimated_odds": 1.7,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 86%, a gości około 67%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1811,6 +1913,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.502,
       "estimated_odds": 2.13,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 57%, a gości około 67%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1826,6 +1929,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.426,
       "estimated_odds": 2.51,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 62%, a gości około 89%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1841,6 +1945,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.665,
       "estimated_odds": 1.61,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 67%, a gości około 80%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1856,6 +1961,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.575,
       "estimated_odds": 1.86,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 33%, a gości około 67%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1871,6 +1977,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.553,
       "estimated_odds": 1.93,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 88%, a gości około 86%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1886,6 +1993,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.725,
       "estimated_odds": 1.48,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 60%, a gości około 60%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1901,6 +2009,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.537,
       "estimated_odds": 1.99,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 18%, a gości około 60%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1916,6 +2025,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.712,
       "estimated_odds": 1.5,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 56%, a gości około 58%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1931,6 +2041,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.725,
       "estimated_odds": 1.48,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 50%, a gości około 50%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1946,6 +2057,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.725,
       "estimated_odds": 1.48,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 80%, a gości około 80%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1961,6 +2073,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.792,
       "estimated_odds": 1.35,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 75%, a gości około 60%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1976,6 +2089,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.65,
       "estimated_odds": 1.65,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 33%, a gości około 50%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -1991,6 +2105,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.85,
       "estimated_odds": 1.26,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 83%, a gości około 50%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2006,6 +2121,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.77,
       "estimated_odds": 1.39,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 50%, a gości około 40%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2021,6 +2137,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.748,
       "estimated_odds": 1.43,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 80%, a gości około 75%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2036,6 +2153,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.809,
       "estimated_odds": 1.32,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 79%, a gości około 60%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2051,6 +2169,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.545,
       "estimated_odds": 1.96,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 86%, a gości około 86%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2066,6 +2185,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.636,
       "estimated_odds": 1.68,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 79%, a gości około 59%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2081,6 +2201,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.72,
       "estimated_odds": 1.49,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 88%, a gości około 25%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2096,6 +2217,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.77,
       "estimated_odds": 1.39,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 60%, a gości około 50%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2111,6 +2233,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.545,
       "estimated_odds": 1.96,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 29%, a gości około 29%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2126,6 +2249,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.505,
       "estimated_odds": 2.12,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 62%, a gości około 71%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2141,6 +2265,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.6,
       "estimated_odds": 1.78,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 67%, a gości około 55%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2156,6 +2281,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.497,
       "estimated_odds": 2.15,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 48%, a gości około 58%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2171,6 +2297,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.501,
       "estimated_odds": 2.14,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 73%, a gości około 83%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2186,6 +2313,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.506,
       "estimated_odds": 2.12,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 61%, a gości około 70%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2201,6 +2329,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.575,
       "estimated_odds": 1.86,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 63%, a gości około 57%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2216,6 +2345,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.502,
       "estimated_odds": 2.13,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 36%, a gości około 46%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2231,6 +2361,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.556,
       "estimated_odds": 1.93,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 48%, a gości około 45%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2246,6 +2377,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.453,
       "estimated_odds": 2.36,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 43%, a gości około 64%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2349,6 +2481,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.583,
       "estimated_odds": 1.83,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 61%, a gości około 53%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2364,6 +2497,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.512,
       "estimated_odds": 2.09,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 61%, a gości około 68%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2379,6 +2513,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.608,
       "estimated_odds": 1.76,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 41%, a gości około 27%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2405,6 +2540,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.72,
       "estimated_odds": 1.49,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 68%, a gości około 29%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2420,6 +2556,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.486,
       "estimated_odds": 2.2,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 11%, a gości około 24%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2435,6 +2572,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.559,
       "estimated_odds": 1.91,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 68%, a gości około 65%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2450,6 +2588,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.659,
       "estimated_odds": 1.62,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 82%, a gości około 57%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2487,6 +2626,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.615,
       "estimated_odds": 1.74,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 68%, a gości około 53%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2502,6 +2642,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.525,
       "estimated_odds": 2.04,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 64%, a gości około 68%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2528,6 +2669,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.624,
       "estimated_odds": 1.71,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 52%, a gości około 35%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2554,6 +2696,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.695,
       "estimated_odds": 1.54,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 50%, a gości około 17%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2569,6 +2712,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.465,
       "estimated_odds": 2.3,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 61%, a gości około 79%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2584,6 +2728,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.545,
       "estimated_odds": 1.96,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 48%, a gości około 48%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2610,6 +2755,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.845,
       "estimated_odds": 1.27,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 60%, a gości około 33%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2625,6 +2771,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.65,
       "estimated_odds": 1.65,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 67%, a gości około 83%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2640,6 +2787,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.635,
       "estimated_odds": 1.69,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 60%, a gości około 80%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2655,6 +2803,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.755,
       "estimated_odds": 1.42,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 67%, a gości około 60%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2670,6 +2819,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.725,
       "estimated_odds": 1.48,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 67%, a gości około 67%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2696,6 +2846,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.85,
       "estimated_odds": 1.26,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 67%, a gości około 33%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2711,6 +2862,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.65,
       "estimated_odds": 1.65,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 67%, a gości około 83%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2726,6 +2878,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.545,
       "estimated_odds": 1.96,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 88%, a gości około 88%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2741,6 +2894,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.725,
       "estimated_odds": 1.48,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 40%, a gości około 40%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2756,6 +2910,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.85,
       "estimated_odds": 1.26,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 83%, a gości około 50%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2771,6 +2926,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.688,
       "estimated_odds": 1.56,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 67%, a gości około 75%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2786,6 +2942,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.845,
       "estimated_odds": 1.27,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 60%, a gości około 33%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2801,6 +2958,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.845,
       "estimated_odds": 1.27,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 60%, a gości około 33%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2816,6 +2974,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.725,
       "estimated_odds": 1.48,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 75%, a gości około 75%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2831,6 +2990,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.613,
       "estimated_odds": 1.75,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 50%, a gości około 75%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2846,6 +3006,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.695,
       "estimated_odds": 1.54,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 60%, a gości około 67%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2861,6 +3022,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.762,
       "estimated_odds": 1.4,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 75%, a gości około 67%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2876,6 +3038,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.725,
       "estimated_odds": 1.48,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 50%, a gości około 50%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2891,6 +3054,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.601,
       "estimated_odds": 1.78,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 75%, a gości około 62%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2906,6 +3070,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.545,
       "estimated_odds": 1.96,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 86%, a gości około 86%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2921,6 +3086,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.593,
       "estimated_odds": 1.8,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 86%, a gości około 75%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2936,6 +3102,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.811,
       "estimated_odds": 1.32,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 59%, a gości około 40%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2951,6 +3118,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.545,
       "estimated_odds": 1.96,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 88%, a gości około 88%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2966,6 +3134,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.482,
       "estimated_odds": 2.22,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 75%, a gości około 89%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2981,6 +3150,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.676,
       "estimated_odds": 1.58,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 67%, a gości około 38%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -2996,6 +3166,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.627,
       "estimated_odds": 1.71,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 64%, a gości około 46%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -3011,6 +3182,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.583,
       "estimated_odds": 1.83,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 65%, a gości około 57%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -3059,6 +3231,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.85,
       "estimated_odds": 1.26,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 56%, a gości około 20%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -3074,6 +3247,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.72,
       "estimated_odds": 1.49,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 88%, a gości około 25%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -3089,6 +3263,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.493,
       "estimated_odds": 2.17,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 57%, a gości około 68%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -3115,6 +3290,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.77,
       "estimated_odds": 1.39,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 60%, a gości około 50%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -3130,6 +3306,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.792,
       "estimated_odds": 1.35,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 75%, a gości około 60%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -3145,6 +3322,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.668,
       "estimated_odds": 1.6,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 60%, a gości około 73%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -3160,6 +3338,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.58,
       "estimated_odds": 1.84,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 43%, a gości około 75%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -3175,6 +3354,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.575,
       "estimated_odds": 1.86,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 33%, a gości około 67%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -3190,6 +3370,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.744,
       "estimated_odds": 1.44,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 67%, a gości około 62%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -3205,6 +3386,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.559,
       "estimated_odds": 1.91,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 73%, a gości około 70%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -3220,6 +3402,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.628,
       "estimated_odds": 1.7,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 45%, a gości około 27%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -3235,6 +3418,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.486,
       "estimated_odds": 2.2,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 48%, a gości około 61%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -3250,6 +3434,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.557,
       "estimated_odds": 1.92,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 43%, a gości około 41%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -3309,6 +3494,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.65,
       "estimated_odds": 1.65,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 50%, a gości około 67%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -3324,6 +3510,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.627,
       "estimated_odds": 1.71,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 82%, a gości około 64%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -3339,6 +3526,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.59,
       "estimated_odds": 1.81,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 48%, a gości około 38%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -3354,6 +3542,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.454,
       "estimated_odds": 2.36,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 48%, a gości około 68%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -3402,6 +3591,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.601,
       "estimated_odds": 1.78,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 75%, a gości około 62%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -3417,6 +3607,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.439,
       "estimated_odds": 2.44,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 35%, a gości około 58%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -3443,6 +3634,7 @@
       "market": "1X (gospodarze lub remis)",
       "p_proxy": 0.677,
       "estimated_odds": 1.58,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 64%, a gości około 75%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -3458,6 +3650,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.583,
       "estimated_odds": 1.84,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 75%, a gości około 67%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -3473,6 +3666,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.555,
       "estimated_odds": 1.93,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 61%, a gości około 59%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -3488,6 +3682,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.72,
       "estimated_odds": 1.49,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 61%, a gości około 11%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -3503,6 +3698,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.34,
       "estimated_odds": 3.15,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 33%, a gości około 79%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -3518,6 +3714,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.614,
       "estimated_odds": 1.74,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 39%, a gości około 24%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -3533,6 +3730,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.72,
       "estimated_odds": 1.49,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 88%, a gości około 20%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -3548,6 +3746,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.584,
       "estimated_odds": 1.83,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 63%, a gości około 55%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -3585,6 +3784,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.561,
       "estimated_odds": 1.91,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 67%, a gości około 63%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -3600,6 +3800,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.596,
       "estimated_odds": 1.8,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 48%, a gości około 36%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -3615,6 +3816,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.647,
       "estimated_odds": 1.65,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 75%, a gości około 52%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -3652,6 +3854,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.545,
       "estimated_odds": 1.96,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 68%, a gości około 68%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -3667,6 +3870,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.533,
       "estimated_odds": 2.01,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 53%, a gości około 56%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -3682,6 +3886,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.545,
       "estimated_odds": 1.96,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 79%, a gości około 79%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -3697,6 +3902,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.358,
       "estimated_odds": 2.98,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 21%, a gości około 62%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -3712,6 +3918,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.542,
       "estimated_odds": 1.97,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 29%, a gości około 30%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -3727,6 +3934,7 @@
       "market": "Zwycięstwo gospodarzy (z dogrywką)",
       "p_proxy": 0.595,
       "estimated_odds": 1.8,
+      "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 61%, a gości około 50%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
@@ -3783,6 +3991,7 @@
           "market": "1X (gospodarze lub remis)",
           "p_proxy": 0.763,
           "estimated_odds": 1.4,
+          "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 54%, a gości około 45%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
           "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
         },
         {
@@ -3798,6 +4007,7 @@
           "market": "Zwycięstwo gospodarzy (z dogrywką)",
           "p_proxy": 0.637,
           "estimated_odds": 1.68,
+          "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 64%, a gości około 43%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
           "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
         },
         {
@@ -3813,6 +4023,7 @@
           "market": "Zwycięstwo gospodarzy (z dogrywką)",
           "p_proxy": 0.42,
           "estimated_odds": 2.55,
+          "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 33%, a gości około 61%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
           "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
         }
       ],
@@ -3835,6 +4046,7 @@
           "market": "1X (gospodarze lub remis)",
           "p_proxy": 0.706,
           "estimated_odds": 1.52,
+          "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 33%, a gości około 38%. Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
           "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
         },
         {
@@ -3850,6 +4062,7 @@
           "market": "Zwycięstwo gospodarzy (z dogrywką)",
           "p_proxy": 0.442,
           "estimated_odds": 2.42,
+          "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 30%, a gości około 53%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
           "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
         },
         {
@@ -3865,6 +4078,7 @@
           "market": "Zwycięstwo gospodarzy (z dogrywką)",
           "p_proxy": 0.393,
           "estimated_odds": 2.72,
+          "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 48%, a gości około 82%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
           "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
         }
       ],
@@ -3887,6 +4101,7 @@
           "market": "Zwycięstwo gospodarzy (z dogrywką)",
           "p_proxy": 0.369,
           "estimated_odds": 2.9,
+          "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 29%, a gości około 68%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
           "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
         },
         {
@@ -3902,6 +4117,7 @@
           "market": "Zwycięstwo gospodarzy (z dogrywką)",
           "p_proxy": 0.536,
           "estimated_odds": 2.0,
+          "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 55%, a gości około 57%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
           "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
         },
         {
@@ -3917,6 +4133,7 @@
           "market": "Zwycięstwo gospodarzy (z dogrywką)",
           "p_proxy": 0.34,
           "estimated_odds": 3.15,
+          "reason": "Bilans zwycięstw gospodarzy w danych ESPN wynosi około 17%, a gości około 79%. Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.",
           "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
         }
       ],
