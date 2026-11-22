@@ -1,1 +1,17 @@
-{"status":"not_generated","generated_at":null,"fixtures":0,"coupons":[],"errors":[],"disclaimer":"Pierwszy raport pojawi się po uruchomieniu GitHub Actions. Brak rzeczywistych kursów bukmachera."}
+{
+  "generated_at": "2026-11-22T22:12:39.816166+00:00",
+  "status": "no_data",
+  "fixtures": 0,
+  "coupons": [],
+  "errors": [
+    "eng.1: HTTPError",
+    "esp.1: HTTPError",
+    "ger.1: HTTPError",
+    "ita.1: HTTPError",
+    "fra.1: HTTPError",
+    "uefa.champions: HTTPError",
+    "nba: HTTPError",
+    "nhl: HTTPError"
+  ],
+  "disclaimer": "Automatyczna demonstracja wyłącznie na podstawie publicznych terminarzy i bilansów ESPN. Nie są to zweryfikowane typy z serwisów typerskich ani kursy Superbet. Brak kalibracji modelu i rynkowych kursów; nie traktuj procentów jako prawdopodobieństwa trafienia."
+}
