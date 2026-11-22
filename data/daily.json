@@ -1,17 +1,338 @@
 {
-  "generated_at": "2026-11-22T22:12:39.816166+00:00",
-  "status": "no_data",
-  "fixtures": 0,
-  "coupons": [],
-  "errors": [
-    "eng.1: HTTPError",
-    "esp.1: HTTPError",
-    "ger.1: HTTPError",
-    "ita.1: HTTPError",
-    "fra.1: HTTPError",
-    "uefa.champions: HTTPError",
-    "nba: HTTPError",
-    "nhl: HTTPError"
+  "generated_at": "2026-11-22T22:25:23.697953+00:00",
+  "status": "ok",
+  "fixtures": 98,
+  "eligible_picks": 64,
+  "coupons": [
+    {
+      "name": "Ostrożniejszy",
+      "picks": [
+        {
+          "id": "basketball-nba-401910038",
+          "sport": "Koszykówka",
+          "league": "nba",
+          "event": "Indiana Pacers — Oklahoma City Thunder",
+          "time": "2026-11-24T00:30:00+00:00",
+          "home_rate": 0.3333333333333333,
+          "away_rate": 0.6111111111111112,
+          "source": "ESPN",
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=100",
+          "market": "Zwycięstwo gospodarzy (z dogrywką)",
+          "p_proxy": 0.42,
+          "estimated_odds": 2.55,
+          "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+        },
+        {
+          "id": "basketball-nba-401910039",
+          "sport": "Koszykówka",
+          "league": "nba",
+          "event": "Toronto Raptors — Milwaukee Bucks",
+          "time": "2026-11-24T00:30:00+00:00",
+          "home_rate": 0.3888888888888889,
+          "away_rate": 0.10526315789473684,
+          "source": "ESPN",
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=100",
+          "market": "Zwycięstwo gospodarzy (z dogrywką)",
+          "p_proxy": 0.673,
+          "estimated_odds": 1.59,
+          "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+        },
+        {
+          "id": "soccer-uefa.champions-401915294",
+          "sport": "Piłka nożna",
+          "league": "uefa.champions",
+          "event": "Feyenoord Rotterdam — FC Porto",
+          "time": "2026-11-24T20:00:00+00:00",
+          "home_rate": 0.6666666666666666,
+          "away_rate": 0.6666666666666666,
+          "source": "ESPN",
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124&limit=100",
+          "market": "1X (gospodarze lub remis)",
+          "p_proxy": 0.725,
+          "estimated_odds": 1.48,
+          "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+        }
+      ],
+      "estimated_total_odds": 6.0,
+      "warning": "Wyłącznie orientacyjne kursy z heurystyki; brak weryfikacji rynkowej i prawdopodobieństwa trafienia."
+    },
+    {
+      "name": "Zrównoważony",
+      "picks": [
+        {
+          "id": "hockey-nhl-401892773",
+          "sport": "NHL",
+          "league": "nhl",
+          "event": "New Jersey Devils — Columbus Blue Jackets",
+          "time": "2026-11-24T00:00:00+00:00",
+          "home_rate": 0.64,
+          "away_rate": 0.43478260869565216,
+          "source": "ESPN",
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261123&limit=100",
+          "market": "Zwycięstwo gospodarzy (z dogrywką)",
+          "p_proxy": 0.637,
+          "estimated_odds": 1.68,
+          "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+        },
+        {
+          "id": "hockey-nhl-401892778",
+          "sport": "NHL",
+          "league": "nhl",
+          "event": "Seattle Kraken — Anaheim Ducks",
+          "time": "2026-11-24T02:40:00+00:00",
+          "home_rate": 0.5238095238095238,
+          "away_rate": 0.48,
+          "source": "ESPN",
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261123&limit=100",
+          "market": "Zwycięstwo gospodarzy (z dogrywką)",
+          "p_proxy": 0.565,
+          "estimated_odds": 1.89,
+          "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+        },
+        {
+          "id": "basketball-nba-401910045",
+          "sport": "Koszykówka",
+          "league": "nba",
+          "event": "Sacramento Kings — San Antonio Spurs",
+          "time": "2026-11-24T03:00:00+00:00",
+          "home_rate": 0.16666666666666666,
+          "away_rate": 0.7894736842105263,
+          "source": "ESPN",
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=100",
+          "market": "Zwycięstwo gospodarzy (z dogrywką)",
+          "p_proxy": 0.34,
+          "estimated_odds": 3.15,
+          "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+        }
+      ],
+      "estimated_total_odds": 10.0,
+      "warning": "Wyłącznie orientacyjne kursy z heurystyki; brak weryfikacji rynkowej i prawdopodobieństwa trafienia."
+    },
+    {
+      "name": "Wysoki kurs",
+      "picks": [
+        {
+          "id": "basketball-nba-401910036",
+          "sport": "Koszykówka",
+          "league": "nba",
+          "event": "Charlotte Hornets — Memphis Grizzlies",
+          "time": "2026-11-24T00:00:00+00:00",
+          "home_rate": 0.29411764705882354,
+          "away_rate": 0.6842105263157895,
+          "source": "ESPN",
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=100",
+          "market": "Zwycięstwo gospodarzy (z dogrywką)",
+          "p_proxy": 0.369,
+          "estimated_odds": 2.9,
+          "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+        },
+        {
+          "id": "basketball-nba-401910042",
+          "sport": "Koszykówka",
+          "league": "nba",
+          "event": "New Orleans Pelicans — Phoenix Suns",
+          "time": "2026-11-24T01:00:00+00:00",
+          "home_rate": 0.3,
+          "away_rate": 0.5294117647058824,
+          "source": "ESPN",
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261123&limit=100",
+          "market": "Zwycięstwo gospodarzy (z dogrywką)",
+          "p_proxy": 0.442,
+          "estimated_odds": 2.42,
+          "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+        },
+        {
+          "id": "hockey-nhl-401892779",
+          "sport": "NHL",
+          "league": "nhl",
+          "event": "San Jose Sharks — Minnesota Wild",
+          "time": "2026-11-24T03:00:00+00:00",
+          "home_rate": 0.48,
+          "away_rate": 0.8181818181818182,
+          "source": "ESPN",
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261123&limit=100",
+          "market": "Zwycięstwo gospodarzy (z dogrywką)",
+          "p_proxy": 0.393,
+          "estimated_odds": 2.72,
+          "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+        }
+      ],
+      "estimated_total_odds": 19.09,
+      "warning": "Wyłącznie orientacyjne kursy z heurystyki; brak weryfikacji rynkowej i prawdopodobieństwa trafienia."
+    }
   ],
-  "disclaimer": "Automatyczna demonstracja wyłącznie na podstawie publicznych terminarzy i bilansów ESPN. Nie są to zweryfikowane typy z serwisów typerskich ani kursy Superbet. Brak kalibracji modelu i rynkowych kursów; nie traktuj procentów jako prawdopodobieństwa trafienia."
+  "diagnostics": [
+    {
+      "source": "ESPN eng.1 20261123",
+      "status": "ok",
+      "events": 1
+    },
+    {
+      "source": "ESPN eng.1 20261124",
+      "status": "ok",
+      "events": 0
+    },
+    {
+      "source": "ESPN eng.1 20261125",
+      "status": "ok",
+      "events": 0
+    },
+    {
+      "source": "ESPN eng.1 20261126",
+      "status": "ok",
+      "events": 0
+    },
+    {
+      "source": "ESPN esp.1 20261123",
+      "status": "ok",
+      "events": 1
+    },
+    {
+      "source": "ESPN esp.1 20261124",
+      "status": "ok",
+      "events": 0
+    },
+    {
+      "source": "ESPN esp.1 20261125",
+      "status": "ok",
+      "events": 0
+    },
+    {
+      "source": "ESPN esp.1 20261126",
+      "status": "ok",
+      "events": 0
+    },
+    {
+      "source": "ESPN ger.1 20261123",
+      "status": "ok",
+      "events": 0
+    },
+    {
+      "source": "ESPN ger.1 20261124",
+      "status": "ok",
+      "events": 0
+    },
+    {
+      "source": "ESPN ger.1 20261125",
+      "status": "ok",
+      "events": 0
+    },
+    {
+      "source": "ESPN ger.1 20261126",
+      "status": "ok",
+      "events": 0
+    },
+    {
+      "source": "ESPN ita.1 20261123",
+      "status": "ok",
+      "events": 1
+    },
+    {
+      "source": "ESPN ita.1 20261124",
+      "status": "ok",
+      "events": 0
+    },
+    {
+      "source": "ESPN ita.1 20261125",
+      "status": "ok",
+      "events": 0
+    },
+    {
+      "source": "ESPN ita.1 20261126",
+      "status": "ok",
+      "events": 0
+    },
+    {
+      "source": "ESPN fra.1 20261123",
+      "status": "ok",
+      "events": 0
+    },
+    {
+      "source": "ESPN fra.1 20261124",
+      "status": "ok",
+      "events": 0
+    },
+    {
+      "source": "ESPN fra.1 20261125",
+      "status": "ok",
+      "events": 0
+    },
+    {
+      "source": "ESPN fra.1 20261126",
+      "status": "ok",
+      "events": 0
+    },
+    {
+      "source": "ESPN uefa.champions 20261123",
+      "status": "ok",
+      "events": 0
+    },
+    {
+      "source": "ESPN uefa.champions 20261124",
+      "status": "ok",
+      "events": 9
+    },
+    {
+      "source": "ESPN uefa.champions 20261125",
+      "status": "ok",
+      "events": 9
+    },
+    {
+      "source": "ESPN uefa.champions 20261126",
+      "status": "ok",
+      "events": 0
+    },
+    {
+      "source": "ESPN nba 20261123",
+      "status": "ok",
+      "events": 10
+    },
+    {
+      "source": "ESPN nba 20261124",
+      "status": "ok",
+      "events": 3
+    },
+    {
+      "source": "ESPN nba 20261125",
+      "status": "ok",
+      "events": 9
+    },
+    {
+      "source": "ESPN nba 20261126",
+      "status": "ok",
+      "events": 0
+    },
+    {
+      "source": "ESPN nhl 20261123",
+      "status": "ok",
+      "events": 7
+    },
+    {
+      "source": "ESPN nhl 20261124",
+      "status": "ok",
+      "events": 1
+    },
+    {
+      "source": "ESPN nhl 20261125",
+      "status": "ok",
+      "events": 14
+    },
+    {
+      "source": "ESPN nhl 20261126",
+      "status": "ok",
+      "events": 0
+    },
+    {
+      "source": "NHL official 2026-11-23",
+      "status": "ok",
+      "events": 52
+    },
+    {
+      "source": "NHL official 2026-11-25",
+      "status": "ok",
+      "events": 59
+    }
+  ],
+  "errors": [],
+  "disclaimer": "Brak kursów Superbet. Bez danych o rynkowych kursach i kalibracji nie można podać wiarygodnej szansy trafienia. Brak kuponów oznacza brak wystarczających danych, nie awarię przycisku."
 }
