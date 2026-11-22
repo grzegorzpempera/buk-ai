@@ -1,73 +1,104 @@
 #!/usr/bin/env python3
-"""Free public ESPN fixtures -> illustrative probability-model coupons; no bookmaker odds."""
-import json, urllib.request, datetime, math, itertools, pathlib, random
-ROOT=pathlib.Path(__file__).parent
-SPORTS=[('Piłka nożna','soccer','eng.1'),('Piłka nożna','soccer','esp.1'),('Piłka nożna','soccer','ger.1'),('Piłka nożna','soccer','ita.1'),('Piłka nożna','soccer','fra.1'),('Piłka nożna','soccer','uefa.champions'),('Koszykówka','basketball','nba'),('NHL','hockey','nhl')]
+"""BUK AI: free fixtures with source diagnostics. No invented sportsbook prices."""
+import datetime as dt, itertools, json, math, pathlib, urllib.request, urllib.error
+ROOT=pathlib.Path(__file__).resolve().parent
+UTC=dt.timezone.utc
+LEAGUES=[('Piłka nożna','soccer','eng.1'),('Piłka nożna','soccer','esp.1'),('Piłka nożna','soccer','ger.1'),('Piłka nożna','soccer','ita.1'),('Piłka nożna','soccer','fra.1'),('Piłka nożna','soccer','uefa.champions'),('Koszykówka','basketball','nba'),('NHL','hockey','nhl')]
+
 def get(url):
- req=urllib.request.Request(url,headers={'User-Agent':'BUK-AI/6.0 (public sports fixture demo)','Accept':'application/json'})
- with urllib.request.urlopen(req,timeout=15) as r:return json.load(r)
-def record(competitor):
- for r in competitor.get('records',[]):
-  s=r.get('summary','')
-  try:
-   nums=[int(v) for v in s.split('-')]
-   if len(nums)>=2 and sum(nums[:2])>0:return (nums[0]+1)/(sum(nums[:2])+2)
-  except (ValueError,TypeError):pass
- return None
-def build():
- now=datetime.datetime.now(datetime.timezone.utc); picks=[]; errors=[]
- for name,sport,league in SPORTS:
-  try:
-   url=f'https://site.api.espn.com/apis/site/v2/sports/{sport}/{league}/scoreboard?dates={(now+datetime.timedelta(days=1)).strftime("%Y%m%d")}-{(now+datetime.timedelta(days=4)).strftime("%Y%m%d")}&limit=100'
-   payload=get(url)
-   for event in payload.get('events',[]):
-    if event.get('status',{}).get('type',{}).get('completed'):continue
-    try: dt=datetime.datetime.fromisoformat(event['date'].replace('Z','+00:00'))
-    except (KeyError,ValueError):continue
-    if dt<=now or dt>now+datetime.timedelta(days=5):continue
-    comp=(event.get('competitions') or [{}])[0]
-    teams=comp.get('competitors',[])
-    if len(teams)!=2:continue
-    home=next((x for x in teams if x.get('homeAway')=='home'),None)
-    away=next((x for x in teams if x.get('homeAway')=='away'),None)
-    if not home or not away:continue
-    h=home.get('team',{}).get('displayName','Gospodarze'); a=away.get('team',{}).get('displayName','Goście')
-    hr,ar=record(home),record(away)
-    if hr is None or ar is None:continue # No unsupported guesses
-    # illustrative win chance proxy, NOT calibrated probability
-    p=max(.34,min(.72,.5+(hr-ar)*.45+.045))
-    if sport=='soccer':
-     # draw-aware approximation; estimate home-or-draw rather than pure 1X2
-     p=min(.85,p+.18); market='1X (gospodarze lub remis)'
+    req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0 (compatible; BUKAI/6.1; sports fixtures)', 'Accept':'application/json'})
+    try:
+        with urllib.request.urlopen(req,timeout=18) as response:return json.load(response)
+    except urllib.error.HTTPError as e:raise RuntimeError('HTTP '+str(e.code)) from e
+    except urllib.error.URLError as e:raise RuntimeError('Network: '+str(e.reason)[:100]) from e
+
+def parse_date(s):
+    try:return dt.datetime.fromisoformat(s.replace('Z','+00:00')).astimezone(UTC)
+    except (ValueError,AttributeError):return None
+
+def win_rate(x):
+    for r in x.get('records',[]):
+        try:
+            wins,losses=map(int,r['summary'].split('-')[:2]);
+            if wins+losses:return (wins+1)/(wins+losses+2)
+        except (ValueError,KeyError,TypeError):pass
+    return None
+
+def espn(now, sport, league, label, diagnostics):
+    out=[]
+    # ESPN's scoreboard dates parameter supports single-day YYYYMMDD more reliably than ranges.
+    for day in range(1,5):
+        date=(now+dt.timedelta(days=day)).strftime('%Y%m%d')
+        url=f'https://site.api.espn.com/apis/site/v2/sports/{sport}/{league}/scoreboard?dates={date}&limit=100'
+        try:
+            data=get(url);events=data.get('events',[])
+            diagnostics.append({'source':f'ESPN {league} {date}','status':'ok','events':len(events)})
+        except Exception as e:
+            diagnostics.append({'source':f'ESPN {league} {date}','status':'error','detail':str(e)[:120]});continue
+        for event in events:
+            when=parse_date(event.get('date'))
+            if not when or when<=now or when>now+dt.timedelta(days=5):continue
+            competition=(event.get('competitions') or [{}])[0]
+            teams=competition.get('competitors') or []
+            home=next((x for x in teams if x.get('homeAway')=='home'),None)
+            away=next((x for x in teams if x.get('homeAway')=='away'),None)
+            if not home or not away:continue
+            hr,ar=win_rate(home),win_rate(away)
+            out.append({'id':f'{sport}-{league}-{event.get("id")}', 'sport':label,'league':league,'event':f'{home.get("team",{}).get("displayName","?")} — {away.get("team",{}).get("displayName","?")}', 'time':when.isoformat(), 'home_rate':hr,'away_rate':ar,'source':'ESPN','source_url':url})
+    return out
+
+def nhl(now, diagnostics):
+    # Official NHL schedule API independent of ESPN; offers fixtures but not estimated odds.
+    out=[]
+    for day in (1,3):
+        date=(now+dt.timedelta(days=day)).strftime('%Y-%m-%d')
+        url=f'https://api-web.nhle.com/v1/schedule/{date}'
+        try:
+            data=get(url);weeks=data.get('gameWeek') or []
+            games=[g for w in weeks for g in w.get('games',[])];diagnostics.append({'source':'NHL official '+date,'status':'ok','events':len(games)})
+        except Exception as e:
+            diagnostics.append({'source':'NHL official '+date,'status':'error','detail':str(e)[:120]});continue
+        for g in games:
+            when=parse_date(g.get('startTimeUTC'))
+            if not when or when<=now or when>now+dt.timedelta(days=5):continue
+            a=g.get('awayTeam',{});h=g.get('homeTeam',{})
+            def name(t):return t.get('placeName',{}).get('default') or t.get('abbrev') or '?'
+            out.append({'id':'nhl-'+str(g.get('id')),'sport':'NHL','league':'nhl','event':f'{name(h)} — {name(a)}','time':when.isoformat(),'home_rate':None,'away_rate':None,'source':'NHL official','source_url':url})
+    return out
+
+def enrich(x):
+    # Only produce a selection if both teams have actual records; otherwise list fixture only.
+    h,a=x.get('home_rate'),x.get('away_rate')
+    if h is None or a is None:return x
+    p=max(.34,min(.72,.5+(h-a)*.45+.045))
+    if x['sport']=='Piłka nożna':p=min(.85,p+.18);market='1X (gospodarze lub remis)'
     else:market='Zwycięstwo gospodarzy (z dogrywką)'
-    # odds are reciprocal of proxy probability plus an illustrative margin, NOT observed prices
-    estimated=round(1/p*1.07,2)
-    picks.append({'id':str(event.get('id',f'{league}-{dt.isoformat()}'))+'-'+league,'sport':name,'league':league,'event':f'{h} — {a}','time':dt.isoformat(),'market':market,'p_proxy':round(p,3),'estimated_odds':estimated,'source':'ESPN — terminarz i bilans zespołów','source_url':url,'note':'Wskaźnik heurystyczny oparty na bilansie drużyn; nie jest skalibrowaną prognozą ani kursem bukmachera.'})
-  except Exception as exc:errors.append(f'{league}: {type(exc).__name__}')
- picks.sort(key=lambda x:(x['time'],x['event']))
- coupons=[]; used=set()
- for level in range(3):
-  options=[]
-  for n in (3,4,5,6):
-   if len(picks)<n:continue
-   # deterministic bounded combinations; prioritize diversity and no duplicate matches
-   candidates=picks[:32]
-   for combo in itertools.islice(itertools.combinations(candidates,n),0,15000):
-    if len({x['id'] for x in combo})!=n:continue
-    odds=math.prod(x['estimated_odds'] for x in combo)
-    if odds<5:continue
-    if level==0 and odds>9:continue
-    if level==1 and not (7<=odds<=16):continue
-    if level==2 and odds<12:continue
-    p=math.prod(x['p_proxy'] for x in combo)
-    overlap=len({x['id'] for x in combo}&used)
-    # encourage multiple leagues; these are not independent probability estimates
-    score=overlap*20+abs(odds-[6,10,18][level])+max(0,2-len({x['league'] for x in combo}))*5
-    options.append((score,combo,odds,p))
-   if options:break
-  if options:
-   _,combo,odds,p=min(options,key=lambda x:x[0]);used.update(x['id'] for x in combo)
-   coupons.append({'name':['Ostrożniejszy','Zrównoważony','Wysoki kurs'][level],'picks':list(combo),'estimated_total_odds':round(odds,2),'proxy_joint':round(p,4),'warning':'Kurs orientacyjny wyliczony z heurystyki, nie z oferty bukmachera. Iloczyn wskaźników nie jest wiarygodną oceną prawdopodobieństwa kuponu.'})
- return {'generated_at':now.isoformat(),'status':'ok' if picks else 'no_data','fixtures':len(picks),'coupons':coupons,'errors':errors,'disclaimer':'Automatyczna demonstracja wyłącznie na podstawie publicznych terminarzy i bilansów ESPN. Nie są to zweryfikowane typy z serwisów typerskich ani kursy Superbet. Brak kalibracji modelu i rynkowych kursów; nie traktuj procentów jako prawdopodobieństwa trafienia.'}
+    x.update(market=market,p_proxy=round(p,3),estimated_odds=round(1/p*1.07,2),note='Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną.')
+    return x
+
+def build(now=None):
+    now=now or dt.datetime.now(UTC);diagnostics=[];all_events=[]
+    for label,sport,league in LEAGUES:all_events+=espn(now,sport,league,label,diagnostics)
+    all_events+=nhl(now,diagnostics)
+    unique={x['id']:x for x in all_events};events=sorted((enrich(x) for x in unique.values()),key=lambda x:x['time'])
+    picks=[x for x in events if 'estimated_odds' in x];coupons=[];used=set()
+    for idx in range(3):
+        best=None
+        for n in (3,4,5):
+            for combo in itertools.islice(itertools.combinations(picks[:26],n),12000):
+                odds=math.prod(x['estimated_odds'] for x in combo)
+                if odds<5 or (idx==0 and odds>9) or (idx==1 and not 7<=odds<=16) or (idx==2 and odds<12):continue
+                overlap=sum(x['id'] in used for x in combo)
+                score=(overlap*25+abs(odds-[6,10,18][idx])+max(0,2-len({x['league'] for x in combo}))*5)
+                if best is None or score<best[0]:best=(score,combo,odds)
+            if best:break
+        if best:
+            _,combo,odds=best;used.update(x['id'] for x in combo)
+            coupons.append({'name':['Ostrożniejszy','Zrównoważony','Wysoki kurs'][idx],'picks':list(combo),'estimated_total_odds':round(odds,2),'warning':'Wyłącznie orientacyjne kursy z heurystyki; brak weryfikacji rynkowej i prawdopodobieństwa trafienia.'})
+    return {'generated_at':now.isoformat(),'status':'ok' if coupons else ('fixtures_only' if events else 'no_data'),'fixtures':len(events),'eligible_picks':len(picks),'coupons':coupons,'diagnostics':diagnostics,'errors':[d['source']+': '+d['detail'] for d in diagnostics if d['status']=='error'],'disclaimer':'Brak kursów Superbet. Bez danych o rynkowych kursach i kalibracji nie można podać wiarygodnej szansy trafienia. Brak kuponów oznacza brak wystarczających danych, nie awarię przycisku.'}
+
 if __name__=='__main__':
- output=build();(ROOT/'data').mkdir(exist_ok=True);(ROOT/'data'/'daily.json').write_text(json.dumps(output,ensure_ascii=False,indent=2),encoding='utf-8');print('fixtures',output['fixtures'],'coupons',len(output['coupons']),'errors',output['errors'])
+    result=build();(ROOT/'data').mkdir(exist_ok=True)
+    (ROOT/'data'/'daily.json').write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
+    print('fixtures:',result['fixtures'],'eligible:',result['eligible_picks'],'coupons:',len(result['coupons']))
+    print('sources:',len(result['diagnostics']),'errors:',len(result['errors']))
