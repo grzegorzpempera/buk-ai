@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """BUK AI: free fixtures with source diagnostics. No invented sportsbook prices."""
 import datetime as dt, itertools, json, math, pathlib, urllib.request, urllib.error
+from zoneinfo import ZoneInfo
+WARSAW=ZoneInfo("Europe/Warsaw")
 ROOT=pathlib.Path(__file__).resolve().parent
 UTC=dt.timezone.utc
 LEAGUES=[('Piłka nożna','soccer','eng.1'),('Piłka nożna','soccer','esp.1'),('Piłka nożna','soccer','ger.1'),('Piłka nożna','soccer','ita.1'),('Piłka nożna','soccer','fra.1'),('Piłka nożna','soccer','uefa.champions'),('Koszykówka','basketball','nba'),('NHL','hockey','nhl')]
@@ -27,8 +29,8 @@ def win_rate(x):
 def espn(now, sport, league, label, diagnostics):
     out=[]
     # ESPN's scoreboard dates parameter supports single-day YYYYMMDD more reliably than ranges.
-    for day in range(1,5):
-        date=(now+dt.timedelta(days=day)).strftime('%Y%m%d')
+    for day in range(0,5):
+        date=(now.astimezone(WARSAW).date()+dt.timedelta(days=day)).strftime('%Y%m%d')
         url=f'https://site.api.espn.com/apis/site/v2/sports/{sport}/{league}/scoreboard?dates={date}&limit=100'
         try:
             data=get(url);events=data.get('events',[])
@@ -37,7 +39,7 @@ def espn(now, sport, league, label, diagnostics):
             diagnostics.append({'source':f'ESPN {league} {date}','status':'error','detail':str(e)[:120]});continue
         for event in events:
             when=parse_date(event.get('date'))
-            if not when or when<=now or when>now+dt.timedelta(days=5):continue
+            if not when or when<=now or when>now+dt.timedelta(days=6):continue
             competition=(event.get('competitions') or [{}])[0]
             teams=competition.get('competitors') or []
             home=next((x for x in teams if x.get('homeAway')=='home'),None)
@@ -50,8 +52,8 @@ def espn(now, sport, league, label, diagnostics):
 def nhl(now, diagnostics):
     # Official NHL schedule API independent of ESPN; offers fixtures but not estimated odds.
     out=[]
-    for day in (1,3):
-        date=(now+dt.timedelta(days=day)).strftime('%Y-%m-%d')
+    for day in (0,2,4):
+        date=(now.astimezone(WARSAW).date()+dt.timedelta(days=day)).strftime('%Y-%m-%d')
         url=f'https://api-web.nhle.com/v1/schedule/{date}'
         try:
             data=get(url);weeks=data.get('gameWeek') or []
@@ -60,7 +62,7 @@ def nhl(now, diagnostics):
             diagnostics.append({'source':'NHL official '+date,'status':'error','detail':str(e)[:120]});continue
         for g in games:
             when=parse_date(g.get('startTimeUTC'))
-            if not when or when<=now or when>now+dt.timedelta(days=5):continue
+            if not when or when<=now or when>now+dt.timedelta(days=6):continue
             a=g.get('awayTeam',{});h=g.get('homeTeam',{})
             def name(t):return t.get('placeName',{}).get('default') or t.get('abbrev') or '?'
             out.append({'id':'nhl-'+str(g.get('id')),'sport':'NHL','league':'nhl','event':f'{name(h)} — {name(a)}','time':when.isoformat(),'home_rate':None,'away_rate':None,'source':'NHL official','source_url':url})
@@ -81,6 +83,19 @@ def build(now=None):
     for label,sport,league in LEAGUES:all_events+=espn(now,sport,league,label,diagnostics)
     all_events+=nhl(now,diagnostics)
     unique={x['id']:x for x in all_events};events=sorted((enrich(x) for x in unique.values()),key=lambda x:x['time'])
+    # Betting day: local 00:00 through next day 06:00, Europe/Warsaw.
+    # Only future events are considered; overlap between adjacent betting days is intentional.
+    dates=[(now.astimezone(WARSAW).date()+dt.timedelta(days=i)).isoformat() for i in range(5)]
+    by_date={}
+    for date in dates:
+        start=dt.datetime.combine(dt.date.fromisoformat(date),dt.time.min,tzinfo=WARSAW)
+        end=start+dt.timedelta(days=1,hours=6)
+        daily=[x for x in events if x["time"] and start <= dt.datetime.fromisoformat(x["time"]).astimezone(WARSAW) <= end]
+        by_date[date]=make_coupons(daily)
+    selected=dates[0]
+    return {'generated_at':now.isoformat(),'timezone':'Europe/Warsaw','betting_day_end':'06:00','available_dates':dates,'by_date':by_date,'status':'ok' if events else 'no_data','fixtures':len(events),'eligible_picks':sum('estimated_odds' in x for x in events),'coupons':by_date[selected]['coupons'],'diagnostics':diagnostics,'errors':[d['source']+': '+d['detail'] for d in diagnostics if d['status']=='error'],'disclaimer':'Orientacyjne kursy są heurystyczne, nie rynkowe. Brak wiarygodnej oceny prawdopodobieństwa.'}
+
+def make_coupons(events):
     picks=[x for x in events if 'estimated_odds' in x];coupons=[];used=set()
     for idx in range(3):
         best=None
@@ -95,7 +110,7 @@ def build(now=None):
         if best:
             _,combo,odds=best;used.update(x['id'] for x in combo)
             coupons.append({'name':['Ostrożniejszy','Zrównoważony','Wysoki kurs'][idx],'picks':list(combo),'estimated_total_odds':round(odds,2),'warning':'Wyłącznie orientacyjne kursy z heurystyki; brak weryfikacji rynkowej i prawdopodobieństwa trafienia.'})
-    return {'generated_at':now.isoformat(),'status':'ok' if coupons else ('fixtures_only' if events else 'no_data'),'fixtures':len(events),'eligible_picks':len(picks),'coupons':coupons,'diagnostics':diagnostics,'errors':[d['source']+': '+d['detail'] for d in diagnostics if d['status']=='error'],'disclaimer':'Brak kursów Superbet. Bez danych o rynkowych kursach i kalibracji nie można podać wiarygodnej szansy trafienia. Brak kuponów oznacza brak wystarczających danych, nie awarię przycisku.'}
+    return {'fixtures':len(events),'eligible_picks':len(picks),'coupons':coupons}
 
 if __name__=='__main__':
     result=build();(ROOT/'data').mkdir(exist_ok=True)
