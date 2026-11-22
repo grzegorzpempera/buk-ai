@@ -5,7 +5,7 @@ from zoneinfo import ZoneInfo
 WARSAW=ZoneInfo("Europe/Warsaw")
 ROOT=pathlib.Path(__file__).resolve().parent
 UTC=dt.timezone.utc
-LEAGUES=[('Piłka nożna','soccer','eng.1'),('Piłka nożna','soccer','esp.1'),('Piłka nożna','soccer','ger.1'),('Piłka nożna','soccer','ita.1'),('Piłka nożna','soccer','fra.1'),('Piłka nożna','soccer','uefa.champions'),('Koszykówka','basketball','nba'),('NHL','hockey','nhl')]
+LEAGUES=[('Piłka nożna','soccer','eng.1'),('Piłka nożna','soccer','esp.1'),('Piłka nożna','soccer','ger.1'),('Piłka nożna','soccer','ita.1'),('Piłka nożna','soccer','fra.1'),('Piłka nożna','soccer','uefa.champions'),('Piłka nożna','soccer','pol.1'),('Piłka nożna','soccer','ned.1'),('Piłka nożna','soccer','por.1'),('Piłka nożna','soccer','usa.1'),('Piłka nożna','soccer','uefa.europa'),('Piłka nożna','soccer','eng.2'),('Piłka nożna','soccer','bra.1'),('Koszykówka','basketball','nba'),('Koszykówka','basketball','wnba'),('Koszykówka','basketball','mens-college-basketball'),('NHL','hockey','nhl')]
 
 def get(url):
     req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0 (compatible; BUKAI/6.1; sports fixtures)', 'Accept':'application/json'})
@@ -93,7 +93,7 @@ def build(now=None):
         daily=[x for x in events if x["time"] and start <= dt.datetime.fromisoformat(x["time"]).astimezone(WARSAW) <= end]
         by_date[date]=make_coupons(daily)
     selected=dates[0]
-    return {'generated_at':now.isoformat(),'timezone':'Europe/Warsaw','betting_day_end':'06:00','available_dates':dates,'by_date':by_date,'status':'ok' if events else 'no_data','fixtures':len(events),'eligible_picks':sum('estimated_odds' in x for x in events),'coupons':by_date[selected]['coupons'],'diagnostics':diagnostics,'errors':[d['source']+': '+d['detail'] for d in diagnostics if d['status']=='error'],'disclaimer':'Orientacyjne kursy są heurystyczne, nie rynkowe. Brak wiarygodnej oceny prawdopodobieństwa.'}
+    return {'generated_at':now.isoformat(),'timezone':'Europe/Warsaw','betting_day_end':'06:00','available_dates':dates,'by_date':by_date,'events':events,'status':'ok' if events else 'no_data','fixtures':len(events),'eligible_picks':sum('estimated_odds' in x for x in events),'coupons':by_date[selected]['coupons'],'diagnostics':diagnostics,'errors':[d['source']+': '+d['detail'] for d in diagnostics if d['status']=='error'],'disclaimer':'Orientacyjne kursy są heurystyczne, nie rynkowe. Brak wiarygodnej oceny prawdopodobieństwa.'}
 
 def make_coupons(events):
     picks=[x for x in events if 'estimated_odds' in x];coupons=[];used=set()
