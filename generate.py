@@ -75,7 +75,7 @@ def enrich(x):
     p=max(.34,min(.72,.5+(h-a)*.45+.045))
     if x['sport']=='Piłka nożna':p=min(.85,p+.18);market='1X (gospodarze lub remis)'
     else:market='Zwycięstwo gospodarzy (z dogrywką)'
-    x.update(market=market,p_proxy=round(p,3),estimated_odds=round(1/p*1.07,2),note='Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną.')
+    x.update(market=market,p_proxy=round(p,3),estimated_odds=round(1/p*1.07,2),reason=(f'Bilans zwycięstw gospodarzy w danych ESPN wynosi około {h:.0%}, a gości około {a:.0%}. ' + ('Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. ' if x['sport']=='Piłka nożna' else 'Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. ') + 'To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.'),note='Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną.')
     return x
 
 def build(now=None):
