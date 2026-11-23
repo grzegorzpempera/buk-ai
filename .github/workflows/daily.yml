@@ -13,6 +13,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Pobierz terminarz tenisa
+        env:
+          LIVE_TENNIS_API_KEY: ${{ secrets.LIVE_TENNIS_API_KEY }}
+        run: python tennis_feed.py
       - run: python generate.py
       - run: python check_sources.py
       - run: python fetch_experts.py
@@ -20,5 +24,5 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/daily.json data/sources.json data/expert_materials.json
+          git add data/daily.json data/sources.json data/expert_materials.json data/tennis.json
           git diff --cached --quiet || (git commit -m 'Aktualizacja dziennego zestawienia' && git push)
