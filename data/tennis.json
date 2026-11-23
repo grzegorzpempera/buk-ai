@@ -1,50 +1,14 @@
 {
   "source": "Live Tennis API",
   "status": "ok",
-  "generated_at": "2026-11-23T19:10:30.795841+00:00",
+  "generated_at": "2026-11-23T21:58:33.741991+00:00",
   "events": [
-    {
-      "id": "tennis-live-52822",
-      "sport": "Tenis",
-      "league": "San Salvador (El Salvador) - Qualification",
-      "event": "E. Strode — J. M. Bolivar Idarraga",
-      "time": "2026-11-23T19:30:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
-    {
-      "id": "tennis-live-52714",
-      "sport": "Tenis",
-      "league": "San Salvador (El Salvador)",
-      "event": "Gurenko/ Urrea — George/ Van Noord",
-      "time": "2026-11-23T19:30:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
-    {
-      "id": "tennis-live-52892",
-      "sport": "Tenis",
-      "league": "Florianopolis",
-      "event": "N. Barrientos — R. Tabata",
-      "time": "2026-11-23T20:15:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
     {
       "id": "tennis-live-52734",
       "sport": "Tenis",
       "league": "San Salvador (El Salvador) - Qualification",
       "event": "B. Bicknell — S. Goity Zapico",
-      "time": "2026-11-23T21:00:00+00:00",
+      "time": "2026-11-23T22:00:00+00:00",
       "home_rate": null,
       "away_rate": null,
       "source": "Live Tennis API",
@@ -1088,19 +1052,7 @@
       "sport": "Tenis",
       "league": "Florianopolis",
       "event": "D. Dutra Da Silva — F. Roncadelli",
-      "time": "2026-11-24T13:00:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
-    {
-      "id": "tennis-live-52685",
-      "sport": "Tenis",
-      "league": "Florianopolis",
-      "event": "J. Nikles — P. Boscardin Dias",
-      "time": "2026-11-24T13:00:00+00:00",
+      "time": "2026-11-24T13:30:00+00:00",
       "home_rate": null,
       "away_rate": null,
       "source": "Live Tennis API",
@@ -1276,6 +1228,18 @@
       "note": "Terminarz bez prognozy wyniku i kursu."
     },
     {
+      "id": "tennis-live-52685",
+      "sport": "Tenis",
+      "league": "Florianopolis",
+      "event": "J. Nikles — P. Boscardin Dias",
+      "time": "2026-11-24T18:00:00+00:00",
+      "home_rate": null,
+      "away_rate": null,
+      "source": "Live Tennis API",
+      "source_url": "https://livetennisapi.com/",
+      "note": "Terminarz bez prognozy wyniku i kursu."
+    },
+    {
       "id": "tennis-live-52914",
       "sport": "Tenis",
       "league": "Buenos Aires",
@@ -1300,13 +1264,12 @@
       "note": "Terminarz bez prognozy wyniku i kursu."
     }
   ],
-  "detail": "API: 200 rekordów; poprawne mecze: 108.",
+  "detail": "API: 200 rekordów; poprawne mecze: 105.",
   "diagnostics": {
     "key_configured": true,
     "api_records": 200,
     "rejected": {
-      "nie_nadchodzacy_status": 91,
-      "poza_zakresem_7_dni": 1
+      "nie_nadchodzacy_status": 95
     },
     "http_status": 200,
     "meta_count": 200
