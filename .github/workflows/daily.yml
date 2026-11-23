@@ -15,9 +15,10 @@ jobs:
           python-version: '3.12'
       - run: python generate.py
       - run: python check_sources.py
+      - run: python fetch_experts.py
       - name: Zapisz wynik do repozytorium
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/daily.json data/sources.json
+          git add data/daily.json data/sources.json data/expert_materials.json
           git diff --cached --quiet || (git commit -m 'Aktualizacja dziennego zestawienia' && git push)
