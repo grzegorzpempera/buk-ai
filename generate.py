@@ -126,6 +126,15 @@ def build(now=None):
     now=now or dt.datetime.now(UTC);diagnostics=[];all_events=[]
     for label,sport,league in LEAGUES:all_events+=espn(now,sport,league,label,diagnostics)
     all_events+=nhl(now,diagnostics)
+    tennis_file=ROOT/'data'/'tennis.json'
+    if tennis_file.exists():
+        try:
+            tennis=json.loads(tennis_file.read_text(encoding='utf-8'))
+            diagnostics.append({'source':'Live Tennis API','status':tennis.get('status','unknown'),'events':len(tennis.get('events',[])),'detail':tennis.get('detail','')})
+            for event in tennis.get('events',[]):
+                when=parse_date(event.get('time'))
+                if when and now<when<now+dt.timedelta(days=6):all_events.append(event)
+        except Exception as exc:diagnostics.append({'source':'Live Tennis API','status':'error','detail':str(exc)[:120]})
     unique={x['id']:x for x in all_events}
     recent_form(now,list(unique.values()),diagnostics)
     events=sorted((enrich(x) for x in unique.values()),key=lambda x:x['time'])
