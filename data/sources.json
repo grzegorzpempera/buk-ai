@@ -1,0 +1,30 @@
+{
+  "checked_at": "2026-11-23T06:06:51.508193+00:00",
+  "note": "Test dostępności stron, nie pobieranie typów ani kursów",
+  "sources": [
+    {
+      "name": "Zawód Typer — Typy Dnia",
+      "url": "https://zawodtyper.pl/typy-dnia/",
+      "status": "dostępne",
+      "http_code": 200
+    },
+    {
+      "name": "Zawód Typer — Kupony graczy",
+      "url": "https://zawodtyper.pl/kupony-graczy/",
+      "status": "dostępne",
+      "http_code": 200
+    },
+    {
+      "name": "ESPN — NBA",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard",
+      "status": "dostępne",
+      "http_code": 200
+    },
+    {
+      "name": "NHL — terminarz",
+      "url": "https://api-web.nhle.com/v1/schedule/now",
+      "status": "dostępne",
+      "http_code": 200
+    }
+  ]
+}
