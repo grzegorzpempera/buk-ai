@@ -44,22 +44,7 @@ for name,url in [('Zawód Typer — Typy Dnia','https://zawodtyper.pl/typy-dnia/
         diagnostics.append({'source':name,'status':f'Pobrano stronę; znaleziono {count} odnośników do materiałów'})
     except Exception as e:diagnostics.append({'source':name,'status':f'Nie udało się pobrać: {type(e).__name__}: {str(e)[:100]}'})
 
-# Obstawiamy: official public YouTube Atom channel feed (titles and links, not transcribed picks).
-name='Obstawiamy! — YouTube'
-try:
-    xml=get('https://www.youtube.com/feeds/videos.xml?channel_id=UCLvMlqIUfR07ArOTZDczYeQ')
-    root=ET.fromstring(xml);ns={'a':'http://www.w3.org/2005/Atom'}
-    count=0
-    for entry in root.findall('a:entry',ns):
-        title=entry.findtext('a:title','',ns);link=entry.find('a:link',ns)
-        href=link.attrib.get('href','') if link is not None else ''
-        pub=entry.findtext('a:published','',ns)
-        if href.startswith('https://www.youtube.com/'):
-            add(name,title,href,pub);count+=1
-    diagnostics.append({'source':name,'status':f'Pobrano kanał; {count} publikacji'})
-except Exception as e:diagnostics.append({'source':name,'status':f'Nie udało się pobrać: {type(e).__name__}: {str(e)[:100]}'})
-
-out={'updated_at':datetime.now(timezone.utc).isoformat(),'note':'Materiały i linki, nie potwierdzone selekcje bukmacherskie','items':items[:60],'diagnostics':diagnostics}
+out={'updated_at':datetime.now(timezone.utc).isoformat(),'note':'Zawód Typer: materiały i linki, nie potwierdzone selekcje bukmacherskie','items':items[:60],'diagnostics':diagnostics}
 Path('data').mkdir(exist_ok=True)
 Path('data/expert_materials.json').write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding='utf-8')
 print('Expert materials:',len(items),[(x['source'],x['status']) for x in diagnostics])

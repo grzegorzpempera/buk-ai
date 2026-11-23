@@ -5,7 +5,7 @@ from zoneinfo import ZoneInfo
 WARSAW=ZoneInfo("Europe/Warsaw")
 ROOT=pathlib.Path(__file__).resolve().parent
 UTC=dt.timezone.utc
-LEAGUES=[('Piłka nożna','soccer','eng.1'),('Piłka nożna','soccer','esp.1'),('Piłka nożna','soccer','ger.1'),('Piłka nożna','soccer','ita.1'),('Piłka nożna','soccer','fra.1'),('Piłka nożna','soccer','uefa.champions'),('Piłka nożna','soccer','pol.1'),('Piłka nożna','soccer','ned.1'),('Piłka nożna','soccer','por.1'),('Piłka nożna','soccer','usa.1'),('Piłka nożna','soccer','uefa.europa'),('Piłka nożna','soccer','eng.2'),('Piłka nożna','soccer','bra.1'),('Koszykówka','basketball','nba'),('Koszykówka','basketball','wnba'),('Koszykówka','basketball','mens-college-basketball'),('NHL','hockey','nhl')]
+LEAGUES=[('Piłka nożna','soccer','eng.1'),('Piłka nożna','soccer','esp.1'),('Piłka nożna','soccer','ger.1'),('Piłka nożna','soccer','ita.1'),('Piłka nożna','soccer','fra.1'),('Piłka nożna','soccer','uefa.champions'),('Piłka nożna','soccer','pol.1'),('Piłka nożna','soccer','ned.1'),('Piłka nożna','soccer','por.1'),('Piłka nożna','soccer','usa.1'),('Piłka nożna','soccer','uefa.europa'),('Piłka nożna','soccer','eng.2'),('Piłka nożna','soccer','bra.1'),('Koszykówka','basketball','nba'),('Koszykówka','basketball','wnba'),('Koszykówka','basketball','mens-college-basketball'),('NHL','hockey','nhl'),('Tenis','tennis','atp'),('Tenis','tennis','wta')]
 
 def get(url):
     req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0 (compatible; BUKAI/6.1; sports fixtures)', 'Accept':'application/json'})
@@ -26,6 +26,9 @@ def win_rate(x):
         except (ValueError,KeyError,TypeError):pass
     return None
 
+def competitor_name(x):
+    return (x.get('team') or x.get('athlete') or {}).get('displayName') or x.get('displayName') or '?'
+
 def espn(now, sport, league, label, diagnostics):
     out=[]
     # ESPN's scoreboard dates parameter supports single-day YYYYMMDD more reliably than ranges.
@@ -44,9 +47,11 @@ def espn(now, sport, league, label, diagnostics):
             teams=competition.get('competitors') or []
             home=next((x for x in teams if x.get('homeAway')=='home'),None)
             away=next((x for x in teams if x.get('homeAway')=='away'),None)
+            if (not home or not away) and label=='Tenis' and len(teams)==2:
+                home,away=teams
             if not home or not away:continue
             hr,ar=win_rate(home),win_rate(away)
-            out.append({'id':f'{sport}-{league}-{event.get("id")}', 'sport':label,'league':league,'event':f'{home.get("team",{}).get("displayName","?")} — {away.get("team",{}).get("displayName","?")}', 'time':when.isoformat(), 'home_rate':hr,'away_rate':ar,'source':'ESPN','source_url':url})
+            out.append({'id':f'{sport}-{league}-{event.get("id")}', 'sport':label,'league':league,'event':f'{competitor_name(home)} — {competitor_name(away)}', 'time':when.isoformat(), 'home_rate':hr,'away_rate':ar,'source':'ESPN','source_url':url})
     return out
 
 def nhl(now, diagnostics):
@@ -68,21 +73,62 @@ def nhl(now, diagnostics):
             out.append({'id':'nhl-'+str(g.get('id')),'sport':'NHL','league':'nhl','event':f'{name(h)} — {name(a)}','time':when.isoformat(),'home_rate':None,'away_rate':None,'source':'NHL official','source_url':url})
     return out
 
+def recent_form(now, events, diagnostics):
+    """Observed recent wins, not predicted probabilities. Only teams with >=3 completed games."""
+    leagues=[('basketball','nba'),('hockey','nhl'),('soccer','eng.1'),('soccer','esp.1'),('soccer','ger.1'),('soccer','ita.1'),('soccer','fra.1')]
+    tally={}
+    for sport,league in leagues:
+        for back in range(1,9):
+            day=(now.astimezone(WARSAW).date()-dt.timedelta(days=back)).strftime('%Y%m%d')
+            url=f'https://site.api.espn.com/apis/site/v2/sports/{sport}/{league}/scoreboard?dates={day}&limit=100'
+            try:
+                games=get(url).get('events',[])
+            except Exception as exc:
+                diagnostics.append({'source':f'Forma ESPN {league} {day}','status':'error','detail':str(exc)[:90]});continue
+            for game in games:
+                comp=(game.get('competitions') or [{}])[0]
+                if not (comp.get('status',{}).get('type',{}).get('completed') or game.get('status',{}).get('type',{}).get('completed')):continue
+                players=comp.get('competitors') or []
+                if len(players)!=2:continue
+                for player in players:
+                    key=(league,competitor_name(player))
+                    if key[1]=='?':continue
+                    won=player.get('winner')
+                    if won is None:continue
+                    tally.setdefault(key,[0,0]);tally[key][0]+=int(bool(won));tally[key][1]+=1
+    count=0
+    for event in events:
+        if event.get('home_rate') is not None and event.get('away_rate') is not None:continue
+        try:home,away=event['event'].split(' — ',1)
+        except ValueError:continue
+        h=tally.get((event['league'],home));a=tally.get((event['league'],away))
+        if h and a and h[1]>=3 and a[1]>=3:
+            event['home_rate']=(h[0]+1)/(h[1]+2)
+            event['away_rate']=(a[0]+1)/(a[1]+2)
+            event['form_sample']={'home_games':h[1],'away_games':a[1]}
+            event['form_source']='ESPN — ostatnie 8 dni, zakończone mecze'
+            count+=1
+    diagnostics.append({'source':'Forma z wyników ESPN','status':'ok','events':count,'detail':'Liczba wydarzeń wzbogaconych danymi historycznymi'})
+    return events
+
 def enrich(x):
     # Only produce a selection if both teams have actual records; otherwise list fixture only.
     h,a=x.get('home_rate'),x.get('away_rate')
     if h is None or a is None:return x
     p=max(.34,min(.72,.5+(h-a)*.45+.045))
+    if x['sport']=='Tenis':return x
     if x['sport']=='Piłka nożna':p=min(.85,p+.18);market='1X (gospodarze lub remis)'
     else:market='Zwycięstwo gospodarzy (z dogrywką)'
-    x.update(market=market,p_proxy=round(p,3),estimated_odds=round(1/p*1.07,2),reason=(f'Bilans zwycięstw gospodarzy w danych ESPN wynosi około {h:.0%}, a gości około {a:.0%}. ' + ('Proponowany rynek 1X obejmuje zwycięstwo gospodarzy lub remis. ' if x['sport']=='Piłka nożna' else 'Model rozważa zwycięstwo gospodarzy na podstawie porównania bilansów. ') + 'To uproszczona heurystyka bez uwzględnienia składów, kontuzji i rzeczywistych kursów.'),note='Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną.')
+    x.update(market=market,p_proxy=round(p,3),estimated_odds=round(1/p*1.07,2),note='Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną.')
     return x
 
 def build(now=None):
     now=now or dt.datetime.now(UTC);diagnostics=[];all_events=[]
     for label,sport,league in LEAGUES:all_events+=espn(now,sport,league,label,diagnostics)
     all_events+=nhl(now,diagnostics)
-    unique={x['id']:x for x in all_events};events=sorted((enrich(x) for x in unique.values()),key=lambda x:x['time'])
+    unique={x['id']:x for x in all_events}
+    recent_form(now,list(unique.values()),diagnostics)
+    events=sorted((enrich(x) for x in unique.values()),key=lambda x:x['time'])
     # Betting day: local 00:00 through next day 06:00, Europe/Warsaw.
     # Only future events are considered; overlap between adjacent betting days is intentional.
     dates=[(now.astimezone(WARSAW).date()+dt.timedelta(days=i)).isoformat() for i in range(5)]
