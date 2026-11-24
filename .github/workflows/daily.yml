@@ -16,6 +16,7 @@ jobs:
       - name: Pobierz terminarz tenisa
         env:
           LIVE_TENNIS_API_KEY: ${{ secrets.LIVE_TENNIS_API_KEY }}
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
         run: python tennis_feed.py
       - run: python generate.py
       - run: python check_sources.py
