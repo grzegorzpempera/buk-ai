@@ -1,7 +1,13 @@
 {
-  "updated_at": "2026-11-24T19:08:02.366978+00:00",
+  "updated_at": "2026-11-24T22:06:07.342511+00:00",
   "note": "Zawód Typer: materiały i linki, nie potwierdzone selekcje bukmacherskie",
   "items": [
+    {
+      "source": "Zawód Typer — Typy Dnia",
+      "title": "Typy Dnia - 25 listopada (środa)",
+      "url": "https://zawodtyper.pl/typy-dnia-25-listopada-sroda/",
+      "published": ""
+    },
     {
       "source": "Zawód Typer — Typy Dnia",
       "title": "Typy Dnia - 24 listopada (wtorek)",
@@ -57,15 +63,15 @@
       "published": ""
     },
     {
-      "source": "Zawód Typer — Typy Dnia",
-      "title": "Typy Dnia - 15 listopada (niedziela)",
-      "url": "https://zawodtyper.pl/typy-dnia-15-listopada-niedziela/",
+      "source": "Zawód Typer — Typy redaktorów",
+      "title": "Typy Dnia - największa społeczność Typerów w Polsce",
+      "url": "https://zawodtyper.pl/typy-dnia/",
       "published": ""
     },
     {
       "source": "Zawód Typer — Typy redaktorów",
-      "title": "Typy Dnia - największa społeczność Typerów w Polsce",
-      "url": "https://zawodtyper.pl/typy-dnia/",
+      "title": "PSG - AS Roma Typy Jutro 21:00",
+      "url": "https://zawodtyper.pl/psg-as-roma-typy/",
       "published": ""
     },
     {
@@ -78,12 +84,6 @@
       "source": "Zawód Typer — Typy redaktorów",
       "title": "FC Barcelona - Villarreal Typy Zakończono",
       "url": "https://zawodtyper.pl/fc-barcelona-villarreal-typy-3/",
-      "published": ""
-    },
-    {
-      "source": "Zawód Typer — Typy redaktorów",
-      "title": "Polska - Szwecja Typy Zakończono",
-      "url": "https://zawodtyper.pl/polska-szwecja-typy/",
       "published": ""
     }
   ],
