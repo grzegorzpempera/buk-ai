@@ -73,59 +73,71 @@ def nhl(now, diagnostics):
             out.append({'id':'nhl-'+str(g.get('id')),'sport':'NHL','league':'nhl','event':f'{name(h)} — {name(a)}','time':when.isoformat(),'home_rate':None,'away_rate':None,'source':'NHL official','source_url':url})
     return out
 
-def recent_form(now, events, diagnostics):
-    """Observed recent wins, not predicted probabilities. Only teams with >=3 completed games."""
-    leagues=[('basketball','nba'),('hockey','nhl'),('soccer','eng.1'),('soccer','esp.1'),('soccer','ger.1'),('soccer','ita.1'),('soccer','fra.1')]
-    tally={}
-    for sport,league in leagues:
-        for back in range(1,9):
-            day=(now.astimezone(WARSAW).date()-dt.timedelta(days=back)).strftime('%Y%m%d')
-            url=f'https://site.api.espn.com/apis/site/v2/sports/{sport}/{league}/scoreboard?dates={day}&limit=100'
-            try:
-                games=get(url).get('events',[])
-            except Exception as exc:
-                diagnostics.append({'source':f'Forma ESPN {league} {day}','status':'error','detail':str(exc)[:90]});continue
+def historical(now, events, diagnostics):
+    from concurrent.futures import ThreadPoolExecutor
+    leagues={(sport,league) for label,sport,league in LEAGUES if label!='Tenis' and any(e['league']==league for e in events)}
+    jobs=[(sport,league,(now.astimezone(WARSAW).date()-dt.timedelta(days=i)).strftime('%Y%m%d')) for sport,league in leagues for i in range(1,46)]
+    def fetch(job):
+        sport,league,day=job
+        url=f'https://site.api.espn.com/apis/site/v2/sports/{sport}/{league}/scoreboard?dates={day}&limit=100'
+        try:return league,get(url).get('events',[]),None
+        except Exception as exc:return league,[],str(exc)
+    rows={}; seen=set(); errors=0
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        for league,games,error in pool.map(fetch,jobs):
+            if error:errors+=1;continue
             for game in games:
-                comp=(game.get('competitions') or [{}])[0]
-                if not (comp.get('status',{}).get('type',{}).get('completed') or game.get('status',{}).get('type',{}).get('completed')):continue
-                players=comp.get('competitors') or []
-                if len(players)!=2:continue
-                for player in players:
-                    key=(league,competitor_name(player))
-                    if key[1]=='?':continue
-                    won=player.get('winner')
-                    if won is None:continue
-                    tally.setdefault(key,[0,0]);tally[key][0]+=int(bool(won));tally[key][1]+=1
-    count=0
-    for event in events:
-        if event.get('home_rate') is not None and event.get('away_rate') is not None:continue
-        try:home,away=event['event'].split(' — ',1)
-        except ValueError:continue
-        h=tally.get((event['league'],home));a=tally.get((event['league'],away))
-        if h and a and h[1]>=3 and a[1]>=3:
-            event['home_rate']=(h[0]+1)/(h[1]+2)
-            event['away_rate']=(a[0]+1)/(a[1]+2)
-            event['form_sample']={'home_games':h[1],'away_games':a[1]}
-            event['form_source']='ESPN — ostatnie 8 dni, zakończone mecze'
-            count+=1
-    diagnostics.append({'source':'Forma z wyników ESPN','status':'ok','events':count,'detail':'Liczba wydarzeń wzbogaconych danymi historycznymi'})
-    return events
+                c=(game.get('competitions') or [{}])[0]
+                if not (c.get('status',{}).get('type',{}).get('completed') or game.get('status',{}).get('type',{}).get('completed')):continue
+                teams=c.get('competitors',[]); key=(league,game.get('id'))
+                if len(teams)!=2 or key in seen:continue
+                try: scores=[float(t['score']) for t in teams]
+                except (ValueError,KeyError,TypeError):continue
+                seen.add(key)
+                for i,t in enumerate(teams):
+                    rows.setdefault((league,competitor_name(t)),[]).append((game.get('date',''),scores[i],scores[1-i],key))
+    diagnostics.append({'source':'ESPN — wyniki 45 dni','status':'ok' if seen else 'error','events':len(seen),'detail':f'Nieudane zapytania: {errors}/{len(jobs)}'})
+    return rows
 
-def enrich(x):
-    # Only produce a selection if both teams have actual records; otherwise list fixture only.
-    h,a=x.get('home_rate'),x.get('away_rate')
-    if h is None or a is None:return x
-    p=max(.34,min(.72,.5+(h-a)*.45+.045))
+def enrich(x, history):
     if x['sport']=='Tenis':return x
-    if x['sport']=='Piłka nożna':p=min(.85,p+.18);market='1X (gospodarze lub remis)'
-    else:market='Zwycięstwo gospodarzy (z dogrywką)'
-    x.update(market=market,p_proxy=round(p,3),estimated_odds=round(1/p*1.07,2),note='Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną.')
+    home,away=x['event'].split(' — ',1)
+    h=sorted(history.get((x['league'],home),[]),reverse=True)[:12]; a=sorted(history.get((x['league'],away),[]),reverse=True)[:12]
+    if min(len(h),len(a))<5:return x
+    candidates=[]
+    def add(market,family,fh,fa):
+        hh=sum(fh(r[1],r[2]) for r in h); aa=sum(fa(r[1],r[2]) for r in a)
+        if min(hh/len(h),aa/len(a))<.55:return
+        rate=(hh/len(h)+aa/len(a))/2
+        if rate<.65:return
+        # Historical frequency is not a forecast. Shrink toward 0.5 for indicative price only.
+        proxy=.5+(rate-.5)*.65
+        candidates.append(dict(market=market,family=family,quality=round(rate*min(1,min(len(h),len(a))/10),4),estimated_odds=round(1/proxy,2),reason=f'{home}: {hh}/{len(h)}; {away}: {aa}/{len(a)} meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna {rate:.0%}, nie prognoza. Kurs wyłącznie orientacyjny.',historical_rate=round(rate,3)))
+    if x['sport']=='Piłka nożna':
+        for line in (1.5,2.5,3.5):
+            add(f'Gole powyżej {line}','gole',lambda f,g:f+g>line,lambda f,g:f+g>line)
+            add(f'Gole poniżej {line}','gole',lambda f,g:f+g<line,lambda f,g:f+g<line)
+        add('Obie drużyny strzelą — tak','BTTS',lambda f,g:f>0 and g>0,lambda f,g:f>0 and g>0)
+        add('Obie drużyny strzelą — nie','BTTS',lambda f,g:f==0 or g==0,lambda f,g:f==0 or g==0)
+        add('1X','wynik',lambda f,g:f>=g,lambda f,g:f<=g)
+        add('X2','wynik',lambda f,g:f<=g,lambda f,g:f>=g)
+    else:
+        lines=(4.5,5.5,6.5,7.5) if x['sport']=='NHL' else (195.5,205.5,215.5,225.5,235.5,245.5) if x['league']=='nba' else (135.5,145.5,155.5,165.5)
+        unit='Bramki' if x['sport']=='NHL' else 'Punkty'
+        for line in lines:
+            add(f'{unit} powyżej {line}','suma',lambda f,g:f+g>line,lambda f,g:f+g>line)
+            add(f'{unit} poniżej {line}','suma',lambda f,g:f+g<line,lambda f,g:f+g<line)
+    add('Zwycięstwo gospodarzy','wynik',lambda f,g:f>g,lambda f,g:f<g)
+    add('Zwycięstwo gości','wynik',lambda f,g:f<g,lambda f,g:f>g)
+    if candidates:
+        candidates.sort(key=lambda c:(c['quality'],c['estimated_odds']),reverse=True)
+        x.update(candidates[0]);x['markets']=candidates;x['source']='ESPN — zakończone mecze'
     return x
 
 def build(now=None):
     now=now or dt.datetime.now(UTC);diagnostics=[];all_events=[]
     for label,sport,league in LEAGUES:all_events+=espn(now,sport,league,label,diagnostics)
-    all_events+=nhl(now,diagnostics)
+     # NHL: ESPN names and historical records use the same identifiers.
     tennis_file=ROOT/'data'/'tennis.json'
     if tennis_file.exists():
         try:
@@ -136,8 +148,8 @@ def build(now=None):
                 if when and now<when<now+dt.timedelta(days=6):all_events.append(event)
         except Exception as exc:diagnostics.append({'source':'Live Tennis API','status':'error','detail':str(exc)[:120]})
     unique={x['id']:x for x in all_events}
-    recent_form(now,list(unique.values()),diagnostics)
-    events=sorted((enrich(x) for x in unique.values()),key=lambda x:x['time'])
+    history=historical(now,list(unique.values()),diagnostics)
+    events=sorted((enrich(x, history) for x in unique.values()),key=lambda x:x['time'])
     # Betting day: local 00:00 through next day 06:00, Europe/Warsaw.
     # Only future events are considered; overlap between adjacent betting days is intentional.
     dates=[(now.astimezone(WARSAW).date()+dt.timedelta(days=i)).isoformat() for i in range(5)]
@@ -151,7 +163,7 @@ def build(now=None):
     return {'generated_at':now.isoformat(),'timezone':'Europe/Warsaw','betting_day_end':'06:00','available_dates':dates,'by_date':by_date,'events':events,'status':'ok' if events else 'no_data','fixtures':len(events),'eligible_picks':sum('estimated_odds' in x for x in events),'coupons':by_date[selected]['coupons'],'diagnostics':diagnostics,'errors':[d['source']+': '+d['detail'] for d in diagnostics if d['status']=='error'],'disclaimer':'Orientacyjne kursy są heurystyczne, nie rynkowe. Brak wiarygodnej oceny prawdopodobieństwa.'}
 
 def make_coupons(events):
-    picks=[x for x in events if 'estimated_odds' in x];coupons=[];used=set()
+    picks=sorted((x for x in events if 'estimated_odds' in x),key=lambda x:x.get('quality',0),reverse=True);coupons=[];used=set()
     for idx in range(3):
         best=None
         for n in (3,4,5):
