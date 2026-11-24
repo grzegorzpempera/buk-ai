@@ -1,44 +1,8 @@
 {
   "source": "Live Tennis API",
   "status": "ok",
-  "generated_at": "2026-11-24T23:38:38.236356+00:00",
+  "generated_at": "2026-11-24T23:47:01.088288+00:00",
   "events": [
-    {
-      "id": "tennis-live-52875",
-      "sport": "Tenis",
-      "league": "W75 Playford",
-      "event": "E. Sema — E. Koike",
-      "time": "2026-11-24T23:40:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
-    {
-      "id": "tennis-live-52873",
-      "sport": "Tenis",
-      "league": "W75 Playford",
-      "event": "N. Hanatani — T. Kokkinis",
-      "time": "2026-11-24T23:40:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
-    {
-      "id": "tennis-live-52879",
-      "sport": "Tenis",
-      "league": "W75 Playford",
-      "event": "B. Thompson — E. Micic",
-      "time": "2026-11-24T23:40:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
     {
       "id": "tennis-live-52741",
       "sport": "Tenis",
@@ -52,23 +16,11 @@
       "note": "Terminarz bez prognozy wyniku i kursu."
     },
     {
-      "id": "tennis-live-52712",
-      "sport": "Tenis",
-      "league": "San Salvador (El Salvador)",
-      "event": "Heredia/ Osorio — Cruz/ Duran",
-      "time": "2026-11-25T00:45:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
-    {
       "id": "tennis-live-52874",
       "sport": "Tenis",
       "league": "W75 Playford",
       "event": "M. Hoedt — L. Cabrera",
-      "time": "2026-11-25T01:00:00+00:00",
+      "time": "2026-11-25T00:40:00+00:00",
       "home_rate": null,
       "away_rate": null,
       "source": "Live Tennis API",
@@ -80,7 +32,19 @@
       "sport": "Tenis",
       "league": "W75 Playford",
       "event": "K. Sidorova — M. Yamaguchi",
-      "time": "2026-11-25T01:00:00+00:00",
+      "time": "2026-11-25T00:40:00+00:00",
+      "home_rate": null,
+      "away_rate": null,
+      "source": "Live Tennis API",
+      "source_url": "https://livetennisapi.com/",
+      "note": "Terminarz bez prognozy wyniku i kursu."
+    },
+    {
+      "id": "tennis-live-52712",
+      "sport": "Tenis",
+      "league": "San Salvador (El Salvador)",
+      "event": "Heredia/ Osorio — Cruz/ Duran",
+      "time": "2026-11-25T00:45:00+00:00",
       "home_rate": null,
       "away_rate": null,
       "source": "Live Tennis API",
@@ -2332,13 +2296,13 @@
       "note": "Terminarz bez prognozy wyniku i kursu."
     }
   ],
-  "detail": "API: 200 rekordów; poprawne mecze: 194.",
+  "detail": "API: 200 rekordów; poprawne mecze: 191.",
   "diagnostics": {
     "key_configured": true,
     "api_records": 200,
     "rejected": {
       "poza_zakresem_7_dni": 1,
-      "nie_nadchodzacy_status": 5
+      "nie_nadchodzacy_status": 8
     },
     "http_status": 200,
     "meta_count": 200

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T23:38:38.727760+00:00",
+  "generated_at": "2026-11-24T23:47:01.335410+00:00",
   "timezone": "Europe/Warsaw",
   "betting_day_end": "06:00",
   "available_dates": [
@@ -11,68 +11,1649 @@
   ],
   "by_date": {
     "2026-11-25": {
-      "fixtures": 235,
-      "eligible_picks": 0,
-      "coupons": []
+      "fixtures": 232,
+      "eligible_picks": 6,
+      "coupons": [
+        {
+          "name": "Ostrożniejszy",
+          "picks": [
+            {
+              "id": "basketball-nba-401909319",
+              "sport": "Koszykówka",
+              "league": "nba",
+              "event": "New York Knicks — Cleveland Cavaliers",
+              "time": "2026-11-26T00:30:00+00:00",
+              "home_rate": 0.631578947368421,
+              "away_rate": 0.5,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261125&limit=100",
+              "market": "Zwycięstwo gospodarzy",
+              "family": "wynik",
+              "quality": 0.6667,
+              "estimated_odds": 1.62,
+              "odds_book": "1xBet",
+              "odds_time": "2026-11-24T23:46:39Z",
+              "odds_verified": true,
+              "reason": "New York Knicks: 9/12; Cleveland Cavaliers: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.667,
+              "markets": [
+                {
+                  "market": "Zwycięstwo gospodarzy",
+                  "family": "wynik",
+                  "quality": 0.6667,
+                  "estimated_odds": 1.62,
+                  "odds_book": "1xBet",
+                  "odds_time": "2026-11-24T23:46:39Z",
+                  "odds_verified": true,
+                  "reason": "New York Knicks: 9/12; Cleveland Cavaliers: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.667
+                }
+              ]
+            },
+            {
+              "id": "soccer-eng.2-401880139",
+              "sport": "Piłka nożna",
+              "league": "eng.2",
+              "event": "Burnley — Birmingham City",
+              "time": "2026-11-25T19:45:00+00:00",
+              "home_rate": 0.18181818181818182,
+              "away_rate": 0.6,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261125&limit=100",
+              "market": "Gole powyżej 2.5",
+              "family": "gole",
+              "quality": 0.5,
+              "estimated_odds": 1.68,
+              "odds_book": "Unibet (NL)",
+              "odds_time": "2026-11-24T23:46:21Z",
+              "odds_verified": true,
+              "reason": "Burnley: 5/7; Birmingham City: 5/7 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.714,
+              "markets": [
+                {
+                  "market": "Gole powyżej 2.5",
+                  "family": "gole",
+                  "quality": 0.5,
+                  "estimated_odds": 1.68,
+                  "odds_book": "Unibet (NL)",
+                  "odds_time": "2026-11-24T23:46:21Z",
+                  "odds_verified": true,
+                  "reason": "Burnley: 5/7; Birmingham City: 5/7 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.714
+                }
+              ]
+            },
+            {
+              "id": "soccer-eng.2-401880138",
+              "sport": "Piłka nożna",
+              "league": "eng.2",
+              "event": "Stoke City — Millwall",
+              "time": "2026-11-25T20:00:00+00:00",
+              "home_rate": 0.7857142857142857,
+              "away_rate": 0.6,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261125&limit=100",
+              "market": "Zwycięstwo gospodarzy",
+              "family": "wynik",
+              "quality": 0.5,
+              "estimated_odds": 2.25,
+              "odds_book": "888sport",
+              "odds_time": "2026-11-24T23:46:20Z",
+              "odds_verified": true,
+              "reason": "Stoke City: 5/7; Millwall: 5/7 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.714,
+              "markets": [
+                {
+                  "market": "Zwycięstwo gospodarzy",
+                  "family": "wynik",
+                  "quality": 0.5,
+                  "estimated_odds": 2.25,
+                  "odds_book": "888sport",
+                  "odds_time": "2026-11-24T23:46:20Z",
+                  "odds_verified": true,
+                  "reason": "Stoke City: 5/7; Millwall: 5/7 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.714
+                }
+              ]
+            }
+          ],
+          "estimated_total_odds": 6.12,
+          "warning": "Iloczyn kursów z ofert; nie jest gwarantowaną ofertą AKO jednego bukmachera."
+        },
+        {
+          "name": "Zrównoważony",
+          "picks": [
+            {
+              "id": "hockey-nhl-401892787",
+              "sport": "NHL",
+              "league": "nhl",
+              "event": "Washington Capitals — Philadelphia Flyers",
+              "time": "2026-11-26T00:00:00+00:00",
+              "home_rate": 0.4782608695652174,
+              "away_rate": 0.45454545454545453,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
+              "market": "Bramki powyżej 6.5",
+              "family": "suma",
+              "quality": 0.75,
+              "estimated_odds": 2.15,
+              "odds_book": "Tipico",
+              "odds_time": "2026-11-24T23:46:24Z",
+              "odds_verified": true,
+              "reason": "Washington Capitals: 10/12; Philadelphia Flyers: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 75%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.75,
+              "markets": [
+                {
+                  "market": "Bramki powyżej 6.5",
+                  "family": "suma",
+                  "quality": 0.75,
+                  "estimated_odds": 2.15,
+                  "odds_book": "Tipico",
+                  "odds_time": "2026-11-24T23:46:24Z",
+                  "odds_verified": true,
+                  "reason": "Washington Capitals: 10/12; Philadelphia Flyers: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 75%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.75
+                }
+              ]
+            },
+            {
+              "id": "hockey-nhl-401892791",
+              "sport": "NHL",
+              "league": "nhl",
+              "event": "Minnesota Wild — Utah Mammoth",
+              "time": "2026-11-26T01:00:00+00:00",
+              "home_rate": 0.8260869565217391,
+              "away_rate": 0.5416666666666666,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
+              "market": "Zwycięstwo gospodarzy",
+              "family": "wynik",
+              "quality": 0.7083,
+              "estimated_odds": 2.05,
+              "odds_book": "Tipico",
+              "odds_time": "2026-11-24T23:46:24Z",
+              "odds_verified": true,
+              "reason": "Minnesota Wild: 9/12; Utah Mammoth: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.708,
+              "markets": [
+                {
+                  "market": "Zwycięstwo gospodarzy",
+                  "family": "wynik",
+                  "quality": 0.7083,
+                  "estimated_odds": 2.05,
+                  "odds_book": "Tipico",
+                  "odds_time": "2026-11-24T23:46:24Z",
+                  "odds_verified": true,
+                  "reason": "Minnesota Wild: 9/12; Utah Mammoth: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.708
+                },
+                {
+                  "market": "Bramki powyżej 5.5",
+                  "family": "suma",
+                  "quality": 0.6667,
+                  "estimated_odds": 1.67,
+                  "odds_book": "Marathon Bet",
+                  "odds_time": "2026-11-24T23:46:47Z",
+                  "odds_verified": true,
+                  "reason": "Minnesota Wild: 9/12; Utah Mammoth: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.667
+                }
+              ]
+            },
+            {
+              "id": "hockey-nhl-401892788",
+              "sport": "NHL",
+              "league": "nhl",
+              "event": "Columbus Blue Jackets — New Jersey Devils",
+              "time": "2026-11-26T00:00:00+00:00",
+              "home_rate": 0.4166666666666667,
+              "away_rate": 0.6538461538461539,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
+              "market": "Zwycięstwo gości",
+              "family": "wynik",
+              "quality": 0.6667,
+              "estimated_odds": 2.0,
+              "odds_book": "Tipico",
+              "odds_time": "2026-11-24T23:46:24Z",
+              "odds_verified": true,
+              "reason": "Columbus Blue Jackets: 8/12; New Jersey Devils: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.667,
+              "markets": [
+                {
+                  "market": "Zwycięstwo gości",
+                  "family": "wynik",
+                  "quality": 0.6667,
+                  "estimated_odds": 2.0,
+                  "odds_book": "Tipico",
+                  "odds_time": "2026-11-24T23:46:24Z",
+                  "odds_verified": true,
+                  "reason": "Columbus Blue Jackets: 8/12; New Jersey Devils: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.667
+                }
+              ]
+            }
+          ],
+          "estimated_total_odds": 8.81,
+          "warning": "Iloczyn kursów z ofert; nie jest gwarantowaną ofertą AKO jednego bukmachera."
+        },
+        {
+          "name": "Wysoki kurs",
+          "picks": [
+            {
+              "id": "hockey-nhl-401892787",
+              "sport": "NHL",
+              "league": "nhl",
+              "event": "Washington Capitals — Philadelphia Flyers",
+              "time": "2026-11-26T00:00:00+00:00",
+              "home_rate": 0.4782608695652174,
+              "away_rate": 0.45454545454545453,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
+              "market": "Bramki powyżej 6.5",
+              "family": "suma",
+              "quality": 0.75,
+              "estimated_odds": 2.15,
+              "odds_book": "Tipico",
+              "odds_time": "2026-11-24T23:46:24Z",
+              "odds_verified": true,
+              "reason": "Washington Capitals: 10/12; Philadelphia Flyers: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 75%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.75,
+              "markets": [
+                {
+                  "market": "Bramki powyżej 6.5",
+                  "family": "suma",
+                  "quality": 0.75,
+                  "estimated_odds": 2.15,
+                  "odds_book": "Tipico",
+                  "odds_time": "2026-11-24T23:46:24Z",
+                  "odds_verified": true,
+                  "reason": "Washington Capitals: 10/12; Philadelphia Flyers: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 75%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.75
+                }
+              ]
+            },
+            {
+              "id": "hockey-nhl-401892791",
+              "sport": "NHL",
+              "league": "nhl",
+              "event": "Minnesota Wild — Utah Mammoth",
+              "time": "2026-11-26T01:00:00+00:00",
+              "home_rate": 0.8260869565217391,
+              "away_rate": 0.5416666666666666,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
+              "market": "Zwycięstwo gospodarzy",
+              "family": "wynik",
+              "quality": 0.7083,
+              "estimated_odds": 2.05,
+              "odds_book": "Tipico",
+              "odds_time": "2026-11-24T23:46:24Z",
+              "odds_verified": true,
+              "reason": "Minnesota Wild: 9/12; Utah Mammoth: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.708,
+              "markets": [
+                {
+                  "market": "Zwycięstwo gospodarzy",
+                  "family": "wynik",
+                  "quality": 0.7083,
+                  "estimated_odds": 2.05,
+                  "odds_book": "Tipico",
+                  "odds_time": "2026-11-24T23:46:24Z",
+                  "odds_verified": true,
+                  "reason": "Minnesota Wild: 9/12; Utah Mammoth: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.708
+                },
+                {
+                  "market": "Bramki powyżej 5.5",
+                  "family": "suma",
+                  "quality": 0.6667,
+                  "estimated_odds": 1.67,
+                  "odds_book": "Marathon Bet",
+                  "odds_time": "2026-11-24T23:46:47Z",
+                  "odds_verified": true,
+                  "reason": "Minnesota Wild: 9/12; Utah Mammoth: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.667
+                }
+              ]
+            },
+            {
+              "id": "soccer-eng.2-401880139",
+              "sport": "Piłka nożna",
+              "league": "eng.2",
+              "event": "Burnley — Birmingham City",
+              "time": "2026-11-25T19:45:00+00:00",
+              "home_rate": 0.18181818181818182,
+              "away_rate": 0.6,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261125&limit=100",
+              "market": "Gole powyżej 2.5",
+              "family": "gole",
+              "quality": 0.5,
+              "estimated_odds": 1.68,
+              "odds_book": "Unibet (NL)",
+              "odds_time": "2026-11-24T23:46:21Z",
+              "odds_verified": true,
+              "reason": "Burnley: 5/7; Birmingham City: 5/7 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.714,
+              "markets": [
+                {
+                  "market": "Gole powyżej 2.5",
+                  "family": "gole",
+                  "quality": 0.5,
+                  "estimated_odds": 1.68,
+                  "odds_book": "Unibet (NL)",
+                  "odds_time": "2026-11-24T23:46:21Z",
+                  "odds_verified": true,
+                  "reason": "Burnley: 5/7; Birmingham City: 5/7 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.714
+                }
+              ]
+            },
+            {
+              "id": "soccer-eng.2-401880138",
+              "sport": "Piłka nożna",
+              "league": "eng.2",
+              "event": "Stoke City — Millwall",
+              "time": "2026-11-25T20:00:00+00:00",
+              "home_rate": 0.7857142857142857,
+              "away_rate": 0.6,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261125&limit=100",
+              "market": "Zwycięstwo gospodarzy",
+              "family": "wynik",
+              "quality": 0.5,
+              "estimated_odds": 2.25,
+              "odds_book": "888sport",
+              "odds_time": "2026-11-24T23:46:20Z",
+              "odds_verified": true,
+              "reason": "Stoke City: 5/7; Millwall: 5/7 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.714,
+              "markets": [
+                {
+                  "market": "Zwycięstwo gospodarzy",
+                  "family": "wynik",
+                  "quality": 0.5,
+                  "estimated_odds": 2.25,
+                  "odds_book": "888sport",
+                  "odds_time": "2026-11-24T23:46:20Z",
+                  "odds_verified": true,
+                  "reason": "Stoke City: 5/7; Millwall: 5/7 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.714
+                }
+              ]
+            }
+          ],
+          "estimated_total_odds": 16.66,
+          "warning": "Iloczyn kursów z ofert; nie jest gwarantowaną ofertą AKO jednego bukmachera."
+        }
+      ]
     },
     "2026-11-26": {
       "fixtures": 51,
-      "eligible_picks": 0,
-      "coupons": []
+      "eligible_picks": 4,
+      "coupons": [
+        {
+          "name": "Ostrożniejszy",
+          "picks": [
+            {
+              "id": "hockey-nhl-401892791",
+              "sport": "NHL",
+              "league": "nhl",
+              "event": "Minnesota Wild — Utah Mammoth",
+              "time": "2026-11-26T01:00:00+00:00",
+              "home_rate": 0.8260869565217391,
+              "away_rate": 0.5416666666666666,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
+              "market": "Zwycięstwo gospodarzy",
+              "family": "wynik",
+              "quality": 0.7083,
+              "estimated_odds": 2.05,
+              "odds_book": "Tipico",
+              "odds_time": "2026-11-24T23:46:24Z",
+              "odds_verified": true,
+              "reason": "Minnesota Wild: 9/12; Utah Mammoth: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.708,
+              "markets": [
+                {
+                  "market": "Zwycięstwo gospodarzy",
+                  "family": "wynik",
+                  "quality": 0.7083,
+                  "estimated_odds": 2.05,
+                  "odds_book": "Tipico",
+                  "odds_time": "2026-11-24T23:46:24Z",
+                  "odds_verified": true,
+                  "reason": "Minnesota Wild: 9/12; Utah Mammoth: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.708
+                },
+                {
+                  "market": "Bramki powyżej 5.5",
+                  "family": "suma",
+                  "quality": 0.6667,
+                  "estimated_odds": 1.67,
+                  "odds_book": "Marathon Bet",
+                  "odds_time": "2026-11-24T23:46:47Z",
+                  "odds_verified": true,
+                  "reason": "Minnesota Wild: 9/12; Utah Mammoth: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.667
+                }
+              ]
+            },
+            {
+              "id": "hockey-nhl-401892788",
+              "sport": "NHL",
+              "league": "nhl",
+              "event": "Columbus Blue Jackets — New Jersey Devils",
+              "time": "2026-11-26T00:00:00+00:00",
+              "home_rate": 0.4166666666666667,
+              "away_rate": 0.6538461538461539,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
+              "market": "Zwycięstwo gości",
+              "family": "wynik",
+              "quality": 0.6667,
+              "estimated_odds": 2.0,
+              "odds_book": "Tipico",
+              "odds_time": "2026-11-24T23:46:24Z",
+              "odds_verified": true,
+              "reason": "Columbus Blue Jackets: 8/12; New Jersey Devils: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.667,
+              "markets": [
+                {
+                  "market": "Zwycięstwo gości",
+                  "family": "wynik",
+                  "quality": 0.6667,
+                  "estimated_odds": 2.0,
+                  "odds_book": "Tipico",
+                  "odds_time": "2026-11-24T23:46:24Z",
+                  "odds_verified": true,
+                  "reason": "Columbus Blue Jackets: 8/12; New Jersey Devils: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.667
+                }
+              ]
+            },
+            {
+              "id": "basketball-nba-401909319",
+              "sport": "Koszykówka",
+              "league": "nba",
+              "event": "New York Knicks — Cleveland Cavaliers",
+              "time": "2026-11-26T00:30:00+00:00",
+              "home_rate": 0.631578947368421,
+              "away_rate": 0.5,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261125&limit=100",
+              "market": "Zwycięstwo gospodarzy",
+              "family": "wynik",
+              "quality": 0.6667,
+              "estimated_odds": 1.62,
+              "odds_book": "1xBet",
+              "odds_time": "2026-11-24T23:46:39Z",
+              "odds_verified": true,
+              "reason": "New York Knicks: 9/12; Cleveland Cavaliers: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.667,
+              "markets": [
+                {
+                  "market": "Zwycięstwo gospodarzy",
+                  "family": "wynik",
+                  "quality": 0.6667,
+                  "estimated_odds": 1.62,
+                  "odds_book": "1xBet",
+                  "odds_time": "2026-11-24T23:46:39Z",
+                  "odds_verified": true,
+                  "reason": "New York Knicks: 9/12; Cleveland Cavaliers: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.667
+                }
+              ]
+            }
+          ],
+          "estimated_total_odds": 6.64,
+          "warning": "Iloczyn kursów z ofert; nie jest gwarantowaną ofertą AKO jednego bukmachera."
+        },
+        {
+          "name": "Zrównoważony",
+          "picks": [
+            {
+              "id": "hockey-nhl-401892787",
+              "sport": "NHL",
+              "league": "nhl",
+              "event": "Washington Capitals — Philadelphia Flyers",
+              "time": "2026-11-26T00:00:00+00:00",
+              "home_rate": 0.4782608695652174,
+              "away_rate": 0.45454545454545453,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
+              "market": "Bramki powyżej 6.5",
+              "family": "suma",
+              "quality": 0.75,
+              "estimated_odds": 2.15,
+              "odds_book": "Tipico",
+              "odds_time": "2026-11-24T23:46:24Z",
+              "odds_verified": true,
+              "reason": "Washington Capitals: 10/12; Philadelphia Flyers: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 75%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.75,
+              "markets": [
+                {
+                  "market": "Bramki powyżej 6.5",
+                  "family": "suma",
+                  "quality": 0.75,
+                  "estimated_odds": 2.15,
+                  "odds_book": "Tipico",
+                  "odds_time": "2026-11-24T23:46:24Z",
+                  "odds_verified": true,
+                  "reason": "Washington Capitals: 10/12; Philadelphia Flyers: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 75%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.75
+                }
+              ]
+            },
+            {
+              "id": "hockey-nhl-401892791",
+              "sport": "NHL",
+              "league": "nhl",
+              "event": "Minnesota Wild — Utah Mammoth",
+              "time": "2026-11-26T01:00:00+00:00",
+              "home_rate": 0.8260869565217391,
+              "away_rate": 0.5416666666666666,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
+              "market": "Zwycięstwo gospodarzy",
+              "family": "wynik",
+              "quality": 0.7083,
+              "estimated_odds": 2.05,
+              "odds_book": "Tipico",
+              "odds_time": "2026-11-24T23:46:24Z",
+              "odds_verified": true,
+              "reason": "Minnesota Wild: 9/12; Utah Mammoth: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.708,
+              "markets": [
+                {
+                  "market": "Zwycięstwo gospodarzy",
+                  "family": "wynik",
+                  "quality": 0.7083,
+                  "estimated_odds": 2.05,
+                  "odds_book": "Tipico",
+                  "odds_time": "2026-11-24T23:46:24Z",
+                  "odds_verified": true,
+                  "reason": "Minnesota Wild: 9/12; Utah Mammoth: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.708
+                },
+                {
+                  "market": "Bramki powyżej 5.5",
+                  "family": "suma",
+                  "quality": 0.6667,
+                  "estimated_odds": 1.67,
+                  "odds_book": "Marathon Bet",
+                  "odds_time": "2026-11-24T23:46:47Z",
+                  "odds_verified": true,
+                  "reason": "Minnesota Wild: 9/12; Utah Mammoth: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.667
+                }
+              ]
+            },
+            {
+              "id": "basketball-nba-401909319",
+              "sport": "Koszykówka",
+              "league": "nba",
+              "event": "New York Knicks — Cleveland Cavaliers",
+              "time": "2026-11-26T00:30:00+00:00",
+              "home_rate": 0.631578947368421,
+              "away_rate": 0.5,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261125&limit=100",
+              "market": "Zwycięstwo gospodarzy",
+              "family": "wynik",
+              "quality": 0.6667,
+              "estimated_odds": 1.62,
+              "odds_book": "1xBet",
+              "odds_time": "2026-11-24T23:46:39Z",
+              "odds_verified": true,
+              "reason": "New York Knicks: 9/12; Cleveland Cavaliers: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.667,
+              "markets": [
+                {
+                  "market": "Zwycięstwo gospodarzy",
+                  "family": "wynik",
+                  "quality": 0.6667,
+                  "estimated_odds": 1.62,
+                  "odds_book": "1xBet",
+                  "odds_time": "2026-11-24T23:46:39Z",
+                  "odds_verified": true,
+                  "reason": "New York Knicks: 9/12; Cleveland Cavaliers: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.667
+                }
+              ]
+            }
+          ],
+          "estimated_total_odds": 7.14,
+          "warning": "Iloczyn kursów z ofert; nie jest gwarantowaną ofertą AKO jednego bukmachera."
+        },
+        {
+          "name": "Wysoki kurs",
+          "picks": [
+            {
+              "id": "hockey-nhl-401892787",
+              "sport": "NHL",
+              "league": "nhl",
+              "event": "Washington Capitals — Philadelphia Flyers",
+              "time": "2026-11-26T00:00:00+00:00",
+              "home_rate": 0.4782608695652174,
+              "away_rate": 0.45454545454545453,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
+              "market": "Bramki powyżej 6.5",
+              "family": "suma",
+              "quality": 0.75,
+              "estimated_odds": 2.15,
+              "odds_book": "Tipico",
+              "odds_time": "2026-11-24T23:46:24Z",
+              "odds_verified": true,
+              "reason": "Washington Capitals: 10/12; Philadelphia Flyers: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 75%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.75,
+              "markets": [
+                {
+                  "market": "Bramki powyżej 6.5",
+                  "family": "suma",
+                  "quality": 0.75,
+                  "estimated_odds": 2.15,
+                  "odds_book": "Tipico",
+                  "odds_time": "2026-11-24T23:46:24Z",
+                  "odds_verified": true,
+                  "reason": "Washington Capitals: 10/12; Philadelphia Flyers: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 75%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.75
+                }
+              ]
+            },
+            {
+              "id": "hockey-nhl-401892791",
+              "sport": "NHL",
+              "league": "nhl",
+              "event": "Minnesota Wild — Utah Mammoth",
+              "time": "2026-11-26T01:00:00+00:00",
+              "home_rate": 0.8260869565217391,
+              "away_rate": 0.5416666666666666,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
+              "market": "Zwycięstwo gospodarzy",
+              "family": "wynik",
+              "quality": 0.7083,
+              "estimated_odds": 2.05,
+              "odds_book": "Tipico",
+              "odds_time": "2026-11-24T23:46:24Z",
+              "odds_verified": true,
+              "reason": "Minnesota Wild: 9/12; Utah Mammoth: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.708,
+              "markets": [
+                {
+                  "market": "Zwycięstwo gospodarzy",
+                  "family": "wynik",
+                  "quality": 0.7083,
+                  "estimated_odds": 2.05,
+                  "odds_book": "Tipico",
+                  "odds_time": "2026-11-24T23:46:24Z",
+                  "odds_verified": true,
+                  "reason": "Minnesota Wild: 9/12; Utah Mammoth: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.708
+                },
+                {
+                  "market": "Bramki powyżej 5.5",
+                  "family": "suma",
+                  "quality": 0.6667,
+                  "estimated_odds": 1.67,
+                  "odds_book": "Marathon Bet",
+                  "odds_time": "2026-11-24T23:46:47Z",
+                  "odds_verified": true,
+                  "reason": "Minnesota Wild: 9/12; Utah Mammoth: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.667
+                }
+              ]
+            },
+            {
+              "id": "hockey-nhl-401892788",
+              "sport": "NHL",
+              "league": "nhl",
+              "event": "Columbus Blue Jackets — New Jersey Devils",
+              "time": "2026-11-26T00:00:00+00:00",
+              "home_rate": 0.4166666666666667,
+              "away_rate": 0.6538461538461539,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
+              "market": "Zwycięstwo gości",
+              "family": "wynik",
+              "quality": 0.6667,
+              "estimated_odds": 2.0,
+              "odds_book": "Tipico",
+              "odds_time": "2026-11-24T23:46:24Z",
+              "odds_verified": true,
+              "reason": "Columbus Blue Jackets: 8/12; New Jersey Devils: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.667,
+              "markets": [
+                {
+                  "market": "Zwycięstwo gości",
+                  "family": "wynik",
+                  "quality": 0.6667,
+                  "estimated_odds": 2.0,
+                  "odds_book": "Tipico",
+                  "odds_time": "2026-11-24T23:46:24Z",
+                  "odds_verified": true,
+                  "reason": "Columbus Blue Jackets: 8/12; New Jersey Devils: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.667
+                }
+              ]
+            },
+            {
+              "id": "basketball-nba-401909319",
+              "sport": "Koszykówka",
+              "league": "nba",
+              "event": "New York Knicks — Cleveland Cavaliers",
+              "time": "2026-11-26T00:30:00+00:00",
+              "home_rate": 0.631578947368421,
+              "away_rate": 0.5,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261125&limit=100",
+              "market": "Zwycięstwo gospodarzy",
+              "family": "wynik",
+              "quality": 0.6667,
+              "estimated_odds": 1.62,
+              "odds_book": "1xBet",
+              "odds_time": "2026-11-24T23:46:39Z",
+              "odds_verified": true,
+              "reason": "New York Knicks: 9/12; Cleveland Cavaliers: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.667,
+              "markets": [
+                {
+                  "market": "Zwycięstwo gospodarzy",
+                  "family": "wynik",
+                  "quality": 0.6667,
+                  "estimated_odds": 1.62,
+                  "odds_book": "1xBet",
+                  "odds_time": "2026-11-24T23:46:39Z",
+                  "odds_verified": true,
+                  "reason": "New York Knicks: 9/12; Cleveland Cavaliers: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.667
+                }
+              ]
+            }
+          ],
+          "estimated_total_odds": 14.28,
+          "warning": "Iloczyn kursów z ofert; nie jest gwarantowaną ofertą AKO jednego bukmachera."
+        }
+      ]
     },
     "2026-11-27": {
       "fixtures": 45,
-      "eligible_picks": 0,
+      "eligible_picks": 2,
       "coupons": []
     },
     "2026-11-28": {
       "fixtures": 158,
-      "eligible_picks": 0,
-      "coupons": []
+      "eligible_picks": 8,
+      "coupons": [
+        {
+          "name": "Ostrożniejszy",
+          "picks": [
+            {
+              "id": "soccer-eng.2-401880133",
+              "sport": "Piłka nożna",
+              "league": "eng.2",
+              "event": "Lincoln City — Wolverhampton Wanderers",
+              "time": "2026-11-28T12:30:00+00:00",
+              "home_rate": 0.5555555555555556,
+              "away_rate": 0.6875,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261128&limit=100",
+              "market": "Gole powyżej 2.5",
+              "family": "gole",
+              "quality": 0.5667,
+              "estimated_odds": 1.75,
+              "odds_book": "Unibet (NL)",
+              "odds_time": "2026-11-24T23:46:21Z",
+              "odds_verified": true,
+              "reason": "Lincoln City: 6/8; Wolverhampton Wanderers: 6/9 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.708,
+              "markets": [
+                {
+                  "market": "Gole powyżej 2.5",
+                  "family": "gole",
+                  "quality": 0.5667,
+                  "estimated_odds": 1.75,
+                  "odds_book": "Unibet (NL)",
+                  "odds_time": "2026-11-24T23:46:21Z",
+                  "odds_verified": true,
+                  "reason": "Lincoln City: 6/8; Wolverhampton Wanderers: 6/9 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.708
+                },
+                {
+                  "market": "Zwycięstwo gości",
+                  "family": "wynik",
+                  "quality": 0.5667,
+                  "estimated_odds": 1.68,
+                  "odds_book": "1xBet",
+                  "odds_time": "2026-11-24T23:45:15Z",
+                  "odds_verified": true,
+                  "reason": "Lincoln City: 6/8; Wolverhampton Wanderers: 6/9 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.708
+                }
+              ]
+            },
+            {
+              "id": "soccer-bra.1-401841336",
+              "sport": "Piłka nożna",
+              "league": "bra.1",
+              "event": "Botafogo — Bahia",
+              "time": "2026-11-29T00:00:00+00:00",
+              "home_rate": 0.5217391304347826,
+              "away_rate": 0.5357142857142857,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/scoreboard?dates=20261128&limit=100",
+              "market": "Gole poniżej 3.5",
+              "family": "gole",
+              "quality": 0.55,
+              "estimated_odds": 1.57,
+              "odds_book": "Marathon Bet",
+              "odds_time": "2026-11-24T23:46:50Z",
+              "odds_verified": true,
+              "reason": "Botafogo: 6/7; Bahia: 5/7 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 79%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.786,
+              "markets": [
+                {
+                  "market": "Gole poniżej 3.5",
+                  "family": "gole",
+                  "quality": 0.55,
+                  "estimated_odds": 1.57,
+                  "odds_book": "Marathon Bet",
+                  "odds_time": "2026-11-24T23:46:50Z",
+                  "odds_verified": true,
+                  "reason": "Botafogo: 6/7; Bahia: 5/7 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 79%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.786
+                }
+              ]
+            },
+            {
+              "id": "soccer-eng.2-401880135",
+              "sport": "Piłka nożna",
+              "league": "eng.2",
+              "event": "Blackburn Rovers — Charlton Athletic",
+              "time": "2026-11-28T12:30:00+00:00",
+              "home_rate": 0.5833333333333334,
+              "away_rate": 0.5,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261128&limit=100",
+              "market": "Gole powyżej 2.5",
+              "family": "gole",
+              "quality": 0.5125,
+              "estimated_odds": 1.87,
+              "odds_book": "LeoVegas (SE)",
+              "odds_time": "2026-11-24T23:46:42Z",
+              "odds_verified": true,
+              "reason": "Blackburn Rovers: 5/7; Charlton Athletic: 6/8 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 73%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.732,
+              "markets": [
+                {
+                  "market": "Gole powyżej 2.5",
+                  "family": "gole",
+                  "quality": 0.5125,
+                  "estimated_odds": 1.87,
+                  "odds_book": "LeoVegas (SE)",
+                  "odds_time": "2026-11-24T23:46:42Z",
+                  "odds_verified": true,
+                  "reason": "Blackburn Rovers: 5/7; Charlton Athletic: 6/8 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 73%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.732
+                }
+              ]
+            }
+          ],
+          "estimated_total_odds": 5.14,
+          "warning": "Iloczyn kursów z ofert; nie jest gwarantowaną ofertą AKO jednego bukmachera."
+        },
+        {
+          "name": "Zrównoważony",
+          "picks": [
+            {
+              "id": "soccer-eng.2-401880135",
+              "sport": "Piłka nożna",
+              "league": "eng.2",
+              "event": "Blackburn Rovers — Charlton Athletic",
+              "time": "2026-11-28T12:30:00+00:00",
+              "home_rate": 0.5833333333333334,
+              "away_rate": 0.5,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261128&limit=100",
+              "market": "Gole powyżej 2.5",
+              "family": "gole",
+              "quality": 0.5125,
+              "estimated_odds": 1.87,
+              "odds_book": "LeoVegas (SE)",
+              "odds_time": "2026-11-24T23:46:42Z",
+              "odds_verified": true,
+              "reason": "Blackburn Rovers: 5/7; Charlton Athletic: 6/8 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 73%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.732,
+              "markets": [
+                {
+                  "market": "Gole powyżej 2.5",
+                  "family": "gole",
+                  "quality": 0.5125,
+                  "estimated_odds": 1.87,
+                  "odds_book": "LeoVegas (SE)",
+                  "odds_time": "2026-11-24T23:46:42Z",
+                  "odds_verified": true,
+                  "reason": "Blackburn Rovers: 5/7; Charlton Athletic: 6/8 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 73%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.732
+                }
+              ]
+            },
+            {
+              "id": "soccer-eng.2-401880132",
+              "sport": "Piłka nożna",
+              "league": "eng.2",
+              "event": "Millwall — Burnley",
+              "time": "2026-11-28T15:00:00+00:00",
+              "home_rate": 0.6,
+              "away_rate": 0.18181818181818182,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261128&limit=100",
+              "market": "Gole powyżej 2.5",
+              "family": "gole",
+              "quality": 0.5,
+              "estimated_odds": 1.65,
+              "odds_book": "Betsson",
+              "odds_time": "2026-11-24T23:46:42Z",
+              "odds_verified": true,
+              "reason": "Millwall: 5/7; Burnley: 5/7 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.714,
+              "markets": [
+                {
+                  "market": "Gole powyżej 2.5",
+                  "family": "gole",
+                  "quality": 0.5,
+                  "estimated_odds": 1.65,
+                  "odds_book": "Betsson",
+                  "odds_time": "2026-11-24T23:46:42Z",
+                  "odds_verified": true,
+                  "reason": "Millwall: 5/7; Burnley: 5/7 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.714
+                }
+              ]
+            },
+            {
+              "id": "soccer-eng.1-401879226",
+              "sport": "Piłka nożna",
+              "league": "eng.1",
+              "event": "Manchester United — Brentford",
+              "time": "2026-11-28T15:00:00+00:00",
+              "home_rate": 0.25,
+              "away_rate": 0.45454545454545453,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261128&limit=100",
+              "market": "Gole poniżej 3.5",
+              "family": "gole",
+              "quality": 0.35,
+              "estimated_odds": 1.57,
+              "odds_book": "GTbets",
+              "odds_time": "2026-11-24T23:46:19Z",
+              "odds_verified": true,
+              "reason": "Manchester United: 3/5; Brentford: 4/5 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 70%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.7,
+              "markets": [
+                {
+                  "market": "Gole poniżej 3.5",
+                  "family": "gole",
+                  "quality": 0.35,
+                  "estimated_odds": 1.57,
+                  "odds_book": "GTbets",
+                  "odds_time": "2026-11-24T23:46:19Z",
+                  "odds_verified": true,
+                  "reason": "Manchester United: 3/5; Brentford: 4/5 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 70%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.7
+                }
+              ]
+            },
+            {
+              "id": "soccer-eng.1-401878752",
+              "sport": "Piłka nożna",
+              "league": "eng.1",
+              "event": "Ipswich Town — Aston Villa",
+              "time": "2026-11-28T17:30:00+00:00",
+              "home_rate": 0.5714285714285714,
+              "away_rate": 0.4,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261128&limit=100",
+              "market": "Gole poniżej 3.5",
+              "family": "gole",
+              "quality": 0.35,
+              "estimated_odds": 1.57,
+              "odds_book": "MyBookie.ag",
+              "odds_time": "2026-11-24T23:46:39Z",
+              "odds_verified": true,
+              "reason": "Ipswich Town: 3/5; Aston Villa: 4/5 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 70%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.7,
+              "markets": [
+                {
+                  "market": "Gole poniżej 3.5",
+                  "family": "gole",
+                  "quality": 0.35,
+                  "estimated_odds": 1.57,
+                  "odds_book": "MyBookie.ag",
+                  "odds_time": "2026-11-24T23:46:39Z",
+                  "odds_verified": true,
+                  "reason": "Ipswich Town: 3/5; Aston Villa: 4/5 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 70%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.7
+                }
+              ]
+            }
+          ],
+          "estimated_total_odds": 7.61,
+          "warning": "Iloczyn kursów z ofert; nie jest gwarantowaną ofertą AKO jednego bukmachera."
+        },
+        {
+          "name": "Wysoki kurs",
+          "picks": [
+            {
+              "id": "soccer-eng.2-401880133",
+              "sport": "Piłka nożna",
+              "league": "eng.2",
+              "event": "Lincoln City — Wolverhampton Wanderers",
+              "time": "2026-11-28T12:30:00+00:00",
+              "home_rate": 0.5555555555555556,
+              "away_rate": 0.6875,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261128&limit=100",
+              "market": "Gole powyżej 2.5",
+              "family": "gole",
+              "quality": 0.5667,
+              "estimated_odds": 1.75,
+              "odds_book": "Unibet (NL)",
+              "odds_time": "2026-11-24T23:46:21Z",
+              "odds_verified": true,
+              "reason": "Lincoln City: 6/8; Wolverhampton Wanderers: 6/9 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.708,
+              "markets": [
+                {
+                  "market": "Gole powyżej 2.5",
+                  "family": "gole",
+                  "quality": 0.5667,
+                  "estimated_odds": 1.75,
+                  "odds_book": "Unibet (NL)",
+                  "odds_time": "2026-11-24T23:46:21Z",
+                  "odds_verified": true,
+                  "reason": "Lincoln City: 6/8; Wolverhampton Wanderers: 6/9 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.708
+                },
+                {
+                  "market": "Zwycięstwo gości",
+                  "family": "wynik",
+                  "quality": 0.5667,
+                  "estimated_odds": 1.68,
+                  "odds_book": "1xBet",
+                  "odds_time": "2026-11-24T23:45:15Z",
+                  "odds_verified": true,
+                  "reason": "Lincoln City: 6/8; Wolverhampton Wanderers: 6/9 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.708
+                }
+              ]
+            },
+            {
+              "id": "soccer-bra.1-401841336",
+              "sport": "Piłka nożna",
+              "league": "bra.1",
+              "event": "Botafogo — Bahia",
+              "time": "2026-11-29T00:00:00+00:00",
+              "home_rate": 0.5217391304347826,
+              "away_rate": 0.5357142857142857,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/scoreboard?dates=20261128&limit=100",
+              "market": "Gole poniżej 3.5",
+              "family": "gole",
+              "quality": 0.55,
+              "estimated_odds": 1.57,
+              "odds_book": "Marathon Bet",
+              "odds_time": "2026-11-24T23:46:50Z",
+              "odds_verified": true,
+              "reason": "Botafogo: 6/7; Bahia: 5/7 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 79%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.786,
+              "markets": [
+                {
+                  "market": "Gole poniżej 3.5",
+                  "family": "gole",
+                  "quality": 0.55,
+                  "estimated_odds": 1.57,
+                  "odds_book": "Marathon Bet",
+                  "odds_time": "2026-11-24T23:46:50Z",
+                  "odds_verified": true,
+                  "reason": "Botafogo: 6/7; Bahia: 5/7 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 79%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.786
+                }
+              ]
+            },
+            {
+              "id": "soccer-eng.2-401880135",
+              "sport": "Piłka nożna",
+              "league": "eng.2",
+              "event": "Blackburn Rovers — Charlton Athletic",
+              "time": "2026-11-28T12:30:00+00:00",
+              "home_rate": 0.5833333333333334,
+              "away_rate": 0.5,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261128&limit=100",
+              "market": "Gole powyżej 2.5",
+              "family": "gole",
+              "quality": 0.5125,
+              "estimated_odds": 1.87,
+              "odds_book": "LeoVegas (SE)",
+              "odds_time": "2026-11-24T23:46:42Z",
+              "odds_verified": true,
+              "reason": "Blackburn Rovers: 5/7; Charlton Athletic: 6/8 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 73%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.732,
+              "markets": [
+                {
+                  "market": "Gole powyżej 2.5",
+                  "family": "gole",
+                  "quality": 0.5125,
+                  "estimated_odds": 1.87,
+                  "odds_book": "LeoVegas (SE)",
+                  "odds_time": "2026-11-24T23:46:42Z",
+                  "odds_verified": true,
+                  "reason": "Blackburn Rovers: 5/7; Charlton Athletic: 6/8 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 73%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.732
+                }
+              ]
+            },
+            {
+              "id": "soccer-eng.2-401880132",
+              "sport": "Piłka nożna",
+              "league": "eng.2",
+              "event": "Millwall — Burnley",
+              "time": "2026-11-28T15:00:00+00:00",
+              "home_rate": 0.6,
+              "away_rate": 0.18181818181818182,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261128&limit=100",
+              "market": "Gole powyżej 2.5",
+              "family": "gole",
+              "quality": 0.5,
+              "estimated_odds": 1.65,
+              "odds_book": "Betsson",
+              "odds_time": "2026-11-24T23:46:42Z",
+              "odds_verified": true,
+              "reason": "Millwall: 5/7; Burnley: 5/7 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.714,
+              "markets": [
+                {
+                  "market": "Gole powyżej 2.5",
+                  "family": "gole",
+                  "quality": 0.5,
+                  "estimated_odds": 1.65,
+                  "odds_book": "Betsson",
+                  "odds_time": "2026-11-24T23:46:42Z",
+                  "odds_verified": true,
+                  "reason": "Millwall: 5/7; Burnley: 5/7 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.714
+                }
+              ]
+            },
+            {
+              "id": "soccer-eng.1-401879226",
+              "sport": "Piłka nożna",
+              "league": "eng.1",
+              "event": "Manchester United — Brentford",
+              "time": "2026-11-28T15:00:00+00:00",
+              "home_rate": 0.25,
+              "away_rate": 0.45454545454545453,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261128&limit=100",
+              "market": "Gole poniżej 3.5",
+              "family": "gole",
+              "quality": 0.35,
+              "estimated_odds": 1.57,
+              "odds_book": "GTbets",
+              "odds_time": "2026-11-24T23:46:19Z",
+              "odds_verified": true,
+              "reason": "Manchester United: 3/5; Brentford: 4/5 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 70%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.7,
+              "markets": [
+                {
+                  "market": "Gole poniżej 3.5",
+                  "family": "gole",
+                  "quality": 0.35,
+                  "estimated_odds": 1.57,
+                  "odds_book": "GTbets",
+                  "odds_time": "2026-11-24T23:46:19Z",
+                  "odds_verified": true,
+                  "reason": "Manchester United: 3/5; Brentford: 4/5 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 70%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.7
+                }
+              ]
+            }
+          ],
+          "estimated_total_odds": 13.31,
+          "warning": "Iloczyn kursów z ofert; nie jest gwarantowaną ofertą AKO jednego bukmachera."
+        }
+      ]
     },
     "2026-11-29": {
       "fixtures": 87,
-      "eligible_picks": 0,
-      "coupons": []
+      "eligible_picks": 7,
+      "coupons": [
+        {
+          "name": "Ostrożniejszy",
+          "picks": [
+            {
+              "id": "soccer-bra.1-401841333",
+              "sport": "Piłka nożna",
+              "league": "bra.1",
+              "event": "Coritiba — Flamengo",
+              "time": "2026-11-29T19:00:00+00:00",
+              "home_rate": 0.5652173913043478,
+              "away_rate": 0.7352941176470589,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/scoreboard?dates=20261129&limit=100",
+              "market": "Zwycięstwo gości",
+              "family": "wynik",
+              "quality": 0.5,
+              "estimated_odds": 1.68,
+              "odds_book": "Unibet (NL)",
+              "odds_time": "2026-11-24T23:46:44Z",
+              "odds_verified": true,
+              "reason": "Coritiba: 4/7; Flamengo: 6/7 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.714,
+              "markets": [
+                {
+                  "market": "Zwycięstwo gości",
+                  "family": "wynik",
+                  "quality": 0.5,
+                  "estimated_odds": 1.68,
+                  "odds_book": "Unibet (NL)",
+                  "odds_time": "2026-11-24T23:46:44Z",
+                  "odds_verified": true,
+                  "reason": "Coritiba: 4/7; Flamengo: 6/7 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.714
+                }
+              ]
+            },
+            {
+              "id": "soccer-eng.1-401879224",
+              "sport": "Piłka nożna",
+              "league": "eng.1",
+              "event": "Sunderland — Tottenham Hotspur",
+              "time": "2026-11-29T14:05:00+00:00",
+              "home_rate": 0.42857142857142855,
+              "away_rate": 0.5555555555555556,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261129&limit=100",
+              "market": "Gole poniżej 2.5",
+              "family": "gole",
+              "quality": 0.4,
+              "estimated_odds": 1.83,
+              "odds_book": "Betsson",
+              "odds_time": "2026-11-24T23:46:40Z",
+              "odds_verified": true,
+              "reason": "Sunderland: 4/5; Tottenham Hotspur: 4/5 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 80%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.8,
+              "markets": [
+                {
+                  "market": "Gole poniżej 2.5",
+                  "family": "gole",
+                  "quality": 0.4,
+                  "estimated_odds": 1.83,
+                  "odds_book": "Betsson",
+                  "odds_time": "2026-11-24T23:46:40Z",
+                  "odds_verified": true,
+                  "reason": "Sunderland: 4/5; Tottenham Hotspur: 4/5 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 80%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.8
+                }
+              ]
+            },
+            {
+              "id": "soccer-ger.1-401884727",
+              "sport": "Piłka nożna",
+              "league": "ger.1",
+              "event": "Borussia Dortmund — Bayer Leverkusen",
+              "time": "2026-11-29T18:30:00+00:00",
+              "home_rate": 0.6666666666666666,
+              "away_rate": 0.7777777777777778,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261129&limit=100",
+              "market": "Gole poniżej 3.5",
+              "family": "gole",
+              "quality": 0.35,
+              "estimated_odds": 1.65,
+              "odds_book": "Codere (IT)",
+              "odds_time": "2026-11-24T23:46:41Z",
+              "odds_verified": true,
+              "reason": "Borussia Dortmund: 4/5; Bayer Leverkusen: 3/5 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 70%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.7,
+              "markets": [
+                {
+                  "market": "Gole poniżej 3.5",
+                  "family": "gole",
+                  "quality": 0.35,
+                  "estimated_odds": 1.65,
+                  "odds_book": "Codere (IT)",
+                  "odds_time": "2026-11-24T23:46:41Z",
+                  "odds_verified": true,
+                  "reason": "Borussia Dortmund: 4/5; Bayer Leverkusen: 3/5 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 70%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.7
+                }
+              ]
+            }
+          ],
+          "estimated_total_odds": 5.07,
+          "warning": "Iloczyn kursów z ofert; nie jest gwarantowaną ofertą AKO jednego bukmachera."
+        },
+        {
+          "name": "Zrównoważony",
+          "picks": [
+            {
+              "id": "soccer-bra.1-401841336",
+              "sport": "Piłka nożna",
+              "league": "bra.1",
+              "event": "Botafogo — Bahia",
+              "time": "2026-11-29T00:00:00+00:00",
+              "home_rate": 0.5217391304347826,
+              "away_rate": 0.5357142857142857,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/scoreboard?dates=20261128&limit=100",
+              "market": "Gole poniżej 3.5",
+              "family": "gole",
+              "quality": 0.55,
+              "estimated_odds": 1.57,
+              "odds_book": "Marathon Bet",
+              "odds_time": "2026-11-24T23:46:50Z",
+              "odds_verified": true,
+              "reason": "Botafogo: 6/7; Bahia: 5/7 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 79%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.786,
+              "markets": [
+                {
+                  "market": "Gole poniżej 3.5",
+                  "family": "gole",
+                  "quality": 0.55,
+                  "estimated_odds": 1.57,
+                  "odds_book": "Marathon Bet",
+                  "odds_time": "2026-11-24T23:46:50Z",
+                  "odds_verified": true,
+                  "reason": "Botafogo: 6/7; Bahia: 5/7 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 79%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.786
+                }
+              ]
+            },
+            {
+              "id": "soccer-ned.1-401875538",
+              "sport": "Piłka nożna",
+              "league": "ned.1",
+              "event": "ADO Den Haag — FC Utrecht",
+              "time": "2026-11-29T11:15:00+00:00",
+              "home_rate": 0.42857142857142855,
+              "away_rate": 0.5,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261129&limit=100",
+              "market": "Gole powyżej 2.5",
+              "family": "gole",
+              "quality": 0.5,
+              "estimated_odds": 1.57,
+              "odds_book": "Tipico",
+              "odds_time": "2026-11-24T23:46:42Z",
+              "odds_verified": true,
+              "reason": "ADO Den Haag: 5/6; FC Utrecht: 5/6 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 83%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.833,
+              "markets": [
+                {
+                  "market": "Gole powyżej 2.5",
+                  "family": "gole",
+                  "quality": 0.5,
+                  "estimated_odds": 1.57,
+                  "odds_book": "Tipico",
+                  "odds_time": "2026-11-24T23:46:42Z",
+                  "odds_verified": true,
+                  "reason": "ADO Den Haag: 5/6; FC Utrecht: 5/6 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 83%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.833
+                }
+              ]
+            },
+            {
+              "id": "soccer-bra.1-401841333",
+              "sport": "Piłka nożna",
+              "league": "bra.1",
+              "event": "Coritiba — Flamengo",
+              "time": "2026-11-29T19:00:00+00:00",
+              "home_rate": 0.5652173913043478,
+              "away_rate": 0.7352941176470589,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/scoreboard?dates=20261129&limit=100",
+              "market": "Zwycięstwo gości",
+              "family": "wynik",
+              "quality": 0.5,
+              "estimated_odds": 1.68,
+              "odds_book": "Unibet (NL)",
+              "odds_time": "2026-11-24T23:46:44Z",
+              "odds_verified": true,
+              "reason": "Coritiba: 4/7; Flamengo: 6/7 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.714,
+              "markets": [
+                {
+                  "market": "Zwycięstwo gości",
+                  "family": "wynik",
+                  "quality": 0.5,
+                  "estimated_odds": 1.68,
+                  "odds_book": "Unibet (NL)",
+                  "odds_time": "2026-11-24T23:46:44Z",
+                  "odds_verified": true,
+                  "reason": "Coritiba: 4/7; Flamengo: 6/7 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.714
+                }
+              ]
+            },
+            {
+              "id": "soccer-eng.1-401879224",
+              "sport": "Piłka nożna",
+              "league": "eng.1",
+              "event": "Sunderland — Tottenham Hotspur",
+              "time": "2026-11-29T14:05:00+00:00",
+              "home_rate": 0.42857142857142855,
+              "away_rate": 0.5555555555555556,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261129&limit=100",
+              "market": "Gole poniżej 2.5",
+              "family": "gole",
+              "quality": 0.4,
+              "estimated_odds": 1.83,
+              "odds_book": "Betsson",
+              "odds_time": "2026-11-24T23:46:40Z",
+              "odds_verified": true,
+              "reason": "Sunderland: 4/5; Tottenham Hotspur: 4/5 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 80%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.8,
+              "markets": [
+                {
+                  "market": "Gole poniżej 2.5",
+                  "family": "gole",
+                  "quality": 0.4,
+                  "estimated_odds": 1.83,
+                  "odds_book": "Betsson",
+                  "odds_time": "2026-11-24T23:46:40Z",
+                  "odds_verified": true,
+                  "reason": "Sunderland: 4/5; Tottenham Hotspur: 4/5 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 80%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.8
+                }
+              ]
+            }
+          ],
+          "estimated_total_odds": 7.58,
+          "warning": "Iloczyn kursów z ofert; nie jest gwarantowaną ofertą AKO jednego bukmachera."
+        },
+        {
+          "name": "Wysoki kurs",
+          "picks": [
+            {
+              "id": "soccer-bra.1-401841336",
+              "sport": "Piłka nożna",
+              "league": "bra.1",
+              "event": "Botafogo — Bahia",
+              "time": "2026-11-29T00:00:00+00:00",
+              "home_rate": 0.5217391304347826,
+              "away_rate": 0.5357142857142857,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/scoreboard?dates=20261128&limit=100",
+              "market": "Gole poniżej 3.5",
+              "family": "gole",
+              "quality": 0.55,
+              "estimated_odds": 1.57,
+              "odds_book": "Marathon Bet",
+              "odds_time": "2026-11-24T23:46:50Z",
+              "odds_verified": true,
+              "reason": "Botafogo: 6/7; Bahia: 5/7 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 79%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.786,
+              "markets": [
+                {
+                  "market": "Gole poniżej 3.5",
+                  "family": "gole",
+                  "quality": 0.55,
+                  "estimated_odds": 1.57,
+                  "odds_book": "Marathon Bet",
+                  "odds_time": "2026-11-24T23:46:50Z",
+                  "odds_verified": true,
+                  "reason": "Botafogo: 6/7; Bahia: 5/7 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 79%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.786
+                }
+              ]
+            },
+            {
+              "id": "soccer-ned.1-401875538",
+              "sport": "Piłka nożna",
+              "league": "ned.1",
+              "event": "ADO Den Haag — FC Utrecht",
+              "time": "2026-11-29T11:15:00+00:00",
+              "home_rate": 0.42857142857142855,
+              "away_rate": 0.5,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261129&limit=100",
+              "market": "Gole powyżej 2.5",
+              "family": "gole",
+              "quality": 0.5,
+              "estimated_odds": 1.57,
+              "odds_book": "Tipico",
+              "odds_time": "2026-11-24T23:46:42Z",
+              "odds_verified": true,
+              "reason": "ADO Den Haag: 5/6; FC Utrecht: 5/6 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 83%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.833,
+              "markets": [
+                {
+                  "market": "Gole powyżej 2.5",
+                  "family": "gole",
+                  "quality": 0.5,
+                  "estimated_odds": 1.57,
+                  "odds_book": "Tipico",
+                  "odds_time": "2026-11-24T23:46:42Z",
+                  "odds_verified": true,
+                  "reason": "ADO Den Haag: 5/6; FC Utrecht: 5/6 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 83%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.833
+                }
+              ]
+            },
+            {
+              "id": "soccer-bra.1-401841333",
+              "sport": "Piłka nożna",
+              "league": "bra.1",
+              "event": "Coritiba — Flamengo",
+              "time": "2026-11-29T19:00:00+00:00",
+              "home_rate": 0.5652173913043478,
+              "away_rate": 0.7352941176470589,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/scoreboard?dates=20261129&limit=100",
+              "market": "Zwycięstwo gości",
+              "family": "wynik",
+              "quality": 0.5,
+              "estimated_odds": 1.68,
+              "odds_book": "Unibet (NL)",
+              "odds_time": "2026-11-24T23:46:44Z",
+              "odds_verified": true,
+              "reason": "Coritiba: 4/7; Flamengo: 6/7 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.714,
+              "markets": [
+                {
+                  "market": "Zwycięstwo gości",
+                  "family": "wynik",
+                  "quality": 0.5,
+                  "estimated_odds": 1.68,
+                  "odds_book": "Unibet (NL)",
+                  "odds_time": "2026-11-24T23:46:44Z",
+                  "odds_verified": true,
+                  "reason": "Coritiba: 4/7; Flamengo: 6/7 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.714
+                }
+              ]
+            },
+            {
+              "id": "soccer-eng.1-401879224",
+              "sport": "Piłka nożna",
+              "league": "eng.1",
+              "event": "Sunderland — Tottenham Hotspur",
+              "time": "2026-11-29T14:05:00+00:00",
+              "home_rate": 0.42857142857142855,
+              "away_rate": 0.5555555555555556,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261129&limit=100",
+              "market": "Gole poniżej 2.5",
+              "family": "gole",
+              "quality": 0.4,
+              "estimated_odds": 1.83,
+              "odds_book": "Betsson",
+              "odds_time": "2026-11-24T23:46:40Z",
+              "odds_verified": true,
+              "reason": "Sunderland: 4/5; Tottenham Hotspur: 4/5 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 80%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.8,
+              "markets": [
+                {
+                  "market": "Gole poniżej 2.5",
+                  "family": "gole",
+                  "quality": 0.4,
+                  "estimated_odds": 1.83,
+                  "odds_book": "Betsson",
+                  "odds_time": "2026-11-24T23:46:40Z",
+                  "odds_verified": true,
+                  "reason": "Sunderland: 4/5; Tottenham Hotspur: 4/5 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 80%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.8
+                }
+              ]
+            },
+            {
+              "id": "soccer-ger.1-401884727",
+              "sport": "Piłka nożna",
+              "league": "ger.1",
+              "event": "Borussia Dortmund — Bayer Leverkusen",
+              "time": "2026-11-29T18:30:00+00:00",
+              "home_rate": 0.6666666666666666,
+              "away_rate": 0.7777777777777778,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261129&limit=100",
+              "market": "Gole poniżej 3.5",
+              "family": "gole",
+              "quality": 0.35,
+              "estimated_odds": 1.65,
+              "odds_book": "Codere (IT)",
+              "odds_time": "2026-11-24T23:46:41Z",
+              "odds_verified": true,
+              "reason": "Borussia Dortmund: 4/5; Bayer Leverkusen: 3/5 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 70%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.7,
+              "markets": [
+                {
+                  "market": "Gole poniżej 3.5",
+                  "family": "gole",
+                  "quality": 0.35,
+                  "estimated_odds": 1.65,
+                  "odds_book": "Codere (IT)",
+                  "odds_time": "2026-11-24T23:46:41Z",
+                  "odds_verified": true,
+                  "reason": "Borussia Dortmund: 4/5; Bayer Leverkusen: 3/5 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 70%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.7
+                }
+              ]
+            }
+          ],
+          "estimated_total_odds": 12.5,
+          "warning": "Iloczyn kursów z ofert; nie jest gwarantowaną ofertą AKO jednego bukmachera."
+        }
+      ]
     }
   },
   "events": [
-    {
-      "id": "tennis-live-52875",
-      "sport": "Tenis",
-      "league": "W75 Playford",
-      "event": "E. Sema — E. Koike",
-      "time": "2026-11-24T23:40:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
-    {
-      "id": "tennis-live-52873",
-      "sport": "Tenis",
-      "league": "W75 Playford",
-      "event": "N. Hanatani — T. Kokkinis",
-      "time": "2026-11-24T23:40:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
-    {
-      "id": "tennis-live-52879",
-      "sport": "Tenis",
-      "league": "W75 Playford",
-      "event": "B. Thompson — E. Micic",
-      "time": "2026-11-24T23:40:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
     {
       "id": "tennis-live-52741",
       "sport": "Tenis",
@@ -86,23 +1667,11 @@
       "note": "Terminarz bez prognozy wyniku i kursu."
     },
     {
-      "id": "tennis-live-52712",
-      "sport": "Tenis",
-      "league": "San Salvador (El Salvador)",
-      "event": "Heredia/ Osorio — Cruz/ Duran",
-      "time": "2026-11-25T00:45:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
-    {
       "id": "tennis-live-52874",
       "sport": "Tenis",
       "league": "W75 Playford",
       "event": "M. Hoedt — L. Cabrera",
-      "time": "2026-11-25T01:00:00+00:00",
+      "time": "2026-11-25T00:40:00+00:00",
       "home_rate": null,
       "away_rate": null,
       "source": "Live Tennis API",
@@ -114,7 +1683,19 @@
       "sport": "Tenis",
       "league": "W75 Playford",
       "event": "K. Sidorova — M. Yamaguchi",
-      "time": "2026-11-25T01:00:00+00:00",
+      "time": "2026-11-25T00:40:00+00:00",
+      "home_rate": null,
+      "away_rate": null,
+      "source": "Live Tennis API",
+      "source_url": "https://livetennisapi.com/",
+      "note": "Terminarz bez prognozy wyniku i kursu."
+    },
+    {
+      "id": "tennis-live-52712",
+      "sport": "Tenis",
+      "league": "San Salvador (El Salvador)",
+      "event": "Heredia/ Osorio — Cruz/ Duran",
+      "time": "2026-11-25T00:45:00+00:00",
       "home_rate": null,
       "away_rate": null,
       "source": "Live Tennis API",
@@ -2392,8 +3973,30 @@
       "time": "2026-11-25T19:45:00+00:00",
       "home_rate": 0.18181818181818182,
       "away_rate": 0.6,
-      "source": "ESPN",
-      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261125&limit=100"
+      "source": "ESPN — zakończone mecze",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261125&limit=100",
+      "market": "Gole powyżej 2.5",
+      "family": "gole",
+      "quality": 0.5,
+      "estimated_odds": 1.68,
+      "odds_book": "Unibet (NL)",
+      "odds_time": "2026-11-24T23:46:21Z",
+      "odds_verified": true,
+      "reason": "Burnley: 5/7; Birmingham City: 5/7 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+      "historical_rate": 0.714,
+      "markets": [
+        {
+          "market": "Gole powyżej 2.5",
+          "family": "gole",
+          "quality": 0.5,
+          "estimated_odds": 1.68,
+          "odds_book": "Unibet (NL)",
+          "odds_time": "2026-11-24T23:46:21Z",
+          "odds_verified": true,
+          "reason": "Burnley: 5/7; Birmingham City: 5/7 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+          "historical_rate": 0.714
+        }
+      ]
     },
     {
       "id": "soccer-eng.2-401880137",
@@ -2491,8 +4094,30 @@
       "time": "2026-11-25T20:00:00+00:00",
       "home_rate": 0.7857142857142857,
       "away_rate": 0.6,
-      "source": "ESPN",
-      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261125&limit=100"
+      "source": "ESPN — zakończone mecze",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261125&limit=100",
+      "market": "Zwycięstwo gospodarzy",
+      "family": "wynik",
+      "quality": 0.5,
+      "estimated_odds": 2.25,
+      "odds_book": "888sport",
+      "odds_time": "2026-11-24T23:46:20Z",
+      "odds_verified": true,
+      "reason": "Stoke City: 5/7; Millwall: 5/7 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+      "historical_rate": 0.714,
+      "markets": [
+        {
+          "market": "Zwycięstwo gospodarzy",
+          "family": "wynik",
+          "quality": 0.5,
+          "estimated_odds": 2.25,
+          "odds_book": "888sport",
+          "odds_time": "2026-11-24T23:46:20Z",
+          "odds_verified": true,
+          "reason": "Stoke City: 5/7; Millwall: 5/7 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+          "historical_rate": 0.714
+        }
+      ]
     },
     {
       "id": "basketball-mens-college-basketball-401921670",
@@ -2656,8 +4281,30 @@
       "time": "2026-11-26T00:00:00+00:00",
       "home_rate": 0.4782608695652174,
       "away_rate": 0.45454545454545453,
-      "source": "ESPN",
-      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100"
+      "source": "ESPN — zakończone mecze",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
+      "market": "Bramki powyżej 6.5",
+      "family": "suma",
+      "quality": 0.75,
+      "estimated_odds": 2.15,
+      "odds_book": "Tipico",
+      "odds_time": "2026-11-24T23:46:24Z",
+      "odds_verified": true,
+      "reason": "Washington Capitals: 10/12; Philadelphia Flyers: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 75%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+      "historical_rate": 0.75,
+      "markets": [
+        {
+          "market": "Bramki powyżej 6.5",
+          "family": "suma",
+          "quality": 0.75,
+          "estimated_odds": 2.15,
+          "odds_book": "Tipico",
+          "odds_time": "2026-11-24T23:46:24Z",
+          "odds_verified": true,
+          "reason": "Washington Capitals: 10/12; Philadelphia Flyers: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 75%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+          "historical_rate": 0.75
+        }
+      ]
     },
     {
       "id": "hockey-nhl-401892788",
@@ -2667,8 +4314,30 @@
       "time": "2026-11-26T00:00:00+00:00",
       "home_rate": 0.4166666666666667,
       "away_rate": 0.6538461538461539,
-      "source": "ESPN",
-      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100"
+      "source": "ESPN — zakończone mecze",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
+      "market": "Zwycięstwo gości",
+      "family": "wynik",
+      "quality": 0.6667,
+      "estimated_odds": 2.0,
+      "odds_book": "Tipico",
+      "odds_time": "2026-11-24T23:46:24Z",
+      "odds_verified": true,
+      "reason": "Columbus Blue Jackets: 8/12; New Jersey Devils: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+      "historical_rate": 0.667,
+      "markets": [
+        {
+          "market": "Zwycięstwo gości",
+          "family": "wynik",
+          "quality": 0.6667,
+          "estimated_odds": 2.0,
+          "odds_book": "Tipico",
+          "odds_time": "2026-11-24T23:46:24Z",
+          "odds_verified": true,
+          "reason": "Columbus Blue Jackets: 8/12; New Jersey Devils: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+          "historical_rate": 0.667
+        }
+      ]
     },
     {
       "id": "basketball-nba-401909319",
@@ -2678,8 +4347,30 @@
       "time": "2026-11-26T00:30:00+00:00",
       "home_rate": 0.631578947368421,
       "away_rate": 0.5,
-      "source": "ESPN",
-      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261125&limit=100"
+      "source": "ESPN — zakończone mecze",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261125&limit=100",
+      "market": "Zwycięstwo gospodarzy",
+      "family": "wynik",
+      "quality": 0.6667,
+      "estimated_odds": 1.62,
+      "odds_book": "1xBet",
+      "odds_time": "2026-11-24T23:46:39Z",
+      "odds_verified": true,
+      "reason": "New York Knicks: 9/12; Cleveland Cavaliers: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+      "historical_rate": 0.667,
+      "markets": [
+        {
+          "market": "Zwycięstwo gospodarzy",
+          "family": "wynik",
+          "quality": 0.6667,
+          "estimated_odds": 1.62,
+          "odds_book": "1xBet",
+          "odds_time": "2026-11-24T23:46:39Z",
+          "odds_verified": true,
+          "reason": "New York Knicks: 9/12; Cleveland Cavaliers: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+          "historical_rate": 0.667
+        }
+      ]
     },
     {
       "id": "basketball-nba-401909320",
@@ -2744,8 +4435,41 @@
       "time": "2026-11-26T01:00:00+00:00",
       "home_rate": 0.8260869565217391,
       "away_rate": 0.5416666666666666,
-      "source": "ESPN",
-      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100"
+      "source": "ESPN — zakończone mecze",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
+      "market": "Zwycięstwo gospodarzy",
+      "family": "wynik",
+      "quality": 0.7083,
+      "estimated_odds": 2.05,
+      "odds_book": "Tipico",
+      "odds_time": "2026-11-24T23:46:24Z",
+      "odds_verified": true,
+      "reason": "Minnesota Wild: 9/12; Utah Mammoth: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+      "historical_rate": 0.708,
+      "markets": [
+        {
+          "market": "Zwycięstwo gospodarzy",
+          "family": "wynik",
+          "quality": 0.7083,
+          "estimated_odds": 2.05,
+          "odds_book": "Tipico",
+          "odds_time": "2026-11-24T23:46:24Z",
+          "odds_verified": true,
+          "reason": "Minnesota Wild: 9/12; Utah Mammoth: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+          "historical_rate": 0.708
+        },
+        {
+          "market": "Bramki powyżej 5.5",
+          "family": "suma",
+          "quality": 0.6667,
+          "estimated_odds": 1.67,
+          "odds_book": "Marathon Bet",
+          "odds_time": "2026-11-24T23:46:47Z",
+          "odds_verified": true,
+          "reason": "Minnesota Wild: 9/12; Utah Mammoth: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+          "historical_rate": 0.667
+        }
+      ]
     },
     {
       "id": "basketball-nba-401909323",
@@ -3231,8 +4955,30 @@
       "time": "2026-11-27T20:00:00+00:00",
       "home_rate": 0.42857142857142855,
       "away_rate": 0.75,
-      "source": "ESPN",
-      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261127&limit=100"
+      "source": "ESPN — zakończone mecze",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261127&limit=100",
+      "market": "Gole poniżej 2.5",
+      "family": "gole",
+      "quality": 0.3667,
+      "estimated_odds": 2.08,
+      "odds_book": "Betsson",
+      "odds_time": "2026-11-24T23:46:40Z",
+      "odds_verified": true,
+      "reason": "Nottingham Forest: 4/6; Chelsea: 4/5 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 73%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+      "historical_rate": 0.733,
+      "markets": [
+        {
+          "market": "Gole poniżej 2.5",
+          "family": "gole",
+          "quality": 0.3667,
+          "estimated_odds": 2.08,
+          "odds_book": "Betsson",
+          "odds_time": "2026-11-24T23:46:40Z",
+          "odds_verified": true,
+          "reason": "Nottingham Forest: 4/6; Chelsea: 4/5 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 73%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+          "historical_rate": 0.733
+        }
+      ]
     },
     {
       "id": "soccer-esp.1-401882791",
@@ -3253,8 +4999,30 @@
       "time": "2026-11-27T20:00:00+00:00",
       "home_rate": 0.625,
       "away_rate": 0.6470588235294118,
-      "source": "ESPN",
-      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261127&limit=100"
+      "source": "ESPN — zakończone mecze",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261127&limit=100",
+      "market": "Gole poniżej 3.5",
+      "family": "gole",
+      "quality": 0.5611,
+      "estimated_odds": 1.61,
+      "odds_book": "LeoVegas (SE)",
+      "odds_time": "2026-11-24T23:46:42Z",
+      "odds_verified": true,
+      "reason": "Southampton: 7/9; Middlesbrough: 5/8 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 70%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+      "historical_rate": 0.701,
+      "markets": [
+        {
+          "market": "Gole poniżej 3.5",
+          "family": "gole",
+          "quality": 0.5611,
+          "estimated_odds": 1.61,
+          "odds_book": "LeoVegas (SE)",
+          "odds_time": "2026-11-24T23:46:42Z",
+          "odds_verified": true,
+          "reason": "Southampton: 7/9; Middlesbrough: 5/8 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 70%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+          "historical_rate": 0.701
+        }
+      ]
     },
     {
       "id": "hockey-nhl-401892799",
@@ -3594,8 +5362,30 @@
       "time": "2026-11-28T12:30:00+00:00",
       "home_rate": 0.5833333333333334,
       "away_rate": 0.5,
-      "source": "ESPN",
-      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261128&limit=100"
+      "source": "ESPN — zakończone mecze",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261128&limit=100",
+      "market": "Gole powyżej 2.5",
+      "family": "gole",
+      "quality": 0.5125,
+      "estimated_odds": 1.87,
+      "odds_book": "LeoVegas (SE)",
+      "odds_time": "2026-11-24T23:46:42Z",
+      "odds_verified": true,
+      "reason": "Blackburn Rovers: 5/7; Charlton Athletic: 6/8 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 73%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+      "historical_rate": 0.732,
+      "markets": [
+        {
+          "market": "Gole powyżej 2.5",
+          "family": "gole",
+          "quality": 0.5125,
+          "estimated_odds": 1.87,
+          "odds_book": "LeoVegas (SE)",
+          "odds_time": "2026-11-24T23:46:42Z",
+          "odds_verified": true,
+          "reason": "Blackburn Rovers: 5/7; Charlton Athletic: 6/8 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 73%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+          "historical_rate": 0.732
+        }
+      ]
     },
     {
       "id": "soccer-eng.2-401880133",
@@ -3605,8 +5395,41 @@
       "time": "2026-11-28T12:30:00+00:00",
       "home_rate": 0.5555555555555556,
       "away_rate": 0.6875,
-      "source": "ESPN",
-      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261128&limit=100"
+      "source": "ESPN — zakończone mecze",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261128&limit=100",
+      "market": "Gole powyżej 2.5",
+      "family": "gole",
+      "quality": 0.5667,
+      "estimated_odds": 1.75,
+      "odds_book": "Unibet (NL)",
+      "odds_time": "2026-11-24T23:46:21Z",
+      "odds_verified": true,
+      "reason": "Lincoln City: 6/8; Wolverhampton Wanderers: 6/9 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+      "historical_rate": 0.708,
+      "markets": [
+        {
+          "market": "Gole powyżej 2.5",
+          "family": "gole",
+          "quality": 0.5667,
+          "estimated_odds": 1.75,
+          "odds_book": "Unibet (NL)",
+          "odds_time": "2026-11-24T23:46:21Z",
+          "odds_verified": true,
+          "reason": "Lincoln City: 6/8; Wolverhampton Wanderers: 6/9 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+          "historical_rate": 0.708
+        },
+        {
+          "market": "Zwycięstwo gości",
+          "family": "wynik",
+          "quality": 0.5667,
+          "estimated_odds": 1.68,
+          "odds_book": "1xBet",
+          "odds_time": "2026-11-24T23:45:15Z",
+          "odds_verified": true,
+          "reason": "Lincoln City: 6/8; Wolverhampton Wanderers: 6/9 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+          "historical_rate": 0.708
+        }
+      ]
     },
     {
       "id": "soccer-eng.2-401880131",
@@ -3704,8 +5527,30 @@
       "time": "2026-11-28T15:00:00+00:00",
       "home_rate": 0.25,
       "away_rate": 0.45454545454545453,
-      "source": "ESPN",
-      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261128&limit=100"
+      "source": "ESPN — zakończone mecze",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261128&limit=100",
+      "market": "Gole poniżej 3.5",
+      "family": "gole",
+      "quality": 0.35,
+      "estimated_odds": 1.57,
+      "odds_book": "GTbets",
+      "odds_time": "2026-11-24T23:46:19Z",
+      "odds_verified": true,
+      "reason": "Manchester United: 3/5; Brentford: 4/5 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 70%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+      "historical_rate": 0.7,
+      "markets": [
+        {
+          "market": "Gole poniżej 3.5",
+          "family": "gole",
+          "quality": 0.35,
+          "estimated_odds": 1.57,
+          "odds_book": "GTbets",
+          "odds_time": "2026-11-24T23:46:19Z",
+          "odds_verified": true,
+          "reason": "Manchester United: 3/5; Brentford: 4/5 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 70%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+          "historical_rate": 0.7
+        }
+      ]
     },
     {
       "id": "soccer-eng.2-401880136",
@@ -3737,8 +5582,30 @@
       "time": "2026-11-28T15:00:00+00:00",
       "home_rate": 0.6,
       "away_rate": 0.18181818181818182,
-      "source": "ESPN",
-      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261128&limit=100"
+      "source": "ESPN — zakończone mecze",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261128&limit=100",
+      "market": "Gole powyżej 2.5",
+      "family": "gole",
+      "quality": 0.5,
+      "estimated_odds": 1.65,
+      "odds_book": "Betsson",
+      "odds_time": "2026-11-24T23:46:42Z",
+      "odds_verified": true,
+      "reason": "Millwall: 5/7; Burnley: 5/7 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+      "historical_rate": 0.714,
+      "markets": [
+        {
+          "market": "Gole powyżej 2.5",
+          "family": "gole",
+          "quality": 0.5,
+          "estimated_odds": 1.65,
+          "odds_book": "Betsson",
+          "odds_time": "2026-11-24T23:46:42Z",
+          "odds_verified": true,
+          "reason": "Millwall: 5/7; Burnley: 5/7 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+          "historical_rate": 0.714
+        }
+      ]
     },
     {
       "id": "soccer-eng.2-401880130",
@@ -3891,8 +5758,30 @@
       "time": "2026-11-28T17:30:00+00:00",
       "home_rate": 0.5714285714285714,
       "away_rate": 0.4,
-      "source": "ESPN",
-      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261128&limit=100"
+      "source": "ESPN — zakończone mecze",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261128&limit=100",
+      "market": "Gole poniżej 3.5",
+      "family": "gole",
+      "quality": 0.35,
+      "estimated_odds": 1.57,
+      "odds_book": "MyBookie.ag",
+      "odds_time": "2026-11-24T23:46:39Z",
+      "odds_verified": true,
+      "reason": "Ipswich Town: 3/5; Aston Villa: 4/5 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 70%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+      "historical_rate": 0.7,
+      "markets": [
+        {
+          "market": "Gole poniżej 3.5",
+          "family": "gole",
+          "quality": 0.35,
+          "estimated_odds": 1.57,
+          "odds_book": "MyBookie.ag",
+          "odds_time": "2026-11-24T23:46:39Z",
+          "odds_verified": true,
+          "reason": "Ipswich Town: 3/5; Aston Villa: 4/5 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 70%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+          "historical_rate": 0.7
+        }
+      ]
     },
     {
       "id": "soccer-esp.1-401882793",
@@ -3935,8 +5824,30 @@
       "time": "2026-11-28T17:45:00+00:00",
       "home_rate": 0.7692307692307693,
       "away_rate": 0.45454545454545453,
-      "source": "ESPN",
-      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261128&limit=100"
+      "source": "ESPN — zakończone mecze",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261128&limit=100",
+      "market": "Gole powyżej 2.5",
+      "family": "gole",
+      "quality": 0.35,
+      "estimated_odds": 1.17,
+      "odds_book": "William Hill",
+      "odds_time": "2026-11-24T23:46:02Z",
+      "odds_verified": true,
+      "reason": "PSV Eindhoven: 4/5; Go Ahead Eagles: 3/5 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 70%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+      "historical_rate": 0.7,
+      "markets": [
+        {
+          "market": "Gole powyżej 2.5",
+          "family": "gole",
+          "quality": 0.35,
+          "estimated_odds": 1.17,
+          "odds_book": "William Hill",
+          "odds_time": "2026-11-24T23:46:02Z",
+          "odds_verified": true,
+          "reason": "PSV Eindhoven: 4/5; Go Ahead Eagles: 3/5 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 70%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+          "historical_rate": 0.7
+        }
+      ]
     },
     {
       "id": "soccer-por.1-401885393",
@@ -4309,8 +6220,41 @@
       "time": "2026-11-28T20:00:00+00:00",
       "home_rate": 0.6,
       "away_rate": 0.5,
-      "source": "ESPN",
-      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261128&limit=100"
+      "source": "ESPN — zakończone mecze",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261128&limit=100",
+      "market": "Gole powyżej 2.5",
+      "family": "gole",
+      "quality": 0.4583,
+      "estimated_odds": 1.37,
+      "odds_book": "Betsson",
+      "odds_time": "2026-11-24T23:46:23Z",
+      "odds_verified": true,
+      "reason": "SC Cambuur: 5/6; Sparta Rotterdam: 5/5 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 92%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+      "historical_rate": 0.917,
+      "markets": [
+        {
+          "market": "Gole powyżej 2.5",
+          "family": "gole",
+          "quality": 0.4583,
+          "estimated_odds": 1.37,
+          "odds_book": "Betsson",
+          "odds_time": "2026-11-24T23:46:23Z",
+          "odds_verified": true,
+          "reason": "SC Cambuur: 5/6; Sparta Rotterdam: 5/5 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 92%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+          "historical_rate": 0.917
+        },
+        {
+          "market": "Gole powyżej 3.5",
+          "family": "gole",
+          "quality": 0.4083,
+          "estimated_odds": 2.0,
+          "odds_book": "PMU (FR)",
+          "odds_time": "2026-11-24T23:46:20Z",
+          "odds_verified": true,
+          "reason": "SC Cambuur: 5/6; Sparta Rotterdam: 4/5 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 82%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+          "historical_rate": 0.817
+        }
+      ]
     },
     {
       "id": "basketball-mens-college-basketball-401929048",
@@ -4782,8 +6726,30 @@
       "time": "2026-11-29T00:00:00+00:00",
       "home_rate": 0.5217391304347826,
       "away_rate": 0.5357142857142857,
-      "source": "ESPN",
-      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/scoreboard?dates=20261128&limit=100"
+      "source": "ESPN — zakończone mecze",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/scoreboard?dates=20261128&limit=100",
+      "market": "Gole poniżej 3.5",
+      "family": "gole",
+      "quality": 0.55,
+      "estimated_odds": 1.57,
+      "odds_book": "Marathon Bet",
+      "odds_time": "2026-11-24T23:46:50Z",
+      "odds_verified": true,
+      "reason": "Botafogo: 6/7; Bahia: 5/7 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 79%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+      "historical_rate": 0.786,
+      "markets": [
+        {
+          "market": "Gole poniżej 3.5",
+          "family": "gole",
+          "quality": 0.55,
+          "estimated_odds": 1.57,
+          "odds_book": "Marathon Bet",
+          "odds_time": "2026-11-24T23:46:50Z",
+          "odds_verified": true,
+          "reason": "Botafogo: 6/7; Bahia: 5/7 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 79%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+          "historical_rate": 0.786
+        }
+      ]
     },
     {
       "id": "basketball-mens-college-basketball-401924724",
@@ -5112,8 +7078,30 @@
       "time": "2026-11-29T11:15:00+00:00",
       "home_rate": 0.42857142857142855,
       "away_rate": 0.5,
-      "source": "ESPN",
-      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261129&limit=100"
+      "source": "ESPN — zakończone mecze",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261129&limit=100",
+      "market": "Gole powyżej 2.5",
+      "family": "gole",
+      "quality": 0.5,
+      "estimated_odds": 1.57,
+      "odds_book": "Tipico",
+      "odds_time": "2026-11-24T23:46:42Z",
+      "odds_verified": true,
+      "reason": "ADO Den Haag: 5/6; FC Utrecht: 5/6 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 83%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+      "historical_rate": 0.833,
+      "markets": [
+        {
+          "market": "Gole powyżej 2.5",
+          "family": "gole",
+          "quality": 0.5,
+          "estimated_odds": 1.57,
+          "odds_book": "Tipico",
+          "odds_time": "2026-11-24T23:46:42Z",
+          "odds_verified": true,
+          "reason": "ADO Den Haag: 5/6; FC Utrecht: 5/6 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 83%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+          "historical_rate": 0.833
+        }
+      ]
     },
     {
       "id": "soccer-ita.1-401875031",
@@ -5145,8 +7133,30 @@
       "time": "2026-11-29T12:00:00+00:00",
       "home_rate": 0.6923076923076923,
       "away_rate": 0.4166666666666667,
-      "source": "ESPN",
-      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261129&limit=100"
+      "source": "ESPN — zakończone mecze",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261129&limit=100",
+      "market": "Gole powyżej 2.5",
+      "family": "gole",
+      "quality": 0.65,
+      "estimated_odds": 1.44,
+      "odds_book": "William Hill",
+      "odds_time": "2026-11-24T23:46:23Z",
+      "odds_verified": true,
+      "reason": "Swansea City: 6/8; Cardiff City: 7/8 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 81%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+      "historical_rate": 0.812,
+      "markets": [
+        {
+          "market": "Gole powyżej 2.5",
+          "family": "gole",
+          "quality": 0.65,
+          "estimated_odds": 1.44,
+          "odds_book": "William Hill",
+          "odds_time": "2026-11-24T23:46:23Z",
+          "odds_verified": true,
+          "reason": "Swansea City: 6/8; Cardiff City: 7/8 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 81%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+          "historical_rate": 0.812
+        }
+      ]
     },
     {
       "id": "soccer-esp.1-401882787",
@@ -5244,8 +7254,30 @@
       "time": "2026-11-29T14:05:00+00:00",
       "home_rate": 0.42857142857142855,
       "away_rate": 0.5555555555555556,
-      "source": "ESPN",
-      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261129&limit=100"
+      "source": "ESPN — zakończone mecze",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261129&limit=100",
+      "market": "Gole poniżej 2.5",
+      "family": "gole",
+      "quality": 0.4,
+      "estimated_odds": 1.83,
+      "odds_book": "Betsson",
+      "odds_time": "2026-11-24T23:46:40Z",
+      "odds_verified": true,
+      "reason": "Sunderland: 4/5; Tottenham Hotspur: 4/5 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 80%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+      "historical_rate": 0.8,
+      "markets": [
+        {
+          "market": "Gole poniżej 2.5",
+          "family": "gole",
+          "quality": 0.4,
+          "estimated_odds": 1.83,
+          "odds_book": "Betsson",
+          "odds_time": "2026-11-24T23:46:40Z",
+          "odds_verified": true,
+          "reason": "Sunderland: 4/5; Tottenham Hotspur: 4/5 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 80%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+          "historical_rate": 0.8
+        }
+      ]
     },
     {
       "id": "soccer-ger.1-401884724",
@@ -5255,8 +7287,30 @@
       "time": "2026-11-29T14:30:00+00:00",
       "home_rate": 0.8,
       "away_rate": 0.8888888888888888,
-      "source": "ESPN",
-      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261129&limit=100"
+      "source": "ESPN — zakończone mecze",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261129&limit=100",
+      "market": "Gole powyżej 2.5",
+      "family": "gole",
+      "quality": 0.3667,
+      "estimated_odds": 1.48,
+      "odds_book": "Nordic Bet",
+      "odds_time": "2026-11-24T23:46:21Z",
+      "odds_verified": true,
+      "reason": "SC Freiburg: 4/6; RB Leipzig: 4/5 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 73%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+      "historical_rate": 0.733,
+      "markets": [
+        {
+          "market": "Gole powyżej 2.5",
+          "family": "gole",
+          "quality": 0.3667,
+          "estimated_odds": 1.48,
+          "odds_book": "Nordic Bet",
+          "odds_time": "2026-11-24T23:46:21Z",
+          "odds_verified": true,
+          "reason": "SC Freiburg: 4/6; RB Leipzig: 4/5 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 73%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+          "historical_rate": 0.733
+        }
+      ]
     },
     {
       "id": "soccer-esp.1-401882794",
@@ -5365,8 +7419,30 @@
       "time": "2026-11-29T18:30:00+00:00",
       "home_rate": 0.6666666666666666,
       "away_rate": 0.7777777777777778,
-      "source": "ESPN",
-      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261129&limit=100"
+      "source": "ESPN — zakończone mecze",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261129&limit=100",
+      "market": "Gole poniżej 3.5",
+      "family": "gole",
+      "quality": 0.35,
+      "estimated_odds": 1.65,
+      "odds_book": "Codere (IT)",
+      "odds_time": "2026-11-24T23:46:41Z",
+      "odds_verified": true,
+      "reason": "Borussia Dortmund: 4/5; Bayer Leverkusen: 3/5 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 70%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+      "historical_rate": 0.7,
+      "markets": [
+        {
+          "market": "Gole poniżej 3.5",
+          "family": "gole",
+          "quality": 0.35,
+          "estimated_odds": 1.65,
+          "odds_book": "Codere (IT)",
+          "odds_time": "2026-11-24T23:46:41Z",
+          "odds_verified": true,
+          "reason": "Borussia Dortmund: 4/5; Bayer Leverkusen: 3/5 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 70%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+          "historical_rate": 0.7
+        }
+      ]
     },
     {
       "id": "soccer-ned.1-401875533",
@@ -5387,8 +7463,30 @@
       "time": "2026-11-29T19:00:00+00:00",
       "home_rate": 0.5652173913043478,
       "away_rate": 0.7352941176470589,
-      "source": "ESPN",
-      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/scoreboard?dates=20261129&limit=100"
+      "source": "ESPN — zakończone mecze",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/scoreboard?dates=20261129&limit=100",
+      "market": "Zwycięstwo gości",
+      "family": "wynik",
+      "quality": 0.5,
+      "estimated_odds": 1.68,
+      "odds_book": "Unibet (NL)",
+      "odds_time": "2026-11-24T23:46:44Z",
+      "odds_verified": true,
+      "reason": "Coritiba: 4/7; Flamengo: 6/7 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+      "historical_rate": 0.714,
+      "markets": [
+        {
+          "market": "Zwycięstwo gości",
+          "family": "wynik",
+          "quality": 0.5,
+          "estimated_odds": 1.68,
+          "odds_book": "Unibet (NL)",
+          "odds_time": "2026-11-24T23:46:44Z",
+          "odds_verified": true,
+          "reason": "Coritiba: 4/7; Flamengo: 6/7 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+          "historical_rate": 0.714
+        }
+      ]
     },
     {
       "id": "soccer-bra.1-401841332",
@@ -5634,9 +7732,383 @@
     }
   ],
   "status": "ok",
-  "fixtures": 491,
-  "eligible_picks": 0,
-  "coupons": [],
+  "fixtures": 488,
+  "eligible_picks": 22,
+  "coupons": [
+    {
+      "name": "Ostrożniejszy",
+      "picks": [
+        {
+          "id": "basketball-nba-401909319",
+          "sport": "Koszykówka",
+          "league": "nba",
+          "event": "New York Knicks — Cleveland Cavaliers",
+          "time": "2026-11-26T00:30:00+00:00",
+          "home_rate": 0.631578947368421,
+          "away_rate": 0.5,
+          "source": "ESPN — zakończone mecze",
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261125&limit=100",
+          "market": "Zwycięstwo gospodarzy",
+          "family": "wynik",
+          "quality": 0.6667,
+          "estimated_odds": 1.62,
+          "odds_book": "1xBet",
+          "odds_time": "2026-11-24T23:46:39Z",
+          "odds_verified": true,
+          "reason": "New York Knicks: 9/12; Cleveland Cavaliers: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+          "historical_rate": 0.667,
+          "markets": [
+            {
+              "market": "Zwycięstwo gospodarzy",
+              "family": "wynik",
+              "quality": 0.6667,
+              "estimated_odds": 1.62,
+              "odds_book": "1xBet",
+              "odds_time": "2026-11-24T23:46:39Z",
+              "odds_verified": true,
+              "reason": "New York Knicks: 9/12; Cleveland Cavaliers: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.667
+            }
+          ]
+        },
+        {
+          "id": "soccer-eng.2-401880139",
+          "sport": "Piłka nożna",
+          "league": "eng.2",
+          "event": "Burnley — Birmingham City",
+          "time": "2026-11-25T19:45:00+00:00",
+          "home_rate": 0.18181818181818182,
+          "away_rate": 0.6,
+          "source": "ESPN — zakończone mecze",
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261125&limit=100",
+          "market": "Gole powyżej 2.5",
+          "family": "gole",
+          "quality": 0.5,
+          "estimated_odds": 1.68,
+          "odds_book": "Unibet (NL)",
+          "odds_time": "2026-11-24T23:46:21Z",
+          "odds_verified": true,
+          "reason": "Burnley: 5/7; Birmingham City: 5/7 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+          "historical_rate": 0.714,
+          "markets": [
+            {
+              "market": "Gole powyżej 2.5",
+              "family": "gole",
+              "quality": 0.5,
+              "estimated_odds": 1.68,
+              "odds_book": "Unibet (NL)",
+              "odds_time": "2026-11-24T23:46:21Z",
+              "odds_verified": true,
+              "reason": "Burnley: 5/7; Birmingham City: 5/7 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.714
+            }
+          ]
+        },
+        {
+          "id": "soccer-eng.2-401880138",
+          "sport": "Piłka nożna",
+          "league": "eng.2",
+          "event": "Stoke City — Millwall",
+          "time": "2026-11-25T20:00:00+00:00",
+          "home_rate": 0.7857142857142857,
+          "away_rate": 0.6,
+          "source": "ESPN — zakończone mecze",
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261125&limit=100",
+          "market": "Zwycięstwo gospodarzy",
+          "family": "wynik",
+          "quality": 0.5,
+          "estimated_odds": 2.25,
+          "odds_book": "888sport",
+          "odds_time": "2026-11-24T23:46:20Z",
+          "odds_verified": true,
+          "reason": "Stoke City: 5/7; Millwall: 5/7 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+          "historical_rate": 0.714,
+          "markets": [
+            {
+              "market": "Zwycięstwo gospodarzy",
+              "family": "wynik",
+              "quality": 0.5,
+              "estimated_odds": 2.25,
+              "odds_book": "888sport",
+              "odds_time": "2026-11-24T23:46:20Z",
+              "odds_verified": true,
+              "reason": "Stoke City: 5/7; Millwall: 5/7 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.714
+            }
+          ]
+        }
+      ],
+      "estimated_total_odds": 6.12,
+      "warning": "Iloczyn kursów z ofert; nie jest gwarantowaną ofertą AKO jednego bukmachera."
+    },
+    {
+      "name": "Zrównoważony",
+      "picks": [
+        {
+          "id": "hockey-nhl-401892787",
+          "sport": "NHL",
+          "league": "nhl",
+          "event": "Washington Capitals — Philadelphia Flyers",
+          "time": "2026-11-26T00:00:00+00:00",
+          "home_rate": 0.4782608695652174,
+          "away_rate": 0.45454545454545453,
+          "source": "ESPN — zakończone mecze",
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
+          "market": "Bramki powyżej 6.5",
+          "family": "suma",
+          "quality": 0.75,
+          "estimated_odds": 2.15,
+          "odds_book": "Tipico",
+          "odds_time": "2026-11-24T23:46:24Z",
+          "odds_verified": true,
+          "reason": "Washington Capitals: 10/12; Philadelphia Flyers: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 75%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+          "historical_rate": 0.75,
+          "markets": [
+            {
+              "market": "Bramki powyżej 6.5",
+              "family": "suma",
+              "quality": 0.75,
+              "estimated_odds": 2.15,
+              "odds_book": "Tipico",
+              "odds_time": "2026-11-24T23:46:24Z",
+              "odds_verified": true,
+              "reason": "Washington Capitals: 10/12; Philadelphia Flyers: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 75%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.75
+            }
+          ]
+        },
+        {
+          "id": "hockey-nhl-401892791",
+          "sport": "NHL",
+          "league": "nhl",
+          "event": "Minnesota Wild — Utah Mammoth",
+          "time": "2026-11-26T01:00:00+00:00",
+          "home_rate": 0.8260869565217391,
+          "away_rate": 0.5416666666666666,
+          "source": "ESPN — zakończone mecze",
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
+          "market": "Zwycięstwo gospodarzy",
+          "family": "wynik",
+          "quality": 0.7083,
+          "estimated_odds": 2.05,
+          "odds_book": "Tipico",
+          "odds_time": "2026-11-24T23:46:24Z",
+          "odds_verified": true,
+          "reason": "Minnesota Wild: 9/12; Utah Mammoth: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+          "historical_rate": 0.708,
+          "markets": [
+            {
+              "market": "Zwycięstwo gospodarzy",
+              "family": "wynik",
+              "quality": 0.7083,
+              "estimated_odds": 2.05,
+              "odds_book": "Tipico",
+              "odds_time": "2026-11-24T23:46:24Z",
+              "odds_verified": true,
+              "reason": "Minnesota Wild: 9/12; Utah Mammoth: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.708
+            },
+            {
+              "market": "Bramki powyżej 5.5",
+              "family": "suma",
+              "quality": 0.6667,
+              "estimated_odds": 1.67,
+              "odds_book": "Marathon Bet",
+              "odds_time": "2026-11-24T23:46:47Z",
+              "odds_verified": true,
+              "reason": "Minnesota Wild: 9/12; Utah Mammoth: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.667
+            }
+          ]
+        },
+        {
+          "id": "hockey-nhl-401892788",
+          "sport": "NHL",
+          "league": "nhl",
+          "event": "Columbus Blue Jackets — New Jersey Devils",
+          "time": "2026-11-26T00:00:00+00:00",
+          "home_rate": 0.4166666666666667,
+          "away_rate": 0.6538461538461539,
+          "source": "ESPN — zakończone mecze",
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
+          "market": "Zwycięstwo gości",
+          "family": "wynik",
+          "quality": 0.6667,
+          "estimated_odds": 2.0,
+          "odds_book": "Tipico",
+          "odds_time": "2026-11-24T23:46:24Z",
+          "odds_verified": true,
+          "reason": "Columbus Blue Jackets: 8/12; New Jersey Devils: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+          "historical_rate": 0.667,
+          "markets": [
+            {
+              "market": "Zwycięstwo gości",
+              "family": "wynik",
+              "quality": 0.6667,
+              "estimated_odds": 2.0,
+              "odds_book": "Tipico",
+              "odds_time": "2026-11-24T23:46:24Z",
+              "odds_verified": true,
+              "reason": "Columbus Blue Jackets: 8/12; New Jersey Devils: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.667
+            }
+          ]
+        }
+      ],
+      "estimated_total_odds": 8.81,
+      "warning": "Iloczyn kursów z ofert; nie jest gwarantowaną ofertą AKO jednego bukmachera."
+    },
+    {
+      "name": "Wysoki kurs",
+      "picks": [
+        {
+          "id": "hockey-nhl-401892787",
+          "sport": "NHL",
+          "league": "nhl",
+          "event": "Washington Capitals — Philadelphia Flyers",
+          "time": "2026-11-26T00:00:00+00:00",
+          "home_rate": 0.4782608695652174,
+          "away_rate": 0.45454545454545453,
+          "source": "ESPN — zakończone mecze",
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
+          "market": "Bramki powyżej 6.5",
+          "family": "suma",
+          "quality": 0.75,
+          "estimated_odds": 2.15,
+          "odds_book": "Tipico",
+          "odds_time": "2026-11-24T23:46:24Z",
+          "odds_verified": true,
+          "reason": "Washington Capitals: 10/12; Philadelphia Flyers: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 75%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+          "historical_rate": 0.75,
+          "markets": [
+            {
+              "market": "Bramki powyżej 6.5",
+              "family": "suma",
+              "quality": 0.75,
+              "estimated_odds": 2.15,
+              "odds_book": "Tipico",
+              "odds_time": "2026-11-24T23:46:24Z",
+              "odds_verified": true,
+              "reason": "Washington Capitals: 10/12; Philadelphia Flyers: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 75%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.75
+            }
+          ]
+        },
+        {
+          "id": "hockey-nhl-401892791",
+          "sport": "NHL",
+          "league": "nhl",
+          "event": "Minnesota Wild — Utah Mammoth",
+          "time": "2026-11-26T01:00:00+00:00",
+          "home_rate": 0.8260869565217391,
+          "away_rate": 0.5416666666666666,
+          "source": "ESPN — zakończone mecze",
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
+          "market": "Zwycięstwo gospodarzy",
+          "family": "wynik",
+          "quality": 0.7083,
+          "estimated_odds": 2.05,
+          "odds_book": "Tipico",
+          "odds_time": "2026-11-24T23:46:24Z",
+          "odds_verified": true,
+          "reason": "Minnesota Wild: 9/12; Utah Mammoth: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+          "historical_rate": 0.708,
+          "markets": [
+            {
+              "market": "Zwycięstwo gospodarzy",
+              "family": "wynik",
+              "quality": 0.7083,
+              "estimated_odds": 2.05,
+              "odds_book": "Tipico",
+              "odds_time": "2026-11-24T23:46:24Z",
+              "odds_verified": true,
+              "reason": "Minnesota Wild: 9/12; Utah Mammoth: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.708
+            },
+            {
+              "market": "Bramki powyżej 5.5",
+              "family": "suma",
+              "quality": 0.6667,
+              "estimated_odds": 1.67,
+              "odds_book": "Marathon Bet",
+              "odds_time": "2026-11-24T23:46:47Z",
+              "odds_verified": true,
+              "reason": "Minnesota Wild: 9/12; Utah Mammoth: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.667
+            }
+          ]
+        },
+        {
+          "id": "soccer-eng.2-401880139",
+          "sport": "Piłka nożna",
+          "league": "eng.2",
+          "event": "Burnley — Birmingham City",
+          "time": "2026-11-25T19:45:00+00:00",
+          "home_rate": 0.18181818181818182,
+          "away_rate": 0.6,
+          "source": "ESPN — zakończone mecze",
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261125&limit=100",
+          "market": "Gole powyżej 2.5",
+          "family": "gole",
+          "quality": 0.5,
+          "estimated_odds": 1.68,
+          "odds_book": "Unibet (NL)",
+          "odds_time": "2026-11-24T23:46:21Z",
+          "odds_verified": true,
+          "reason": "Burnley: 5/7; Birmingham City: 5/7 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+          "historical_rate": 0.714,
+          "markets": [
+            {
+              "market": "Gole powyżej 2.5",
+              "family": "gole",
+              "quality": 0.5,
+              "estimated_odds": 1.68,
+              "odds_book": "Unibet (NL)",
+              "odds_time": "2026-11-24T23:46:21Z",
+              "odds_verified": true,
+              "reason": "Burnley: 5/7; Birmingham City: 5/7 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.714
+            }
+          ]
+        },
+        {
+          "id": "soccer-eng.2-401880138",
+          "sport": "Piłka nożna",
+          "league": "eng.2",
+          "event": "Stoke City — Millwall",
+          "time": "2026-11-25T20:00:00+00:00",
+          "home_rate": 0.7857142857142857,
+          "away_rate": 0.6,
+          "source": "ESPN — zakończone mecze",
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/scoreboard?dates=20261125&limit=100",
+          "market": "Zwycięstwo gospodarzy",
+          "family": "wynik",
+          "quality": 0.5,
+          "estimated_odds": 2.25,
+          "odds_book": "888sport",
+          "odds_time": "2026-11-24T23:46:20Z",
+          "odds_verified": true,
+          "reason": "Stoke City: 5/7; Millwall: 5/7 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+          "historical_rate": 0.714,
+          "markets": [
+            {
+              "market": "Zwycięstwo gospodarzy",
+              "family": "wynik",
+              "quality": 0.5,
+              "estimated_odds": 2.25,
+              "odds_book": "888sport",
+              "odds_time": "2026-11-24T23:46:20Z",
+              "odds_verified": true,
+              "reason": "Stoke City: 5/7; Millwall: 5/7 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.714
+            }
+          ]
+        }
+      ],
+      "estimated_total_odds": 16.66,
+      "warning": "Iloczyn kursów z ofert; nie jest gwarantowaną ofertą AKO jednego bukmachera."
+    }
+  ],
   "diagnostics": [
     {
       "source": "ESPN eng.1 20261125",
@@ -6116,8 +8588,8 @@
     {
       "source": "Live Tennis API",
       "status": "ok",
-      "events": 194,
-      "detail": "API: 200 rekordów; poprawne mecze: 194."
+      "events": 191,
+      "detail": "API: 200 rekordów; poprawne mecze: 191."
     },
     {
       "source": "ESPN — wyniki 45 dni",
@@ -6126,9 +8598,54 @@
       "detail": "Nieudane zapytania: 0/675"
     },
     {
-      "source": "The Odds API",
-      "status": "error",
-      "detail": "Brak ODDS_API_KEY"
+      "source": "The Odds API uefa.champions",
+      "status": "ok",
+      "events": 9
+    },
+    {
+      "source": "The Odds API nba",
+      "status": "ok",
+      "events": 7
+    },
+    {
+      "source": "The Odds API nhl",
+      "status": "ok",
+      "events": 15
+    },
+    {
+      "source": "The Odds API eng.1",
+      "status": "ok",
+      "events": 20
+    },
+    {
+      "source": "The Odds API mens-college-basketball",
+      "status": "ok",
+      "events": 93
+    },
+    {
+      "source": "The Odds API eng.2",
+      "status": "ok",
+      "events": 16
+    },
+    {
+      "source": "The Odds API bra.1",
+      "status": "ok",
+      "events": 10
+    },
+    {
+      "source": "The Odds API uefa.europa",
+      "status": "ok",
+      "events": 18
+    },
+    {
+      "source": "The Odds API ned.1",
+      "status": "ok",
+      "events": 10
+    },
+    {
+      "source": "The Odds API ger.1",
+      "status": "ok",
+      "events": 18
     }
   ],
   "errors": [
@@ -6136,8 +8653,7 @@
     "ESPN pol.1 20261126: HTTP 400",
     "ESPN pol.1 20261127: HTTP 400",
     "ESPN pol.1 20261128: HTTP 400",
-    "ESPN pol.1 20261129: HTTP 400",
-    "The Odds API: Brak ODDS_API_KEY"
+    "ESPN pol.1 20261129: HTTP 400"
   ],
   "disclaimer": "Kursy pochodzą z ofert bukmacherów; niekoniecznie Superbet. Brak wiarygodnej oceny prawdopodobieństwa."
 }
