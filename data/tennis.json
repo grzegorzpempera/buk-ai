@@ -1,20 +1,8 @@
 {
   "source": "Live Tennis API",
   "status": "ok",
-  "generated_at": "2026-11-24T22:05:52.792468+00:00",
+  "generated_at": "2026-11-24T22:39:14.593733+00:00",
   "events": [
-    {
-      "id": "tennis-live-53140",
-      "sport": "Tenis",
-      "league": "M15 Santa Cruz 2",
-      "event": "M. A. Dellien Velasco — S. Pesino",
-      "time": "2026-11-24T22:30:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
     {
       "id": "tennis-live-52875",
       "sport": "Tenis",
@@ -56,7 +44,7 @@
       "sport": "Tenis",
       "league": "San Salvador (El Salvador) - Qualification",
       "event": "T. Legout — L. Claverie",
-      "time": "2026-11-25T00:00:00+00:00",
+      "time": "2026-11-25T00:30:00+00:00",
       "home_rate": null,
       "away_rate": null,
       "source": "Live Tennis API",
@@ -2344,11 +2332,12 @@
       "note": "Terminarz bez prognozy wyniku i kursu."
     }
   ],
-  "detail": "API: 200 rekordów; poprawne mecze: 195.",
+  "detail": "API: 200 rekordów; poprawne mecze: 194.",
   "diagnostics": {
     "key_configured": true,
     "api_records": 200,
     "rejected": {
+      "poza_zakresem_7_dni": 1,
       "nie_nadchodzacy_status": 5
     },
     "http_status": 200,
