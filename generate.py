@@ -99,7 +99,8 @@ def historical(now, events, diagnostics):
     diagnostics.append({'source':'ESPN — wyniki 45 dni','status':'ok' if seen else 'error','events':len(seen),'detail':f'Nieudane zapytania: {errors}/{len(jobs)}'})
     return rows
 
-def enrich(x, history):
+def enrich(x, history, quotes=None):
+    quotes=quotes or {}
     if x['sport']=='Tenis':return x
     home,away=x['event'].split(' — ',1)
     h=sorted(history.get((x['league'],home),[]),reverse=True)[:12]; a=sorted(history.get((x['league'],away),[]),reverse=True)[:12]
@@ -110,11 +111,13 @@ def enrich(x, history):
         if min(hh/len(h),aa/len(a))<.55:return
         rate=(hh/len(h)+aa/len(a))/2
         if rate<.65:return
+        if market not in quotes:return
+        price,book,stamp=quotes[market]
         # Historical frequency is not a forecast. Shrink toward 0.5 for indicative price only.
         proxy=.5+(rate-.5)*.65
-        candidates.append(dict(market=market,family=family,quality=round(rate*min(1,min(len(h),len(a))/10),4),estimated_odds=round(1/proxy,2),reason=f'{home}: {hh}/{len(h)}; {away}: {aa}/{len(a)} meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna {rate:.0%}, nie prognoza. Kurs wyłącznie orientacyjny.',historical_rate=round(rate,3)))
+        candidates.append(dict(market=market,family=family,quality=round(rate*min(1,min(len(h),len(a))/10),4),estimated_odds=price,odds_book=book,odds_time=stamp,odds_verified=True,reason=f'{home}: {hh}/{len(h)}; {away}: {aa}/{len(a)} meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna {rate:.0%}, nie prognoza. Kurs z oferty wskazanego bukmachera.',historical_rate=round(rate,3)))
     if x['sport']=='Piłka nożna':
-        for line in (1.5,2.5,3.5):
+        for line in sorted({float(k.split()[-1]) for k in quotes if k.startswith('Gole ')}):
             add(f'Gole powyżej {line}','gole',lambda f,g:f+g>line,lambda f,g:f+g>line)
             add(f'Gole poniżej {line}','gole',lambda f,g:f+g<line,lambda f,g:f+g<line)
         add('Obie drużyny strzelą — tak','BTTS',lambda f,g:f>0 and g>0,lambda f,g:f>0 and g>0)
@@ -124,7 +127,7 @@ def enrich(x, history):
     else:
         lines=(4.5,5.5,6.5,7.5) if x['sport']=='NHL' else (195.5,205.5,215.5,225.5,235.5,245.5) if x['league']=='nba' else (135.5,145.5,155.5,165.5)
         unit='Bramki' if x['sport']=='NHL' else 'Punkty'
-        for line in lines:
+        for line in sorted({float(k.split()[-1]) for k in quotes if k.startswith(unit+' ')}):
             add(f'{unit} powyżej {line}','suma',lambda f,g:f+g>line,lambda f,g:f+g>line)
             add(f'{unit} poniżej {line}','suma',lambda f,g:f+g<line,lambda f,g:f+g<line)
     add('Zwycięstwo gospodarzy','wynik',lambda f,g:f>g,lambda f,g:f<g)
@@ -149,7 +152,9 @@ def build(now=None):
         except Exception as exc:diagnostics.append({'source':'Live Tennis API','status':'error','detail':str(exc)[:120]})
     unique={x['id']:x for x in all_events}
     history=historical(now,list(unique.values()),diagnostics)
-    events=sorted((enrich(x, history) for x in unique.values()),key=lambda x:x['time'])
+    from odds import attach
+    quotes=attach(list(unique.values()),get,parse_date,diagnostics,now)
+    events=sorted((enrich(x, history, quotes.get(x['id'])) for x in unique.values()),key=lambda x:x['time'])
     # Betting day: local 00:00 through next day 06:00, Europe/Warsaw.
     # Only future events are considered; overlap between adjacent betting days is intentional.
     dates=[(now.astimezone(WARSAW).date()+dt.timedelta(days=i)).isoformat() for i in range(5)]
@@ -160,7 +165,7 @@ def build(now=None):
         daily=[x for x in events if x["time"] and start <= dt.datetime.fromisoformat(x["time"]).astimezone(WARSAW) <= end]
         by_date[date]=make_coupons(daily)
     selected=dates[0]
-    return {'generated_at':now.isoformat(),'timezone':'Europe/Warsaw','betting_day_end':'06:00','available_dates':dates,'by_date':by_date,'events':events,'status':'ok' if events else 'no_data','fixtures':len(events),'eligible_picks':sum('estimated_odds' in x for x in events),'coupons':by_date[selected]['coupons'],'diagnostics':diagnostics,'errors':[d['source']+': '+d['detail'] for d in diagnostics if d['status']=='error'],'disclaimer':'Orientacyjne kursy są heurystyczne, nie rynkowe. Brak wiarygodnej oceny prawdopodobieństwa.'}
+    return {'generated_at':now.isoformat(),'timezone':'Europe/Warsaw','betting_day_end':'06:00','available_dates':dates,'by_date':by_date,'events':events,'status':'ok' if events else 'no_data','fixtures':len(events),'eligible_picks':sum('estimated_odds' in x for x in events),'coupons':by_date[selected]['coupons'],'diagnostics':diagnostics,'errors':[d['source']+': '+d['detail'] for d in diagnostics if d['status']=='error'],'disclaimer':'Kursy pochodzą z ofert bukmacherów; niekoniecznie Superbet. Brak wiarygodnej oceny prawdopodobieństwa.'}
 
 def make_coupons(events):
     picks=sorted((x for x in events if 'estimated_odds' in x),key=lambda x:x.get('quality',0),reverse=True);coupons=[];used=set()
@@ -176,7 +181,7 @@ def make_coupons(events):
             if best:break
         if best:
             _,combo,odds=best;used.update(x['id'] for x in combo)
-            coupons.append({'name':['Ostrożniejszy','Zrównoważony','Wysoki kurs'][idx],'picks':list(combo),'estimated_total_odds':round(odds,2),'warning':'Wyłącznie orientacyjne kursy z heurystyki; brak weryfikacji rynkowej i prawdopodobieństwa trafienia.'})
+            coupons.append({'name':['Ostrożniejszy','Zrównoważony','Wysoki kurs'][idx],'picks':list(combo),'estimated_total_odds':round(odds,2),'warning':'Iloczyn kursów z ofert; nie jest gwarantowaną ofertą AKO jednego bukmachera.'})
     return {'fixtures':len(events),'eligible_picks':len(picks),'coupons':coupons}
 
 if __name__=='__main__':
