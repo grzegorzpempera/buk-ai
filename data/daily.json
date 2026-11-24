@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T13:25:26.018425+00:00",
+  "generated_at": "2026-11-24T16:20:22.791907+00:00",
   "timezone": "Europe/Warsaw",
   "betting_day_end": "06:00",
   "available_dates": [
@@ -11,7 +11,7 @@
   ],
   "by_date": {
     "2026-11-24": {
-      "fixtures": 96,
+      "fixtures": 64,
       "eligible_picks": 31,
       "coupons": [
         {
@@ -173,7 +173,7 @@
       ]
     },
     "2026-11-25": {
-      "fixtures": 70,
+      "fixtures": 72,
       "eligible_picks": 54,
       "coupons": [
         {
@@ -823,414 +823,6 @@
   },
   "events": [
     {
-      "id": "tennis-live-53169",
-      "sport": "Tenis",
-      "league": "M25 Hradec Kralove",
-      "event": "Recek/ Siniakov — Chaloupka/ Praus",
-      "time": "2026-11-24T13:30:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
-    {
-      "id": "tennis-live-52905",
-      "sport": "Tenis",
-      "league": "Florianopolis",
-      "event": "D. Dutra Da Silva — F. Roncadelli",
-      "time": "2026-11-24T13:30:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
-    {
-      "id": "tennis-live-53063",
-      "sport": "Tenis",
-      "league": "W75 Trnava 5 (Slovakia)",
-      "event": "V. Salaiova — G. Minnen",
-      "time": "2026-11-24T13:30:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
-    {
-      "id": "tennis-live-53061",
-      "sport": "Tenis",
-      "league": "W75 Trnava 5 (Slovakia)",
-      "event": "N. Farkasova — D. Khomutsianskaya",
-      "time": "2026-11-24T13:35:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
-    {
-      "id": "tennis-live-52836",
-      "sport": "Tenis",
-      "league": "W50 Ortisei",
-      "event": "J. Stusek — Z. Pawlikowska",
-      "time": "2026-11-24T13:40:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
-    {
-      "id": "tennis-live-52908",
-      "sport": "Tenis",
-      "league": "Monastir 2 (Tunisia) - Qualification",
-      "event": "Y. Smiej — P. Bar Biryukov",
-      "time": "2026-11-24T13:45:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
-    {
-      "id": "tennis-live-52792",
-      "sport": "Tenis",
-      "league": "Buenos Aires",
-      "event": "V. Bosio — L. Samson",
-      "time": "2026-11-24T14:00:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
-    {
-      "id": "tennis-live-52827",
-      "sport": "Tenis",
-      "league": "Buenos Aires",
-      "event": "Z. Kulambayeva — V. Erjavec",
-      "time": "2026-11-24T14:00:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
-    {
-      "id": "tennis-live-52670",
-      "sport": "Tenis",
-      "league": "Monastir 2 (Tunisia) - Qualification",
-      "event": "E. Coulibaly — D. Ajdukovic",
-      "time": "2026-11-24T14:00:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
-    {
-      "id": "tennis-live-52675",
-      "sport": "Tenis",
-      "league": "Monastir 2 (Tunisia) - Qualification",
-      "event": "S. Pankin — N. Barsukov",
-      "time": "2026-11-24T14:00:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
-    {
-      "id": "tennis-live-53002",
-      "sport": "Tenis",
-      "league": "M25 Hradec Kralove",
-      "event": "Mares/ Pecak — Brady/ Frydrych",
-      "time": "2026-11-24T14:00:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
-    {
-      "id": "tennis-live-52903",
-      "sport": "Tenis",
-      "league": "Hersonissos 4",
-      "event": "O. Ovcharenko — Pa. Tsitsipas",
-      "time": "2026-11-24T14:00:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
-    {
-      "id": "tennis-live-53062",
-      "sport": "Tenis",
-      "league": "W75 Trnava 5 (Slovakia)",
-      "event": "A-L. Friedsam — K. Sebov",
-      "time": "2026-11-24T14:10:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
-    {
-      "id": "tennis-live-53001",
-      "sport": "Tenis",
-      "league": "M25 Hradec Kralove",
-      "event": "Facek/ Panik — Blazka/ Homola",
-      "time": "2026-11-24T14:15:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
-    {
-      "id": "tennis-live-52897",
-      "sport": "Tenis",
-      "league": "Ankara (Turkey) - Qualification",
-      "event": "R. Guna — D. Obradovic",
-      "time": "2026-11-24T14:20:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
-    {
-      "id": "tennis-live-52904",
-      "sport": "Tenis",
-      "league": "Hersonissos 4",
-      "event": "L. Raquillet — Y. Demin",
-      "time": "2026-11-24T14:30:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
-    {
-      "id": "tennis-live-53073",
-      "sport": "Tenis",
-      "league": "W50 Ortisei",
-      "event": "Kim Eunchae — D. Kovinic",
-      "time": "2026-11-24T14:40:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
-    {
-      "id": "tennis-live-52657",
-      "sport": "Tenis",
-      "league": "Hersonissos 4",
-      "event": "I. Xilas — S. Fomin",
-      "time": "2026-11-24T14:45:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
-    {
-      "id": "tennis-live-51524",
-      "sport": "Tenis",
-      "league": "Davis Cup - World Group Teams",
-      "event": "Czech Republic — Canada",
-      "time": "2026-11-24T15:00:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
-    {
-      "id": "tennis-live-52679",
-      "sport": "Tenis",
-      "league": "Florianopolis",
-      "event": "M. Alcala Gurri — G. Villanueva",
-      "time": "2026-11-24T15:00:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
-    {
-      "id": "tennis-live-52680",
-      "sport": "Tenis",
-      "league": "Florianopolis",
-      "event": "A. Chepelev — E. Ribeiro",
-      "time": "2026-11-24T15:00:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
-    {
-      "id": "tennis-live-52682",
-      "sport": "Tenis",
-      "league": "Florianopolis",
-      "event": "A. Guillen Meza — G. A. Olivieri",
-      "time": "2026-11-24T15:00:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
-    {
-      "id": "tennis-live-52684",
-      "sport": "Tenis",
-      "league": "Florianopolis",
-      "event": "R. Nijboer — B. Fernandez",
-      "time": "2026-11-24T15:00:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
-    {
-      "id": "tennis-live-52669",
-      "sport": "Tenis",
-      "league": "Monastir 2 (Tunisia) - Qualification",
-      "event": "F. Bondioli — N. Parizzia",
-      "time": "2026-11-24T15:15:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
-    {
-      "id": "tennis-live-53003",
-      "sport": "Tenis",
-      "league": "M25 Hradec Kralove",
-      "event": "Rat/ Vrtilka — Bozemoj/ Pel",
-      "time": "2026-11-24T15:15:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
-    {
-      "id": "tennis-live-52909",
-      "sport": "Tenis",
-      "league": "Monastir 2 (Tunisia) - Qualification",
-      "event": "A. Barroso Campos — G. Tabacco",
-      "time": "2026-11-24T15:30:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
-    {
-      "id": "tennis-live-52910",
-      "sport": "Tenis",
-      "league": "Monastir 2 (Tunisia) - Qualification",
-      "event": "M. Scaglia — W. Abderrahman",
-      "time": "2026-11-24T15:30:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
-    {
-      "id": "tennis-live-52794",
-      "sport": "Tenis",
-      "league": "Buenos Aires",
-      "event": "L. Bronzetti — A. Herrero Linana",
-      "time": "2026-11-24T15:30:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
-    {
-      "id": "tennis-live-52797",
-      "sport": "Tenis",
-      "league": "Buenos Aires",
-      "event": "G. Maristany — L. M. Cinalli",
-      "time": "2026-11-24T15:30:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
-    {
-      "id": "tennis-live-52835",
-      "sport": "Tenis",
-      "league": "W50 Ortisei",
-      "event": "I. Primorac — W. Falkowska",
-      "time": "2026-11-24T15:40:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
-    {
-      "id": "tennis-live-52742",
-      "sport": "Tenis",
-      "league": "San Salvador (El Salvador) - Qualification",
-      "event": "J. S. Osorio — O. Bonding",
-      "time": "2026-11-24T16:00:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
-    {
-      "id": "tennis-live-53039",
-      "sport": "Tenis",
-      "league": "San Salvador (El Salvador) - Qualification",
-      "event": "L. Andrade da Silva — O. Shimanov",
-      "time": "2026-11-24T16:00:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
-    {
-      "id": "tennis-live-53041",
-      "sport": "Tenis",
-      "league": "San Salvador (El Salvador) - Qualification",
-      "event": "R. Botran Neutze — T. Dean",
-      "time": "2026-11-24T16:00:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
-    {
-      "id": "tennis-live-52830",
-      "sport": "Tenis",
-      "league": "W50 Ortisei",
-      "event": "A. Arseneault — F. Urgesi",
-      "time": "2026-11-24T16:15:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
-    {
       "id": "tennis-live-53149",
       "sport": "Tenis",
       "league": "Florianopolis",
@@ -1243,47 +835,11 @@
       "note": "Terminarz bez prognozy wyniku i kursu."
     },
     {
-      "id": "tennis-live-53150",
+      "id": "tennis-live-52682",
       "sport": "Tenis",
       "league": "Florianopolis",
-      "event": "W. Leite — J. Barranco Cosano",
-      "time": "2026-11-24T16:30:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
-    {
-      "id": "tennis-live-53151",
-      "sport": "Tenis",
-      "league": "Florianopolis",
-      "event": "I. Marcondes — O. J. Gutierrez",
-      "time": "2026-11-24T16:30:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
-    {
-      "id": "tennis-live-53152",
-      "sport": "Tenis",
-      "league": "Florianopolis",
-      "event": "P. A. Saraiva Dos Santos — T. Cigarran",
-      "time": "2026-11-24T16:30:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
-    {
-      "id": "tennis-live-53074",
-      "sport": "Tenis",
-      "league": "W50 Ortisei",
-      "event": "E. Perelygina — C. Zanolini",
-      "time": "2026-11-24T16:40:00+00:00",
+      "event": "A. Guillen Meza — G. A. Olivieri",
+      "time": "2026-11-24T16:45:00+00:00",
       "home_rate": null,
       "away_rate": null,
       "source": "Live Tennis API",
@@ -1303,11 +859,11 @@
       "note": "Terminarz bez prognozy wyniku i kursu."
     },
     {
-      "id": "tennis-live-52911",
+      "id": "tennis-live-53150",
       "sport": "Tenis",
-      "league": "Monastir 2 (Tunisia) - Qualification",
-      "event": "N. Schell — F. Romano",
-      "time": "2026-11-24T17:00:00+00:00",
+      "league": "Florianopolis",
+      "event": "W. Leite — J. Barranco Cosano",
+      "time": "2026-11-24T16:50:00+00:00",
       "home_rate": null,
       "away_rate": null,
       "source": "Live Tennis API",
@@ -1315,11 +871,11 @@
       "note": "Terminarz bez prognozy wyniku i kursu."
     },
     {
-      "id": "tennis-live-52810",
+      "id": "tennis-live-52835",
       "sport": "Tenis",
-      "league": "Monastir 2 (Tunisia)",
-      "event": "Bar Biryukov/ Pankin — Lock/ Sahtali",
-      "time": "2026-11-24T17:00:00+00:00",
+      "league": "W50 Ortisei",
+      "event": "I. Primorac — W. Falkowska",
+      "time": "2026-11-24T16:50:00+00:00",
       "home_rate": null,
       "away_rate": null,
       "source": "Live Tennis API",
@@ -1331,7 +887,43 @@
       "sport": "Tenis",
       "league": "W50 Ortisei",
       "event": "L. Mair — T. J. Brockmann",
-      "time": "2026-11-24T17:15:00+00:00",
+      "time": "2026-11-24T17:10:00+00:00",
+      "home_rate": null,
+      "away_rate": null,
+      "source": "Live Tennis API",
+      "source_url": "https://livetennisapi.com/",
+      "note": "Terminarz bez prognozy wyniku i kursu."
+    },
+    {
+      "id": "tennis-live-53151",
+      "sport": "Tenis",
+      "league": "Florianopolis",
+      "event": "I. Marcondes — O. J. Gutierrez",
+      "time": "2026-11-24T17:30:00+00:00",
+      "home_rate": null,
+      "away_rate": null,
+      "source": "Live Tennis API",
+      "source_url": "https://livetennisapi.com/",
+      "note": "Terminarz bez prognozy wyniku i kursu."
+    },
+    {
+      "id": "tennis-live-52911",
+      "sport": "Tenis",
+      "league": "Monastir 2 (Tunisia) - Qualification",
+      "event": "N. Schell — F. Romano",
+      "time": "2026-11-24T17:30:00+00:00",
+      "home_rate": null,
+      "away_rate": null,
+      "source": "Live Tennis API",
+      "source_url": "https://livetennisapi.com/",
+      "note": "Terminarz bez prognozy wyniku i kursu."
+    },
+    {
+      "id": "tennis-live-52810",
+      "sport": "Tenis",
+      "league": "Monastir 2 (Tunisia)",
+      "event": "Bar Biryukov/ Pankin — Lock/ Sahtali",
+      "time": "2026-11-24T17:30:00+00:00",
       "home_rate": null,
       "away_rate": null,
       "source": "Live Tennis API",
@@ -1381,11 +973,11 @@
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
-      "id": "tennis-live-53153",
+      "id": "tennis-live-53074",
       "sport": "Tenis",
-      "league": "Florianopolis",
-      "event": "R. Tabata — F. Meligeni Alves",
-      "time": "2026-11-24T18:00:00+00:00",
+      "league": "W50 Ortisei",
+      "event": "E. Perelygina — C. Zanolini",
+      "time": "2026-11-24T17:50:00+00:00",
       "home_rate": null,
       "away_rate": null,
       "source": "Live Tennis API",
@@ -1441,11 +1033,11 @@
       "note": "Terminarz bez prognozy wyniku i kursu."
     },
     {
-      "id": "tennis-live-52688",
+      "id": "tennis-live-53075",
       "sport": "Tenis",
-      "league": "Florianopolis",
-      "event": "P. Sakamoto — G. I. Justo",
-      "time": "2026-11-24T18:00:00+00:00",
+      "league": "W50 Ortisei",
+      "event": "K. Kuzmova — M. Martinez Vaquero",
+      "time": "2026-11-24T18:10:00+00:00",
       "home_rate": null,
       "away_rate": null,
       "source": "Live Tennis API",
@@ -1453,11 +1045,23 @@
       "note": "Terminarz bez prognozy wyniku i kursu."
     },
     {
-      "id": "tennis-live-53075",
+      "id": "tennis-live-53152",
       "sport": "Tenis",
-      "league": "W50 Ortisei",
-      "event": "K. Kuzmova — M. Martinez Vaquero",
+      "league": "Florianopolis",
+      "event": "P. A. Saraiva Dos Santos — T. Cigarran",
       "time": "2026-11-24T18:15:00+00:00",
+      "home_rate": null,
+      "away_rate": null,
+      "source": "Live Tennis API",
+      "source_url": "https://livetennisapi.com/",
+      "note": "Terminarz bez prognozy wyniku i kursu."
+    },
+    {
+      "id": "tennis-live-53153",
+      "sport": "Tenis",
+      "league": "Florianopolis",
+      "event": "R. Tabata — F. Meligeni Alves",
+      "time": "2026-11-24T19:00:00+00:00",
       "home_rate": null,
       "away_rate": null,
       "source": "Live Tennis API",
@@ -1501,6 +1105,18 @@
       "note": "Terminarz bez prognozy wyniku i kursu."
     },
     {
+      "id": "tennis-live-52688",
+      "sport": "Tenis",
+      "league": "Florianopolis",
+      "event": "P. Sakamoto — G. I. Justo",
+      "time": "2026-11-24T19:15:00+00:00",
+      "home_rate": null,
+      "away_rate": null,
+      "source": "Live Tennis API",
+      "source_url": "https://livetennisapi.com/",
+      "note": "Terminarz bez prognozy wyniku i kursu."
+    },
+    {
       "id": "basketball-mens-college-basketball-401921709",
       "sport": "Koszykówka",
       "league": "mens-college-basketball",
@@ -1516,34 +1132,10 @@
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
     },
     {
-      "id": "tennis-live-53154",
-      "sport": "Tenis",
-      "league": "Florianopolis",
-      "event": "C. Huertas Del Pino — F. L. Storck",
-      "time": "2026-11-24T19:30:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
-    {
       "id": "tennis-live-52800",
       "sport": "Tenis",
       "league": "Buenos Aires",
       "event": "N. Podoroska — L. Romero Gormaz",
-      "time": "2026-11-24T19:30:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
-    {
-      "id": "tennis-live-52686",
-      "sport": "Tenis",
-      "league": "Florianopolis",
-      "event": "M. Pucinelli de Almeida — C. M. Zarate",
       "time": "2026-11-24T19:30:00+00:00",
       "home_rate": null,
       "away_rate": null,
@@ -1839,6 +1431,18 @@
       "note": "Terminarz bez prognozy wyniku i kursu."
     },
     {
+      "id": "tennis-live-53154",
+      "sport": "Tenis",
+      "league": "Florianopolis",
+      "event": "C. Huertas Del Pino — F. L. Storck",
+      "time": "2026-11-24T20:45:00+00:00",
+      "home_rate": null,
+      "away_rate": null,
+      "source": "Live Tennis API",
+      "source_url": "https://livetennisapi.com/",
+      "note": "Terminarz bez prognozy wyniku i kursu."
+    },
+    {
       "id": "soccer-bra.1-401841335",
       "sport": "Piłka nożna",
       "league": "bra.1",
@@ -1891,6 +1495,18 @@
       "p_proxy": 0.545,
       "estimated_odds": 1.96,
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+    },
+    {
+      "id": "tennis-live-52686",
+      "sport": "Tenis",
+      "league": "Florianopolis",
+      "event": "M. Pucinelli de Almeida — C. M. Zarate",
+      "time": "2026-11-24T22:00:00+00:00",
+      "home_rate": null,
+      "away_rate": null,
+      "source": "Live Tennis API",
+      "source_url": "https://livetennisapi.com/",
+      "note": "Terminarz bez prognozy wyniku i kursu."
     },
     {
       "id": "basketball-nba-401909314",
@@ -2078,6 +1694,30 @@
       "p_proxy": 0.502,
       "estimated_odds": 2.13,
       "note": "Eksperymentalny wskaźnik z bilansów; kurs NIE pochodzi z rynku i nie jest prognozą skalibrowaną."
+    },
+    {
+      "id": "tennis-live-52928",
+      "sport": "Tenis",
+      "league": "M15 Madrid 2",
+      "event": "C. Hernandez — A. Peiro Serrano",
+      "time": "2026-11-25T09:30:00+00:00",
+      "home_rate": null,
+      "away_rate": null,
+      "source": "Live Tennis API",
+      "source_url": "https://livetennisapi.com/",
+      "note": "Terminarz bez prognozy wyniku i kursu."
+    },
+    {
+      "id": "tennis-live-52930",
+      "sport": "Tenis",
+      "league": "M15 Madrid 2",
+      "event": "D. Morais — J. Plans",
+      "time": "2026-11-25T11:00:00+00:00",
+      "home_rate": null,
+      "away_rate": null,
+      "source": "Live Tennis API",
+      "source_url": "https://livetennisapi.com/",
+      "note": "Terminarz bez prognozy wyniku i kursu."
     },
     {
       "id": "basketball-mens-college-basketball-401920428",
@@ -6193,7 +5833,7 @@
     }
   ],
   "status": "ok",
-  "fixtures": 389,
+  "fixtures": 359,
   "eligible_picks": 257,
   "coupons": [
     {
@@ -6847,8 +6487,8 @@
     {
       "source": "Live Tennis API",
       "status": "ok",
-      "events": 62,
-      "detail": "API: 200 rekordów; poprawne mecze: 62."
+      "events": 32,
+      "detail": "API: 200 rekordów; poprawne mecze: 32."
     },
     {
       "source": "Forma z wyników ESPN",
