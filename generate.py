@@ -75,7 +75,7 @@ def nhl(now, diagnostics):
 
 def historical(now, events, diagnostics):
     from concurrent.futures import ThreadPoolExecutor
-    leagues={(sport,league) for label,sport,league in LEAGUES if label!='Tenis' and any(e['league']==league for e in events)}
+    leagues={(sport,league) for label,sport,league in LEAGUES if label!='Tenis' and (sport=='soccer' or any(e['league']==league for e in events))}
     jobs=[(sport,league,(now.astimezone(WARSAW).date()-dt.timedelta(days=i)).strftime('%Y%m%d')) for sport,league in leagues for i in range(1,46)]
     def fetch(job):
         sport,league,day=job
@@ -95,16 +95,26 @@ def historical(now, events, diagnostics):
                 except (ValueError,KeyError,TypeError):continue
                 seen.add(key)
                 for i,t in enumerate(teams):
-                    rows.setdefault((league,competitor_name(t)),[]).append((game.get('date',''),scores[i],scores[1-i],key))
+                    row=(game.get('date',''),scores[i],scores[1-i],key)
+                    rows.setdefault((league,competitor_name(t)),[]).append(row)
+                    if league not in ('nba','nhl','wnba','mens-college-basketball'):
+                        rows.setdefault(('soccer-all',competitor_name(t)),[]).append(row)
     diagnostics.append({'source':'ESPN — wyniki 45 dni','status':'ok' if seen else 'error','events':len(seen),'detail':f'Nieudane zapytania: {errors}/{len(jobs)}'})
     return rows
 
 def enrich(x, history, quotes=None):
     quotes=quotes or {}
-    if x['sport']=='Tenis':return x
+    if x['sport']=='Tenis':
+        x['rejection_reason']='Tylko terminarz: brak zweryfikowanej historii tenisowej';return x
     home,away=x['event'].split(' — ',1)
-    h=sorted(history.get((x['league'],home),[]),reverse=True)[:12]; a=sorted(history.get((x['league'],away),[]),reverse=True)[:12]
-    if min(len(h),len(a))<5:return x
+    scope='soccer-all' if x['sport']=='Piłka nożna' else x['league']
+    h=sorted(history.get((scope,home),[]),reverse=True)[:12]; a=sorted(history.get((scope,away),[]),reverse=True)[:12]
+    x['history_samples']=[len(h),len(a)]
+    x['quoted_markets']=len(quotes)
+    if not quotes:
+        x['rejection_reason']='Brak dopasowanych aktualnych kursów';return x
+    if min(len(h),len(a))<5:
+        x['rejection_reason']='Za mało meczów historycznych';return x
     candidates=[]
     def add(market,family,fh,fa):
         hh=sum(fh(r[1],r[2]) for r in h); aa=sum(fa(r[1],r[2]) for r in a)
@@ -115,7 +125,7 @@ def enrich(x, history, quotes=None):
         price,book,stamp=quotes[market]
         # Historical frequency is not a forecast. Shrink toward 0.5 for indicative price only.
         proxy=.5+(rate-.5)*.65
-        candidates.append(dict(market=market,family=family,quality=round(rate*min(1,min(len(h),len(a))/10),4),estimated_odds=price,odds_book=book,odds_time=stamp,odds_verified=True,reason=f'{home}: {hh}/{len(h)}; {away}: {aa}/{len(a)} meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni. Częstość historyczna {rate:.0%}, nie prognoza. Kurs z oferty wskazanego bukmachera.',historical_rate=round(rate,3)))
+        candidates.append(dict(market=market,family=family,quality=round(rate*min(1,min(len(h),len(a))/10),4),estimated_odds=price,odds_book=book,odds_time=stamp,odds_verified=True,reason=f'{home}: {hh}/{len(h)}; {away}: {aa}/{len(a)} meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni (piłka: także inne rozgrywki). Częstość historyczna {rate:.0%}, nie prognoza. Kurs z oferty wskazanego bukmachera.',historical_rate=round(rate,3)))
     if x['sport']=='Piłka nożna':
         for line in sorted({float(k.split()[-1]) for k in quotes if k.startswith('Gole ')}):
             add(f'Gole powyżej {line}','gole',lambda f,g:f+g>line,lambda f,g:f+g>line)
@@ -135,6 +145,7 @@ def enrich(x, history, quotes=None):
     if candidates:
         candidates.sort(key=lambda c:(c['quality'],c['estimated_odds']),reverse=True)
         x.update(candidates[0]);x['markets']=candidates;x['source']='ESPN — zakończone mecze'
+    else:x['rejection_reason']='Żaden rynek nie spełnił kryteriów historycznych'
     return x
 
 def build(now=None):
@@ -155,6 +166,10 @@ def build(now=None):
     from odds import attach
     quotes=attach(list(unique.values()),get,parse_date,diagnostics,now)
     events=sorted((enrich(x, history, quotes.get(x['id'])) for x in unique.values()),key=lambda x:x['time'])
+    from collections import Counter
+    for league in sorted({x['league'] for x in events}):
+        group=[x for x in events if x['league']==league]
+        diagnostics.append({'source':'Analiza '+league,'status':'ok','events':len(group),'detail':str(dict(Counter(x.get('rejection_reason','Zakwalifikowany') for x in group)))})
     # Betting day: local 00:00 through next day 06:00, Europe/Warsaw.
     # Only future events are considered; overlap between adjacent betting days is intentional.
     dates=[(now.astimezone(WARSAW).date()+dt.timedelta(days=i)).isoformat() for i in range(5)]

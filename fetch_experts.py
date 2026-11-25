@@ -44,7 +44,24 @@ for name,url in [('Zawód Typer — Typy Dnia','https://zawodtyper.pl/typy-dnia/
         diagnostics.append({'source':name,'status':f'Pobrano stronę; znaleziono {count} odnośników do materiałów'})
     except Exception as e:diagnostics.append({'source':name,'status':f'Nie udało się pobrać: {type(e).__name__}: {str(e)[:100]}'})
 
-out={'updated_at':datetime.now(timezone.utc).isoformat(),'note':'Zawód Typer: materiały i linki, nie potwierdzone selekcje bukmacherskie','items':items[:60],'diagnostics':diagnostics}
+# Extract only explicitly labelled selections; do not infer from prose.
+class Article(HTMLParser):
+    def __init__(self):super().__init__();self.parts=[];self.skip=0
+    def handle_starttag(self,tag,attrs):
+        if tag in ('script','style'):self.skip+=1
+        if tag in ('p','li','div','h2','h3','br','tr'):self.parts.append('\n')
+    def handle_endtag(self,tag):
+        if tag in ('script','style'):self.skip=max(0,self.skip-1)
+        if tag in ('p','li','div','h2','h3','tr'):self.parts.append('\n')
+    def handle_data(self,data):
+        if not self.skip:self.parts.append(data)
+for item in items[:12]:
+    try:
+        parser=Article();parser.feed(get(item['url']))
+        lines=[' '.join(x.split()) for x in ''.join(parser.parts).splitlines()]
+        item['selections']=list(dict.fromkeys(m.group(1).strip() for line in lines if (m:=re.match(r'^(?:nasz typ|typ bukmacherski|proponowany typ|typ)\s*[:–-]\s*(.{3,180})$',line,re.I))))[:8]
+    except Exception as exc:item['selections']=[];item['read_error']=type(exc).__name__
+out={'updated_at':datetime.now(timezone.utc).isoformat(),'note':'Zawód Typer: jawnie oznaczone fragmenty, niezweryfikowane statystycznie','items':items[:60],'diagnostics':diagnostics}
 Path('data').mkdir(exist_ok=True)
 Path('data/expert_materials.json').write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding='utf-8')
 print('Expert materials:',len(items),[(x['source'],x['status']) for x in diagnostics])
