@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-11-25T14:12:41.430053+00:00",
+  "updated_at": "2026-11-25T22:34:25.207621+00:00",
   "note": "Zawód Typer: jawnie oznaczone fragmenty, niezweryfikowane statystycznie",
   "items": [
+    {
+      "source": "Zawód Typer — Typy Dnia",
+      "title": "Typy Dnia - 26 listopada (czwartek)",
+      "url": "https://zawodtyper.pl/typy-dnia-26-listopada-czwartek/",
+      "published": "",
+      "selections": []
+    },
     {
       "source": "Zawód Typer — Typy Dnia",
       "title": "Typy Dnia - 25 listopada (środa)",
@@ -62,13 +69,6 @@
       "source": "Zawód Typer — Typy Dnia",
       "title": "Typy Dnia - 17 listopada (wtorek)",
       "url": "https://zawodtyper.pl/typy-dnia-17-listopada-wtorek/",
-      "published": "",
-      "selections": []
-    },
-    {
-      "source": "Zawód Typer — Typy Dnia",
-      "title": "Typy Dnia - 16 listopada (poniedziałek)",
-      "url": "https://zawodtyper.pl/typy-dnia-16-listopada-poniedzialek/",
       "published": "",
       "selections": []
     },
