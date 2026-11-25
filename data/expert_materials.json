@@ -1,78 +1,92 @@
 {
-  "updated_at": "2026-11-25T06:06:07.753037+00:00",
-  "note": "Zawód Typer: materiały i linki, nie potwierdzone selekcje bukmacherskie",
+  "updated_at": "2026-11-25T12:10:06.121019+00:00",
+  "note": "Zawód Typer: jawnie oznaczone fragmenty, niezweryfikowane statystycznie",
   "items": [
     {
       "source": "Zawód Typer — Typy Dnia",
       "title": "Typy Dnia - 25 listopada (środa)",
       "url": "https://zawodtyper.pl/typy-dnia-25-listopada-sroda/",
-      "published": ""
+      "published": "",
+      "selections": []
     },
     {
       "source": "Zawód Typer — Typy Dnia",
       "title": "Typy Dnia - 24 listopada (wtorek)",
       "url": "https://zawodtyper.pl/typy-dnia-24-listopada-wtorek/",
-      "published": ""
+      "published": "",
+      "selections": []
     },
     {
       "source": "Zawód Typer — Typy Dnia",
       "title": "Typy Dnia - 23 listopada (poniedziałek)",
       "url": "https://zawodtyper.pl/typy-dnia-23-listopada-poniedzialek/",
-      "published": ""
+      "published": "",
+      "selections": []
     },
     {
       "source": "Zawód Typer — Typy Dnia",
       "title": "Typy Dnia - 22 listopada (niedziela)",
       "url": "https://zawodtyper.pl/typy-dnia-22-listopada-niedziela/",
-      "published": ""
+      "published": "",
+      "selections": []
     },
     {
       "source": "Zawód Typer — Typy Dnia",
       "title": "Typy Dnia - 21 listopada (sobota)",
       "url": "https://zawodtyper.pl/typy-dnia-21-listopada-sobota/",
-      "published": ""
+      "published": "",
+      "selections": []
     },
     {
       "source": "Zawód Typer — Typy Dnia",
       "title": "Typy Dnia - 20 listopada (piątek)",
       "url": "https://zawodtyper.pl/typy-dnia-20-listopada-piatek/",
-      "published": ""
+      "published": "",
+      "selections": []
     },
     {
       "source": "Zawód Typer — Typy Dnia",
       "title": "Typy Dnia - 19 listopada (czwartek)",
       "url": "https://zawodtyper.pl/typy-dnia-19-listopada-czwartek/",
-      "published": ""
+      "published": "",
+      "selections": []
     },
     {
       "source": "Zawód Typer — Typy Dnia",
       "title": "Typy Dnia - 18 listopada (środa)",
       "url": "https://zawodtyper.pl/typy-dnia-18-listopada-sroda/",
-      "published": ""
+      "published": "",
+      "selections": []
     },
     {
       "source": "Zawód Typer — Typy Dnia",
       "title": "Typy Dnia - 17 listopada (wtorek)",
       "url": "https://zawodtyper.pl/typy-dnia-17-listopada-wtorek/",
-      "published": ""
+      "published": "",
+      "selections": []
     },
     {
       "source": "Zawód Typer — Typy Dnia",
       "title": "Typy Dnia - 16 listopada (poniedziałek)",
       "url": "https://zawodtyper.pl/typy-dnia-16-listopada-poniedzialek/",
-      "published": ""
+      "published": "",
+      "selections": []
     },
     {
       "source": "Zawód Typer — Typy redaktorów",
       "title": "Typy Dnia - największa społeczność Typerów w Polsce",
       "url": "https://zawodtyper.pl/typy-dnia/",
-      "published": ""
+      "published": "",
+      "selections": []
     },
     {
       "source": "Zawód Typer — Typy redaktorów",
       "title": "PSG - AS Roma Typy Dziś 21:00",
       "url": "https://zawodtyper.pl/psg-as-roma-typy/",
-      "published": ""
+      "published": "",
+      "selections": [
+        "Obie drużyny strzelą gola i Powyżej 2,5 gola z kursem 1.52 na Betfan"
+      ]
     },
     {
       "source": "Zawód Typer — Typy redaktorów",
