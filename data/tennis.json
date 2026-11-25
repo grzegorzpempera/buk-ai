@@ -1,56 +1,8 @@
 {
   "source": "Live Tennis API",
   "status": "ok",
-  "generated_at": "2026-11-25T13:37:25.937252+00:00",
+  "generated_at": "2026-11-25T14:12:05.361793+00:00",
   "events": [
-    {
-      "id": "tennis-live-53007",
-      "sport": "Tenis",
-      "league": "M25 Hradec Kralove",
-      "event": "Braynin/ Cicma — Fidler/ Smejkal",
-      "time": "2026-11-25T13:40:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
-    {
-      "id": "tennis-live-52547",
-      "sport": "Tenis",
-      "league": "Ankara (Turkey)",
-      "event": "Duran/ Milev — Bianchi/ Sheehy",
-      "time": "2026-11-25T13:45:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
-    {
-      "id": "tennis-live-53006",
-      "sport": "Tenis",
-      "league": "M25 Hradec Kralove",
-      "event": "Baum/ Cerny — Duda/ Frohlich",
-      "time": "2026-11-25T14:10:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
-    {
-      "id": "tennis-live-53008",
-      "sport": "Tenis",
-      "league": "M25 Hradec Kralove",
-      "event": "Petrofsky/ Psota — Gundacker/ Kozlovsky",
-      "time": "2026-11-25T14:30:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu."
-    },
     {
       "id": "tennis-live-53250",
       "sport": "Tenis",
@@ -100,6 +52,18 @@
       "note": "Terminarz bez prognozy wyniku i kursu."
     },
     {
+      "id": "tennis-live-53008",
+      "sport": "Tenis",
+      "league": "M25 Hradec Kralove",
+      "event": "Petrofsky/ Psota — Gundacker/ Kozlovsky",
+      "time": "2026-11-25T14:50:00+00:00",
+      "home_rate": null,
+      "away_rate": null,
+      "source": "Live Tennis API",
+      "source_url": "https://livetennisapi.com/",
+      "note": "Terminarz bez prognozy wyniku i kursu."
+    },
+    {
       "id": "tennis-live-51852",
       "sport": "Tenis",
       "league": "Davis Cup - World Group Teams",
@@ -124,6 +88,18 @@
       "note": "Terminarz bez prognozy wyniku i kursu."
     },
     {
+      "id": "tennis-live-53006",
+      "sport": "Tenis",
+      "league": "M25 Hradec Kralove",
+      "event": "Baum/ Cerny — Duda/ Frohlich",
+      "time": "2026-11-25T15:00:00+00:00",
+      "home_rate": null,
+      "away_rate": null,
+      "source": "Live Tennis API",
+      "source_url": "https://livetennisapi.com/",
+      "note": "Terminarz bez prognozy wyniku i kursu."
+    },
+    {
       "id": "tennis-live-52553",
       "sport": "Tenis",
       "league": "Ankara (Turkey)",
@@ -140,7 +116,7 @@
       "sport": "Tenis",
       "league": "Ankara (Turkey)",
       "event": "Poritskyi/ Ursu — Bobichon/ Catry",
-      "time": "2026-11-25T15:15:00+00:00",
+      "time": "2026-11-25T15:30:00+00:00",
       "home_rate": null,
       "away_rate": null,
       "source": "Live Tennis API",
@@ -152,7 +128,7 @@
       "sport": "Tenis",
       "league": "Florianopolis",
       "event": "C. Huertas Del Pino — F. L. Storck",
-      "time": "2026-11-25T16:00:00+00:00",
+      "time": "2026-11-25T15:30:00+00:00",
       "home_rate": null,
       "away_rate": null,
       "source": "Live Tennis API",
@@ -212,7 +188,7 @@
       "sport": "Tenis",
       "league": "Florianopolis",
       "event": "N. Kicker — E. Moller",
-      "time": "2026-11-25T17:30:00+00:00",
+      "time": "2026-11-25T17:00:00+00:00",
       "home_rate": null,
       "away_rate": null,
       "source": "Live Tennis API",
@@ -364,13 +340,13 @@
       "note": "Terminarz bez prognozy wyniku i kursu."
     }
   ],
-  "detail": "API: 200 rekordów; poprawne mecze: 30.",
+  "detail": "API: 200 rekordów; poprawne mecze: 28.",
   "diagnostics": {
     "key_configured": true,
     "api_records": 200,
     "rejected": {
-      "nie_nadchodzacy_status": 159,
-      "poza_zakresem_7_dni": 11
+      "nie_nadchodzacy_status": 168,
+      "poza_zakresem_7_dni": 4
     },
     "http_status": 200,
     "meta_count": 200

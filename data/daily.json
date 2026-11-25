@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T13:37:26.396033+00:00",
+  "generated_at": "2026-11-25T14:12:05.645198+00:00",
   "timezone": "Europe/Warsaw",
   "betting_day_end": "06:00",
   "available_dates": [
@@ -11,8 +11,8 @@
   ],
   "by_date": {
     "2026-11-25": {
-      "fixtures": 75,
-      "eligible_picks": 14,
+      "fixtures": 73,
+      "eligible_picks": 15,
       "coupons": [
         {
           "name": "Ostrożniejszy",
@@ -38,7 +38,7 @@
               "quality": 0.7083,
               "estimated_odds": 1.54,
               "odds_book": "1xBet",
-              "odds_time": "2026-11-25T13:37:47Z",
+              "odds_time": "2026-11-25T14:12:22Z",
               "odds_verified": true,
               "reason": "Lille: 10/12; Bayern Munich: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
               "historical_rate": 0.708,
@@ -49,7 +49,7 @@
                   "quality": 0.7083,
                   "estimated_odds": 1.54,
                   "odds_book": "1xBet",
-                  "odds_time": "2026-11-25T13:37:47Z",
+                  "odds_time": "2026-11-25T14:12:22Z",
                   "odds_verified": true,
                   "reason": "Lille: 10/12; Bayern Munich: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
                   "historical_rate": 0.708
@@ -77,7 +77,7 @@
               "quality": 0.7083,
               "estimated_odds": 1.96,
               "odds_book": "Winamax (FR)",
-              "odds_time": "2026-11-25T13:37:47Z",
+              "odds_time": "2026-11-25T14:12:20Z",
               "odds_verified": true,
               "reason": "Minnesota Wild: 9/12; Utah Mammoth: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
               "historical_rate": 0.708,
@@ -88,7 +88,7 @@
                   "quality": 0.7083,
                   "estimated_odds": 1.96,
                   "odds_book": "Winamax (FR)",
-                  "odds_time": "2026-11-25T13:37:47Z",
+                  "odds_time": "2026-11-25T14:12:20Z",
                   "odds_verified": true,
                   "reason": "Minnesota Wild: 9/12; Utah Mammoth: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
                   "historical_rate": 0.708
@@ -97,9 +97,9 @@
                   "market": "Bramki powyżej 5.5",
                   "family": "suma",
                   "quality": 0.6667,
-                  "estimated_odds": 1.67,
-                  "odds_book": "Marathon Bet",
-                  "odds_time": "2026-11-25T13:38:18Z",
+                  "estimated_odds": 1.68,
+                  "odds_book": "Coolbet",
+                  "odds_time": "2026-11-25T14:04:03Z",
                   "odds_verified": true,
                   "reason": "Minnesota Wild: 9/12; Utah Mammoth: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
                   "historical_rate": 0.667
@@ -127,7 +127,7 @@
               "quality": 0.6667,
               "estimated_odds": 1.94,
               "odds_book": "Unibet (NL)",
-              "odds_time": "2026-11-25T13:38:12Z",
+              "odds_time": "2026-11-25T14:11:31Z",
               "odds_verified": true,
               "reason": "Columbus Blue Jackets: 8/12; New Jersey Devils: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
               "historical_rate": 0.667,
@@ -138,7 +138,7 @@
                   "quality": 0.6667,
                   "estimated_odds": 1.94,
                   "odds_book": "Unibet (NL)",
-                  "odds_time": "2026-11-25T13:38:12Z",
+                  "odds_time": "2026-11-25T14:11:31Z",
                   "odds_verified": true,
                   "reason": "Columbus Blue Jackets: 8/12; New Jersey Devils: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
                   "historical_rate": 0.667
@@ -173,7 +173,7 @@
               "quality": 0.8333,
               "estimated_odds": 1.66,
               "odds_book": "Unibet (NL)",
-              "odds_time": "2026-11-25T13:38:12Z",
+              "odds_time": "2026-11-25T14:11:31Z",
               "odds_verified": true,
               "reason": "Washington Capitals: 11/12; Philadelphia Flyers: 9/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 83%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
               "historical_rate": 0.833,
@@ -184,7 +184,7 @@
                   "quality": 0.8333,
                   "estimated_odds": 1.66,
                   "odds_book": "Unibet (NL)",
-                  "odds_time": "2026-11-25T13:38:12Z",
+                  "odds_time": "2026-11-25T14:11:31Z",
                   "odds_verified": true,
                   "reason": "Washington Capitals: 11/12; Philadelphia Flyers: 9/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 83%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
                   "historical_rate": 0.833
@@ -194,8 +194,8 @@
                   "family": "handicap",
                   "quality": 0.8333,
                   "estimated_odds": 1.53,
-                  "odds_book": "LeoVegas (SE)",
-                  "odds_time": "2026-11-25T13:37:24Z",
+                  "odds_book": "GTbets",
+                  "odds_time": "2026-11-25T14:11:57Z",
                   "odds_verified": true,
                   "reason": "Washington Capitals: 11/12; Philadelphia Flyers: 9/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 83%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
                   "historical_rate": 0.833
@@ -205,8 +205,8 @@
                   "family": "suma",
                   "quality": 0.75,
                   "estimated_odds": 2.0,
-                  "odds_book": "GTbets",
-                  "odds_time": "2026-11-25T13:37:23Z",
+                  "odds_book": "William Hill",
+                  "odds_time": "2026-11-25T14:11:30Z",
                   "odds_verified": true,
                   "reason": "Washington Capitals: 10/12; Philadelphia Flyers: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 75%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
                   "historical_rate": 0.75
@@ -214,13 +214,13 @@
               ]
             },
             {
-              "id": "hockey-nhl-401892781",
+              "id": "hockey-nhl-401892790",
               "sport": "NHL",
               "league": "nhl",
-              "event": "Boston Bruins — Winnipeg Jets",
-              "time": "2026-11-26T00:00:00+00:00",
-              "home_rate": 0.6666666666666666,
-              "away_rate": 0.5652173913043478,
+              "event": "Dallas Stars — Nashville Predators",
+              "time": "2026-11-26T01:00:00+00:00",
+              "home_rate": 0.6956521739130435,
+              "away_rate": 0.65,
               "source": "ESPN — zakończone mecze",
               "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
               "history_samples": [
@@ -231,35 +231,35 @@
               "qualified_markets": 1,
               "market": "Handicap gości +1.5",
               "family": "handicap",
-              "quality": 0.7083,
+              "quality": 0.8333,
               "estimated_odds": 1.55,
-              "odds_book": "Coolbet",
-              "odds_time": "2026-11-25T13:29:47Z",
+              "odds_book": "MyBookie.ag",
+              "odds_time": "2026-11-25T14:11:58Z",
               "odds_verified": true,
-              "reason": "Boston Bruins: 7/12; Winnipeg Jets: 10/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
-              "historical_rate": 0.708,
+              "reason": "Dallas Stars: 10/12; Nashville Predators: 10/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 83%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.833,
               "markets": [
                 {
                   "market": "Handicap gości +1.5",
                   "family": "handicap",
-                  "quality": 0.7083,
+                  "quality": 0.8333,
                   "estimated_odds": 1.55,
-                  "odds_book": "Coolbet",
-                  "odds_time": "2026-11-25T13:29:47Z",
+                  "odds_book": "MyBookie.ag",
+                  "odds_time": "2026-11-25T14:11:58Z",
                   "odds_verified": true,
-                  "reason": "Boston Bruins: 7/12; Winnipeg Jets: 10/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
-                  "historical_rate": 0.708
+                  "reason": "Dallas Stars: 10/12; Nashville Predators: 10/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 83%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.833
                 }
               ]
             },
             {
-              "id": "hockey-nhl-401892791",
+              "id": "hockey-nhl-401892794",
               "sport": "NHL",
               "league": "nhl",
-              "event": "Minnesota Wild — Utah Mammoth",
-              "time": "2026-11-26T01:00:00+00:00",
-              "home_rate": 0.8260869565217391,
-              "away_rate": 0.5416666666666666,
+              "event": "Seattle Kraken — Chicago Blackhawks",
+              "time": "2026-11-26T02:40:00+00:00",
+              "home_rate": 0.5454545454545454,
+              "away_rate": 0.375,
               "source": "ESPN — zakończone mecze",
               "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
               "history_samples": [
@@ -267,38 +267,27 @@
                 12
               ],
               "quoted_markets": 8,
-              "qualified_markets": 2,
-              "market": "Zwycięstwo gospodarzy",
-              "family": "wynik",
-              "quality": 0.7083,
-              "estimated_odds": 1.96,
-              "odds_book": "Winamax (FR)",
-              "odds_time": "2026-11-25T13:37:47Z",
+              "qualified_markets": 1,
+              "market": "Bramki powyżej 5.5",
+              "family": "suma",
+              "quality": 0.75,
+              "estimated_odds": 1.7,
+              "odds_book": "1xBet",
+              "odds_time": "2026-11-25T14:11:07Z",
               "odds_verified": true,
-              "reason": "Minnesota Wild: 9/12; Utah Mammoth: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
-              "historical_rate": 0.708,
+              "reason": "Seattle Kraken: 9/12; Chicago Blackhawks: 9/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 75%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.75,
               "markets": [
-                {
-                  "market": "Zwycięstwo gospodarzy",
-                  "family": "wynik",
-                  "quality": 0.7083,
-                  "estimated_odds": 1.96,
-                  "odds_book": "Winamax (FR)",
-                  "odds_time": "2026-11-25T13:37:47Z",
-                  "odds_verified": true,
-                  "reason": "Minnesota Wild: 9/12; Utah Mammoth: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
-                  "historical_rate": 0.708
-                },
                 {
                   "market": "Bramki powyżej 5.5",
                   "family": "suma",
-                  "quality": 0.6667,
-                  "estimated_odds": 1.67,
-                  "odds_book": "Marathon Bet",
-                  "odds_time": "2026-11-25T13:38:18Z",
+                  "quality": 0.75,
+                  "estimated_odds": 1.7,
+                  "odds_book": "1xBet",
+                  "odds_time": "2026-11-25T14:11:07Z",
                   "odds_verified": true,
-                  "reason": "Minnesota Wild: 9/12; Utah Mammoth: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
-                  "historical_rate": 0.667
+                  "reason": "Seattle Kraken: 9/12; Chicago Blackhawks: 9/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 75%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.75
                 }
               ]
             },
@@ -321,9 +310,9 @@
               "market": "Zwycięstwo gospodarzy",
               "family": "wynik",
               "quality": 0.6667,
-              "estimated_odds": 1.64,
-              "odds_book": "Codere (IT)",
-              "odds_time": "2026-11-25T13:37:18Z",
+              "estimated_odds": 1.65,
+              "odds_book": "BetOnline.ag",
+              "odds_time": "2026-11-25T14:11:52Z",
               "odds_verified": true,
               "reason": "New York Knicks: 9/12; Cleveland Cavaliers: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
               "historical_rate": 0.667,
@@ -332,9 +321,9 @@
                   "market": "Zwycięstwo gospodarzy",
                   "family": "wynik",
                   "quality": 0.6667,
-                  "estimated_odds": 1.64,
-                  "odds_book": "Codere (IT)",
-                  "odds_time": "2026-11-25T13:37:18Z",
+                  "estimated_odds": 1.65,
+                  "odds_book": "BetOnline.ag",
+                  "odds_time": "2026-11-25T14:11:52Z",
                   "odds_verified": true,
                   "reason": "New York Knicks: 9/12; Cleveland Cavaliers: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
                   "historical_rate": 0.667
@@ -342,7 +331,7 @@
               ]
             }
           ],
-          "estimated_total_odds": 8.27,
+          "estimated_total_odds": 7.22,
           "warning": "Iloczyn kursów z ofert; nie jest gwarantowaną ofertą AKO jednego bukmachera."
         },
         {
@@ -369,7 +358,7 @@
               "quality": 0.8333,
               "estimated_odds": 1.52,
               "odds_book": "GTbets",
-              "odds_time": "2026-11-25T13:37:26Z",
+              "odds_time": "2026-11-25T14:12:00Z",
               "odds_verified": true,
               "reason": "Sporting CP: 10/12; Manchester United: 10/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 83%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
               "historical_rate": 0.833,
@@ -380,48 +369,9 @@
                   "quality": 0.8333,
                   "estimated_odds": 1.52,
                   "odds_book": "GTbets",
-                  "odds_time": "2026-11-25T13:37:26Z",
+                  "odds_time": "2026-11-25T14:12:00Z",
                   "odds_verified": true,
                   "reason": "Sporting CP: 10/12; Manchester United: 10/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 83%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
-                  "historical_rate": 0.833
-                }
-              ]
-            },
-            {
-              "id": "hockey-nhl-401892790",
-              "sport": "NHL",
-              "league": "nhl",
-              "event": "Dallas Stars — Nashville Predators",
-              "time": "2026-11-26T01:00:00+00:00",
-              "home_rate": 0.6956521739130435,
-              "away_rate": 0.65,
-              "source": "ESPN — zakończone mecze",
-              "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
-              "history_samples": [
-                12,
-                12
-              ],
-              "quoted_markets": 6,
-              "qualified_markets": 1,
-              "market": "Handicap gości +1.5",
-              "family": "handicap",
-              "quality": 0.8333,
-              "estimated_odds": 1.54,
-              "odds_book": "Unibet (SE)",
-              "odds_time": "2026-11-25T13:37:23Z",
-              "odds_verified": true,
-              "reason": "Dallas Stars: 10/12; Nashville Predators: 10/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 83%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
-              "historical_rate": 0.833,
-              "markets": [
-                {
-                  "market": "Handicap gości +1.5",
-                  "family": "handicap",
-                  "quality": 0.8333,
-                  "estimated_odds": 1.54,
-                  "odds_book": "Unibet (SE)",
-                  "odds_time": "2026-11-25T13:37:23Z",
-                  "odds_verified": true,
-                  "reason": "Dallas Stars: 10/12; Nashville Predators: 10/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 83%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
                   "historical_rate": 0.833
                 }
               ]
@@ -446,8 +396,8 @@
               "family": "handicap",
               "quality": 0.75,
               "estimated_odds": 1.54,
-              "odds_book": "BetOnline.ag",
-              "odds_time": "2026-11-25T13:38:11Z",
+              "odds_book": "Betsson",
+              "odds_time": "2026-11-25T14:11:32Z",
               "odds_verified": true,
               "reason": "Pittsburgh Penguins: 11/12; Calgary Flames: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 75%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
               "historical_rate": 0.75,
@@ -457,359 +407,11 @@
                   "family": "handicap",
                   "quality": 0.75,
                   "estimated_odds": 1.54,
-                  "odds_book": "BetOnline.ag",
-                  "odds_time": "2026-11-25T13:38:11Z",
+                  "odds_book": "Betsson",
+                  "odds_time": "2026-11-25T14:11:32Z",
                   "odds_verified": true,
                   "reason": "Pittsburgh Penguins: 11/12; Calgary Flames: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 75%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
                   "historical_rate": 0.75
-                }
-              ]
-            },
-            {
-              "id": "hockey-nhl-401892791",
-              "sport": "NHL",
-              "league": "nhl",
-              "event": "Minnesota Wild — Utah Mammoth",
-              "time": "2026-11-26T01:00:00+00:00",
-              "home_rate": 0.8260869565217391,
-              "away_rate": 0.5416666666666666,
-              "source": "ESPN — zakończone mecze",
-              "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
-              "history_samples": [
-                12,
-                12
-              ],
-              "quoted_markets": 8,
-              "qualified_markets": 2,
-              "market": "Zwycięstwo gospodarzy",
-              "family": "wynik",
-              "quality": 0.7083,
-              "estimated_odds": 1.96,
-              "odds_book": "Winamax (FR)",
-              "odds_time": "2026-11-25T13:37:47Z",
-              "odds_verified": true,
-              "reason": "Minnesota Wild: 9/12; Utah Mammoth: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
-              "historical_rate": 0.708,
-              "markets": [
-                {
-                  "market": "Zwycięstwo gospodarzy",
-                  "family": "wynik",
-                  "quality": 0.7083,
-                  "estimated_odds": 1.96,
-                  "odds_book": "Winamax (FR)",
-                  "odds_time": "2026-11-25T13:37:47Z",
-                  "odds_verified": true,
-                  "reason": "Minnesota Wild: 9/12; Utah Mammoth: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
-                  "historical_rate": 0.708
-                },
-                {
-                  "market": "Bramki powyżej 5.5",
-                  "family": "suma",
-                  "quality": 0.6667,
-                  "estimated_odds": 1.67,
-                  "odds_book": "Marathon Bet",
-                  "odds_time": "2026-11-25T13:38:18Z",
-                  "odds_verified": true,
-                  "reason": "Minnesota Wild: 9/12; Utah Mammoth: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
-                  "historical_rate": 0.667
-                }
-              ]
-            },
-            {
-              "id": "hockey-nhl-401892788",
-              "sport": "NHL",
-              "league": "nhl",
-              "event": "Columbus Blue Jackets — New Jersey Devils",
-              "time": "2026-11-26T00:00:00+00:00",
-              "home_rate": 0.4166666666666667,
-              "away_rate": 0.6538461538461539,
-              "source": "ESPN — zakończone mecze",
-              "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
-              "history_samples": [
-                12,
-                12
-              ],
-              "quoted_markets": 8,
-              "qualified_markets": 1,
-              "market": "Zwycięstwo gości",
-              "family": "wynik",
-              "quality": 0.6667,
-              "estimated_odds": 1.94,
-              "odds_book": "Unibet (NL)",
-              "odds_time": "2026-11-25T13:38:12Z",
-              "odds_verified": true,
-              "reason": "Columbus Blue Jackets: 8/12; New Jersey Devils: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
-              "historical_rate": 0.667,
-              "markets": [
-                {
-                  "market": "Zwycięstwo gości",
-                  "family": "wynik",
-                  "quality": 0.6667,
-                  "estimated_odds": 1.94,
-                  "odds_book": "Unibet (NL)",
-                  "odds_time": "2026-11-25T13:38:12Z",
-                  "odds_verified": true,
-                  "reason": "Columbus Blue Jackets: 8/12; New Jersey Devils: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
-                  "historical_rate": 0.667
-                }
-              ]
-            }
-          ],
-          "estimated_total_odds": 13.71,
-          "warning": "Iloczyn kursów z ofert; nie jest gwarantowaną ofertą AKO jednego bukmachera."
-        }
-      ]
-    },
-    "2026-11-26": {
-      "fixtures": 54,
-      "eligible_picks": 12,
-      "coupons": [
-        {
-          "name": "Ostrożniejszy",
-          "picks": [
-            {
-              "id": "hockey-nhl-401892791",
-              "sport": "NHL",
-              "league": "nhl",
-              "event": "Minnesota Wild — Utah Mammoth",
-              "time": "2026-11-26T01:00:00+00:00",
-              "home_rate": 0.8260869565217391,
-              "away_rate": 0.5416666666666666,
-              "source": "ESPN — zakończone mecze",
-              "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
-              "history_samples": [
-                12,
-                12
-              ],
-              "quoted_markets": 8,
-              "qualified_markets": 2,
-              "market": "Zwycięstwo gospodarzy",
-              "family": "wynik",
-              "quality": 0.7083,
-              "estimated_odds": 1.96,
-              "odds_book": "Winamax (FR)",
-              "odds_time": "2026-11-25T13:37:47Z",
-              "odds_verified": true,
-              "reason": "Minnesota Wild: 9/12; Utah Mammoth: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
-              "historical_rate": 0.708,
-              "markets": [
-                {
-                  "market": "Zwycięstwo gospodarzy",
-                  "family": "wynik",
-                  "quality": 0.7083,
-                  "estimated_odds": 1.96,
-                  "odds_book": "Winamax (FR)",
-                  "odds_time": "2026-11-25T13:37:47Z",
-                  "odds_verified": true,
-                  "reason": "Minnesota Wild: 9/12; Utah Mammoth: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
-                  "historical_rate": 0.708
-                },
-                {
-                  "market": "Bramki powyżej 5.5",
-                  "family": "suma",
-                  "quality": 0.6667,
-                  "estimated_odds": 1.67,
-                  "odds_book": "Marathon Bet",
-                  "odds_time": "2026-11-25T13:38:18Z",
-                  "odds_verified": true,
-                  "reason": "Minnesota Wild: 9/12; Utah Mammoth: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
-                  "historical_rate": 0.667
-                }
-              ]
-            },
-            {
-              "id": "hockey-nhl-401892788",
-              "sport": "NHL",
-              "league": "nhl",
-              "event": "Columbus Blue Jackets — New Jersey Devils",
-              "time": "2026-11-26T00:00:00+00:00",
-              "home_rate": 0.4166666666666667,
-              "away_rate": 0.6538461538461539,
-              "source": "ESPN — zakończone mecze",
-              "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
-              "history_samples": [
-                12,
-                12
-              ],
-              "quoted_markets": 8,
-              "qualified_markets": 1,
-              "market": "Zwycięstwo gości",
-              "family": "wynik",
-              "quality": 0.6667,
-              "estimated_odds": 1.94,
-              "odds_book": "Unibet (NL)",
-              "odds_time": "2026-11-25T13:38:12Z",
-              "odds_verified": true,
-              "reason": "Columbus Blue Jackets: 8/12; New Jersey Devils: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
-              "historical_rate": 0.667,
-              "markets": [
-                {
-                  "market": "Zwycięstwo gości",
-                  "family": "wynik",
-                  "quality": 0.6667,
-                  "estimated_odds": 1.94,
-                  "odds_book": "Unibet (NL)",
-                  "odds_time": "2026-11-25T13:38:12Z",
-                  "odds_verified": true,
-                  "reason": "Columbus Blue Jackets: 8/12; New Jersey Devils: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
-                  "historical_rate": 0.667
-                }
-              ]
-            },
-            {
-              "id": "basketball-nba-401909319",
-              "sport": "Koszykówka",
-              "league": "nba",
-              "event": "New York Knicks — Cleveland Cavaliers",
-              "time": "2026-11-26T00:30:00+00:00",
-              "home_rate": 0.631578947368421,
-              "away_rate": 0.5,
-              "source": "ESPN — zakończone mecze",
-              "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261125&limit=100",
-              "history_samples": [
-                12,
-                12
-              ],
-              "quoted_markets": 10,
-              "qualified_markets": 1,
-              "market": "Zwycięstwo gospodarzy",
-              "family": "wynik",
-              "quality": 0.6667,
-              "estimated_odds": 1.64,
-              "odds_book": "Codere (IT)",
-              "odds_time": "2026-11-25T13:37:18Z",
-              "odds_verified": true,
-              "reason": "New York Knicks: 9/12; Cleveland Cavaliers: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
-              "historical_rate": 0.667,
-              "markets": [
-                {
-                  "market": "Zwycięstwo gospodarzy",
-                  "family": "wynik",
-                  "quality": 0.6667,
-                  "estimated_odds": 1.64,
-                  "odds_book": "Codere (IT)",
-                  "odds_time": "2026-11-25T13:37:18Z",
-                  "odds_verified": true,
-                  "reason": "New York Knicks: 9/12; Cleveland Cavaliers: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
-                  "historical_rate": 0.667
-                }
-              ]
-            }
-          ],
-          "estimated_total_odds": 6.24,
-          "warning": "Iloczyn kursów z ofert; nie jest gwarantowaną ofertą AKO jednego bukmachera."
-        },
-        {
-          "name": "Zrównoważony",
-          "picks": [
-            {
-              "id": "hockey-nhl-401892787",
-              "sport": "NHL",
-              "league": "nhl",
-              "event": "Washington Capitals — Philadelphia Flyers",
-              "time": "2026-11-26T00:00:00+00:00",
-              "home_rate": 0.4782608695652174,
-              "away_rate": 0.45454545454545453,
-              "source": "ESPN — zakończone mecze",
-              "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
-              "history_samples": [
-                12,
-                12
-              ],
-              "quoted_markets": 8,
-              "qualified_markets": 3,
-              "market": "Bramki powyżej 5.5",
-              "family": "suma",
-              "quality": 0.8333,
-              "estimated_odds": 1.66,
-              "odds_book": "Unibet (NL)",
-              "odds_time": "2026-11-25T13:38:12Z",
-              "odds_verified": true,
-              "reason": "Washington Capitals: 11/12; Philadelphia Flyers: 9/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 83%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
-              "historical_rate": 0.833,
-              "markets": [
-                {
-                  "market": "Bramki powyżej 5.5",
-                  "family": "suma",
-                  "quality": 0.8333,
-                  "estimated_odds": 1.66,
-                  "odds_book": "Unibet (NL)",
-                  "odds_time": "2026-11-25T13:38:12Z",
-                  "odds_verified": true,
-                  "reason": "Washington Capitals: 11/12; Philadelphia Flyers: 9/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 83%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
-                  "historical_rate": 0.833
-                },
-                {
-                  "market": "Handicap gości +1.5",
-                  "family": "handicap",
-                  "quality": 0.8333,
-                  "estimated_odds": 1.53,
-                  "odds_book": "LeoVegas (SE)",
-                  "odds_time": "2026-11-25T13:37:24Z",
-                  "odds_verified": true,
-                  "reason": "Washington Capitals: 11/12; Philadelphia Flyers: 9/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 83%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
-                  "historical_rate": 0.833
-                },
-                {
-                  "market": "Bramki powyżej 6.5",
-                  "family": "suma",
-                  "quality": 0.75,
-                  "estimated_odds": 2.0,
-                  "odds_book": "GTbets",
-                  "odds_time": "2026-11-25T13:37:23Z",
-                  "odds_verified": true,
-                  "reason": "Washington Capitals: 10/12; Philadelphia Flyers: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 75%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
-                  "historical_rate": 0.75
-                }
-              ]
-            },
-            {
-              "id": "soccer-uefa.europa-401915504",
-              "sport": "Piłka nożna",
-              "league": "uefa.europa",
-              "event": "Crystal Palace — Real Sociedad",
-              "time": "2026-11-26T20:00:00+00:00",
-              "home_rate": 0.4,
-              "away_rate": 0.4,
-              "source": "ESPN — zakończone mecze",
-              "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=100",
-              "history_samples": [
-                12,
-                12
-              ],
-              "quoted_markets": 8,
-              "qualified_markets": 2,
-              "market": "Handicap gości +0.5",
-              "family": "handicap",
-              "quality": 0.75,
-              "estimated_odds": 1.74,
-              "odds_book": "BetOnline.ag",
-              "odds_time": "2026-11-25T13:38:11Z",
-              "odds_verified": true,
-              "reason": "Crystal Palace: 10/12; Real Sociedad: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 75%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
-              "historical_rate": 0.75,
-              "markets": [
-                {
-                  "market": "Handicap gości +0.5",
-                  "family": "handicap",
-                  "quality": 0.75,
-                  "estimated_odds": 1.74,
-                  "odds_book": "BetOnline.ag",
-                  "odds_time": "2026-11-25T13:38:11Z",
-                  "odds_verified": true,
-                  "reason": "Crystal Palace: 10/12; Real Sociedad: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 75%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
-                  "historical_rate": 0.75
-                },
-                {
-                  "market": "Gole powyżej 2.5",
-                  "family": "gole",
-                  "quality": 0.7083,
-                  "estimated_odds": 1.57,
-                  "odds_book": "William Hill",
-                  "odds_time": "2026-11-25T13:37:45Z",
-                  "odds_verified": true,
-                  "reason": "Crystal Palace: 8/12; Real Sociedad: 9/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
-                  "historical_rate": 0.708
                 }
               ]
             },
@@ -833,8 +435,8 @@
               "family": "handicap",
               "quality": 0.7083,
               "estimated_odds": 1.55,
-              "odds_book": "Coolbet",
-              "odds_time": "2026-11-25T13:29:47Z",
+              "odds_book": "Pinnacle",
+              "odds_time": "2026-11-25T14:12:19Z",
               "odds_verified": true,
               "reason": "Boston Bruins: 7/12; Winnipeg Jets: 10/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
               "historical_rate": 0.708,
@@ -844,8 +446,8 @@
                   "family": "handicap",
                   "quality": 0.7083,
                   "estimated_odds": 1.55,
-                  "odds_book": "Coolbet",
-                  "odds_time": "2026-11-25T13:29:47Z",
+                  "odds_book": "Pinnacle",
+                  "odds_time": "2026-11-25T14:12:19Z",
                   "odds_verified": true,
                   "reason": "Boston Bruins: 7/12; Winnipeg Jets: 10/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
                   "historical_rate": 0.708
@@ -873,7 +475,7 @@
               "quality": 0.7083,
               "estimated_odds": 1.96,
               "odds_book": "Winamax (FR)",
-              "odds_time": "2026-11-25T13:37:47Z",
+              "odds_time": "2026-11-25T14:12:20Z",
               "odds_verified": true,
               "reason": "Minnesota Wild: 9/12; Utah Mammoth: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
               "historical_rate": 0.708,
@@ -884,7 +486,7 @@
                   "quality": 0.7083,
                   "estimated_odds": 1.96,
                   "odds_book": "Winamax (FR)",
-                  "odds_time": "2026-11-25T13:37:47Z",
+                  "odds_time": "2026-11-25T14:12:20Z",
                   "odds_verified": true,
                   "reason": "Minnesota Wild: 9/12; Utah Mammoth: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
                   "historical_rate": 0.708
@@ -893,69 +495,23 @@
                   "market": "Bramki powyżej 5.5",
                   "family": "suma",
                   "quality": 0.6667,
-                  "estimated_odds": 1.67,
-                  "odds_book": "Marathon Bet",
-                  "odds_time": "2026-11-25T13:38:18Z",
+                  "estimated_odds": 1.68,
+                  "odds_book": "Coolbet",
+                  "odds_time": "2026-11-25T14:04:03Z",
                   "odds_verified": true,
                   "reason": "Minnesota Wild: 9/12; Utah Mammoth: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
                   "historical_rate": 0.667
                 }
               ]
-            }
-          ],
-          "estimated_total_odds": 8.77,
-          "warning": "Iloczyn kursów z ofert; nie jest gwarantowaną ofertą AKO jednego bukmachera."
-        },
-        {
-          "name": "Wysoki kurs",
-          "picks": [
-            {
-              "id": "hockey-nhl-401892790",
-              "sport": "NHL",
-              "league": "nhl",
-              "event": "Dallas Stars — Nashville Predators",
-              "time": "2026-11-26T01:00:00+00:00",
-              "home_rate": 0.6956521739130435,
-              "away_rate": 0.65,
-              "source": "ESPN — zakończone mecze",
-              "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
-              "history_samples": [
-                12,
-                12
-              ],
-              "quoted_markets": 6,
-              "qualified_markets": 1,
-              "market": "Handicap gości +1.5",
-              "family": "handicap",
-              "quality": 0.8333,
-              "estimated_odds": 1.54,
-              "odds_book": "Unibet (SE)",
-              "odds_time": "2026-11-25T13:37:23Z",
-              "odds_verified": true,
-              "reason": "Dallas Stars: 10/12; Nashville Predators: 10/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 83%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
-              "historical_rate": 0.833,
-              "markets": [
-                {
-                  "market": "Handicap gości +1.5",
-                  "family": "handicap",
-                  "quality": 0.8333,
-                  "estimated_odds": 1.54,
-                  "odds_book": "Unibet (SE)",
-                  "odds_time": "2026-11-25T13:37:23Z",
-                  "odds_verified": true,
-                  "reason": "Dallas Stars: 10/12; Nashville Predators: 10/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 83%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
-                  "historical_rate": 0.833
-                }
-              ]
             },
             {
-              "id": "hockey-nhl-401892786",
+              "id": "hockey-nhl-401892788",
               "sport": "NHL",
               "league": "nhl",
-              "event": "Pittsburgh Penguins — Calgary Flames",
+              "event": "Columbus Blue Jackets — New Jersey Devils",
               "time": "2026-11-26T00:00:00+00:00",
-              "home_rate": 0.34782608695652173,
-              "away_rate": 0.44,
+              "home_rate": 0.4166666666666667,
+              "away_rate": 0.6538461538461539,
               "source": "ESPN — zakończone mecze",
               "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
               "history_samples": [
@@ -964,26 +520,128 @@
               ],
               "quoted_markets": 8,
               "qualified_markets": 1,
-              "market": "Handicap gości +1.5",
-              "family": "handicap",
-              "quality": 0.75,
-              "estimated_odds": 1.54,
-              "odds_book": "BetOnline.ag",
-              "odds_time": "2026-11-25T13:38:11Z",
+              "market": "Zwycięstwo gości",
+              "family": "wynik",
+              "quality": 0.6667,
+              "estimated_odds": 1.94,
+              "odds_book": "Unibet (NL)",
+              "odds_time": "2026-11-25T14:11:31Z",
               "odds_verified": true,
-              "reason": "Pittsburgh Penguins: 11/12; Calgary Flames: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 75%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "reason": "Columbus Blue Jackets: 8/12; New Jersey Devils: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.667,
+              "markets": [
+                {
+                  "market": "Zwycięstwo gości",
+                  "family": "wynik",
+                  "quality": 0.6667,
+                  "estimated_odds": 1.94,
+                  "odds_book": "Unibet (NL)",
+                  "odds_time": "2026-11-25T14:11:31Z",
+                  "odds_verified": true,
+                  "reason": "Columbus Blue Jackets: 8/12; New Jersey Devils: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.667
+                }
+              ]
+            }
+          ],
+          "estimated_total_odds": 13.8,
+          "warning": "Iloczyn kursów z ofert; nie jest gwarantowaną ofertą AKO jednego bukmachera."
+        }
+      ]
+    },
+    "2026-11-26": {
+      "fixtures": 54,
+      "eligible_picks": 13,
+      "coupons": [
+        {
+          "name": "Ostrożniejszy",
+          "picks": [
+            {
+              "id": "hockey-nhl-401892794",
+              "sport": "NHL",
+              "league": "nhl",
+              "event": "Seattle Kraken — Chicago Blackhawks",
+              "time": "2026-11-26T02:40:00+00:00",
+              "home_rate": 0.5454545454545454,
+              "away_rate": 0.375,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
+              "history_samples": [
+                12,
+                12
+              ],
+              "quoted_markets": 8,
+              "qualified_markets": 1,
+              "market": "Bramki powyżej 5.5",
+              "family": "suma",
+              "quality": 0.75,
+              "estimated_odds": 1.7,
+              "odds_book": "1xBet",
+              "odds_time": "2026-11-25T14:11:07Z",
+              "odds_verified": true,
+              "reason": "Seattle Kraken: 9/12; Chicago Blackhawks: 9/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 75%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
               "historical_rate": 0.75,
               "markets": [
                 {
-                  "market": "Handicap gości +1.5",
+                  "market": "Bramki powyżej 5.5",
+                  "family": "suma",
+                  "quality": 0.75,
+                  "estimated_odds": 1.7,
+                  "odds_book": "1xBet",
+                  "odds_time": "2026-11-25T14:11:07Z",
+                  "odds_verified": true,
+                  "reason": "Seattle Kraken: 9/12; Chicago Blackhawks: 9/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 75%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.75
+                }
+              ]
+            },
+            {
+              "id": "soccer-uefa.europa-401915504",
+              "sport": "Piłka nożna",
+              "league": "uefa.europa",
+              "event": "Crystal Palace — Real Sociedad",
+              "time": "2026-11-26T20:00:00+00:00",
+              "home_rate": 0.4,
+              "away_rate": 0.4,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261126&limit=100",
+              "history_samples": [
+                12,
+                12
+              ],
+              "quoted_markets": 8,
+              "qualified_markets": 2,
+              "market": "Handicap gości +0.5",
+              "family": "handicap",
+              "quality": 0.75,
+              "estimated_odds": 1.74,
+              "odds_book": "BetOnline.ag",
+              "odds_time": "2026-11-25T14:11:31Z",
+              "odds_verified": true,
+              "reason": "Crystal Palace: 10/12; Real Sociedad: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 75%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.75,
+              "markets": [
+                {
+                  "market": "Handicap gości +0.5",
                   "family": "handicap",
                   "quality": 0.75,
-                  "estimated_odds": 1.54,
+                  "estimated_odds": 1.74,
                   "odds_book": "BetOnline.ag",
-                  "odds_time": "2026-11-25T13:38:11Z",
+                  "odds_time": "2026-11-25T14:11:31Z",
                   "odds_verified": true,
-                  "reason": "Pittsburgh Penguins: 11/12; Calgary Flames: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 75%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "reason": "Crystal Palace: 10/12; Real Sociedad: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 75%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
                   "historical_rate": 0.75
+                },
+                {
+                  "market": "Gole powyżej 2.5",
+                  "family": "gole",
+                  "quality": 0.7083,
+                  "estimated_odds": 1.57,
+                  "odds_book": "William Hill",
+                  "odds_time": "2026-11-25T14:12:20Z",
+                  "odds_verified": true,
+                  "reason": "Crystal Palace: 8/12; Real Sociedad: 9/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.708
                 }
               ]
             },
@@ -1008,7 +666,7 @@
               "quality": 0.7083,
               "estimated_odds": 1.96,
               "odds_book": "Winamax (FR)",
-              "odds_time": "2026-11-25T13:37:47Z",
+              "odds_time": "2026-11-25T14:12:20Z",
               "odds_verified": true,
               "reason": "Minnesota Wild: 9/12; Utah Mammoth: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
               "historical_rate": 0.708,
@@ -1019,7 +677,7 @@
                   "quality": 0.7083,
                   "estimated_odds": 1.96,
                   "odds_book": "Winamax (FR)",
-                  "odds_time": "2026-11-25T13:37:47Z",
+                  "odds_time": "2026-11-25T14:12:20Z",
                   "odds_verified": true,
                   "reason": "Minnesota Wild: 9/12; Utah Mammoth: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
                   "historical_rate": 0.708
@@ -1028,9 +686,329 @@
                   "market": "Bramki powyżej 5.5",
                   "family": "suma",
                   "quality": 0.6667,
-                  "estimated_odds": 1.67,
-                  "odds_book": "Marathon Bet",
-                  "odds_time": "2026-11-25T13:38:18Z",
+                  "estimated_odds": 1.68,
+                  "odds_book": "Coolbet",
+                  "odds_time": "2026-11-25T14:04:03Z",
+                  "odds_verified": true,
+                  "reason": "Minnesota Wild: 9/12; Utah Mammoth: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.667
+                }
+              ]
+            }
+          ],
+          "estimated_total_odds": 5.8,
+          "warning": "Iloczyn kursów z ofert; nie jest gwarantowaną ofertą AKO jednego bukmachera."
+        },
+        {
+          "name": "Zrównoważony",
+          "picks": [
+            {
+              "id": "hockey-nhl-401892787",
+              "sport": "NHL",
+              "league": "nhl",
+              "event": "Washington Capitals — Philadelphia Flyers",
+              "time": "2026-11-26T00:00:00+00:00",
+              "home_rate": 0.4782608695652174,
+              "away_rate": 0.45454545454545453,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
+              "history_samples": [
+                12,
+                12
+              ],
+              "quoted_markets": 8,
+              "qualified_markets": 3,
+              "market": "Bramki powyżej 5.5",
+              "family": "suma",
+              "quality": 0.8333,
+              "estimated_odds": 1.66,
+              "odds_book": "Unibet (NL)",
+              "odds_time": "2026-11-25T14:11:31Z",
+              "odds_verified": true,
+              "reason": "Washington Capitals: 11/12; Philadelphia Flyers: 9/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 83%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.833,
+              "markets": [
+                {
+                  "market": "Bramki powyżej 5.5",
+                  "family": "suma",
+                  "quality": 0.8333,
+                  "estimated_odds": 1.66,
+                  "odds_book": "Unibet (NL)",
+                  "odds_time": "2026-11-25T14:11:31Z",
+                  "odds_verified": true,
+                  "reason": "Washington Capitals: 11/12; Philadelphia Flyers: 9/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 83%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.833
+                },
+                {
+                  "market": "Handicap gości +1.5",
+                  "family": "handicap",
+                  "quality": 0.8333,
+                  "estimated_odds": 1.53,
+                  "odds_book": "GTbets",
+                  "odds_time": "2026-11-25T14:11:57Z",
+                  "odds_verified": true,
+                  "reason": "Washington Capitals: 11/12; Philadelphia Flyers: 9/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 83%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.833
+                },
+                {
+                  "market": "Bramki powyżej 6.5",
+                  "family": "suma",
+                  "quality": 0.75,
+                  "estimated_odds": 2.0,
+                  "odds_book": "William Hill",
+                  "odds_time": "2026-11-25T14:11:30Z",
+                  "odds_verified": true,
+                  "reason": "Washington Capitals: 10/12; Philadelphia Flyers: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 75%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.75
+                }
+              ]
+            },
+            {
+              "id": "hockey-nhl-401892790",
+              "sport": "NHL",
+              "league": "nhl",
+              "event": "Dallas Stars — Nashville Predators",
+              "time": "2026-11-26T01:00:00+00:00",
+              "home_rate": 0.6956521739130435,
+              "away_rate": 0.65,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
+              "history_samples": [
+                12,
+                12
+              ],
+              "quoted_markets": 6,
+              "qualified_markets": 1,
+              "market": "Handicap gości +1.5",
+              "family": "handicap",
+              "quality": 0.8333,
+              "estimated_odds": 1.55,
+              "odds_book": "MyBookie.ag",
+              "odds_time": "2026-11-25T14:11:58Z",
+              "odds_verified": true,
+              "reason": "Dallas Stars: 10/12; Nashville Predators: 10/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 83%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.833,
+              "markets": [
+                {
+                  "market": "Handicap gości +1.5",
+                  "family": "handicap",
+                  "quality": 0.8333,
+                  "estimated_odds": 1.55,
+                  "odds_book": "MyBookie.ag",
+                  "odds_time": "2026-11-25T14:11:58Z",
+                  "odds_verified": true,
+                  "reason": "Dallas Stars: 10/12; Nashville Predators: 10/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 83%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.833
+                }
+              ]
+            },
+            {
+              "id": "hockey-nhl-401892788",
+              "sport": "NHL",
+              "league": "nhl",
+              "event": "Columbus Blue Jackets — New Jersey Devils",
+              "time": "2026-11-26T00:00:00+00:00",
+              "home_rate": 0.4166666666666667,
+              "away_rate": 0.6538461538461539,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
+              "history_samples": [
+                12,
+                12
+              ],
+              "quoted_markets": 8,
+              "qualified_markets": 1,
+              "market": "Zwycięstwo gości",
+              "family": "wynik",
+              "quality": 0.6667,
+              "estimated_odds": 1.94,
+              "odds_book": "Unibet (NL)",
+              "odds_time": "2026-11-25T14:11:31Z",
+              "odds_verified": true,
+              "reason": "Columbus Blue Jackets: 8/12; New Jersey Devils: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.667,
+              "markets": [
+                {
+                  "market": "Zwycięstwo gości",
+                  "family": "wynik",
+                  "quality": 0.6667,
+                  "estimated_odds": 1.94,
+                  "odds_book": "Unibet (NL)",
+                  "odds_time": "2026-11-25T14:11:31Z",
+                  "odds_verified": true,
+                  "reason": "Columbus Blue Jackets: 8/12; New Jersey Devils: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.667
+                }
+              ]
+            },
+            {
+              "id": "basketball-nba-401909319",
+              "sport": "Koszykówka",
+              "league": "nba",
+              "event": "New York Knicks — Cleveland Cavaliers",
+              "time": "2026-11-26T00:30:00+00:00",
+              "home_rate": 0.631578947368421,
+              "away_rate": 0.5,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261125&limit=100",
+              "history_samples": [
+                12,
+                12
+              ],
+              "quoted_markets": 10,
+              "qualified_markets": 1,
+              "market": "Zwycięstwo gospodarzy",
+              "family": "wynik",
+              "quality": 0.6667,
+              "estimated_odds": 1.65,
+              "odds_book": "BetOnline.ag",
+              "odds_time": "2026-11-25T14:11:52Z",
+              "odds_verified": true,
+              "reason": "New York Knicks: 9/12; Cleveland Cavaliers: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.667,
+              "markets": [
+                {
+                  "market": "Zwycięstwo gospodarzy",
+                  "family": "wynik",
+                  "quality": 0.6667,
+                  "estimated_odds": 1.65,
+                  "odds_book": "BetOnline.ag",
+                  "odds_time": "2026-11-25T14:11:52Z",
+                  "odds_verified": true,
+                  "reason": "New York Knicks: 9/12; Cleveland Cavaliers: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.667
+                }
+              ]
+            }
+          ],
+          "estimated_total_odds": 8.24,
+          "warning": "Iloczyn kursów z ofert; nie jest gwarantowaną ofertą AKO jednego bukmachera."
+        },
+        {
+          "name": "Wysoki kurs",
+          "picks": [
+            {
+              "id": "hockey-nhl-401892786",
+              "sport": "NHL",
+              "league": "nhl",
+              "event": "Pittsburgh Penguins — Calgary Flames",
+              "time": "2026-11-26T00:00:00+00:00",
+              "home_rate": 0.34782608695652173,
+              "away_rate": 0.44,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
+              "history_samples": [
+                12,
+                12
+              ],
+              "quoted_markets": 8,
+              "qualified_markets": 1,
+              "market": "Handicap gości +1.5",
+              "family": "handicap",
+              "quality": 0.75,
+              "estimated_odds": 1.54,
+              "odds_book": "Betsson",
+              "odds_time": "2026-11-25T14:11:32Z",
+              "odds_verified": true,
+              "reason": "Pittsburgh Penguins: 11/12; Calgary Flames: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 75%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.75,
+              "markets": [
+                {
+                  "market": "Handicap gości +1.5",
+                  "family": "handicap",
+                  "quality": 0.75,
+                  "estimated_odds": 1.54,
+                  "odds_book": "Betsson",
+                  "odds_time": "2026-11-25T14:11:32Z",
+                  "odds_verified": true,
+                  "reason": "Pittsburgh Penguins: 11/12; Calgary Flames: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 75%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.75
+                }
+              ]
+            },
+            {
+              "id": "hockey-nhl-401892781",
+              "sport": "NHL",
+              "league": "nhl",
+              "event": "Boston Bruins — Winnipeg Jets",
+              "time": "2026-11-26T00:00:00+00:00",
+              "home_rate": 0.6666666666666666,
+              "away_rate": 0.5652173913043478,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
+              "history_samples": [
+                12,
+                12
+              ],
+              "quoted_markets": 6,
+              "qualified_markets": 1,
+              "market": "Handicap gości +1.5",
+              "family": "handicap",
+              "quality": 0.7083,
+              "estimated_odds": 1.55,
+              "odds_book": "Pinnacle",
+              "odds_time": "2026-11-25T14:12:19Z",
+              "odds_verified": true,
+              "reason": "Boston Bruins: 7/12; Winnipeg Jets: 10/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.708,
+              "markets": [
+                {
+                  "market": "Handicap gości +1.5",
+                  "family": "handicap",
+                  "quality": 0.7083,
+                  "estimated_odds": 1.55,
+                  "odds_book": "Pinnacle",
+                  "odds_time": "2026-11-25T14:12:19Z",
+                  "odds_verified": true,
+                  "reason": "Boston Bruins: 7/12; Winnipeg Jets: 10/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.708
+                }
+              ]
+            },
+            {
+              "id": "hockey-nhl-401892791",
+              "sport": "NHL",
+              "league": "nhl",
+              "event": "Minnesota Wild — Utah Mammoth",
+              "time": "2026-11-26T01:00:00+00:00",
+              "home_rate": 0.8260869565217391,
+              "away_rate": 0.5416666666666666,
+              "source": "ESPN — zakończone mecze",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
+              "history_samples": [
+                12,
+                12
+              ],
+              "quoted_markets": 8,
+              "qualified_markets": 2,
+              "market": "Zwycięstwo gospodarzy",
+              "family": "wynik",
+              "quality": 0.7083,
+              "estimated_odds": 1.96,
+              "odds_book": "Winamax (FR)",
+              "odds_time": "2026-11-25T14:12:20Z",
+              "odds_verified": true,
+              "reason": "Minnesota Wild: 9/12; Utah Mammoth: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.708,
+              "markets": [
+                {
+                  "market": "Zwycięstwo gospodarzy",
+                  "family": "wynik",
+                  "quality": 0.7083,
+                  "estimated_odds": 1.96,
+                  "odds_book": "Winamax (FR)",
+                  "odds_time": "2026-11-25T14:12:20Z",
+                  "odds_verified": true,
+                  "reason": "Minnesota Wild: 9/12; Utah Mammoth: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+                  "historical_rate": 0.708
+                },
+                {
+                  "market": "Bramki powyżej 5.5",
+                  "family": "suma",
+                  "quality": 0.6667,
+                  "estimated_odds": 1.68,
+                  "odds_book": "Coolbet",
+                  "odds_time": "2026-11-25T14:04:03Z",
                   "odds_verified": true,
                   "reason": "Minnesota Wild: 9/12; Utah Mammoth: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
                   "historical_rate": 0.667
@@ -1051,14 +1029,14 @@
                 12,
                 12
               ],
-              "quoted_markets": 14,
+              "quoted_markets": 10,
               "qualified_markets": 1,
               "market": "Zwycięstwo gospodarzy",
               "family": "wynik",
               "quality": 0.7083,
-              "estimated_odds": 1.4,
-              "odds_book": "Nordic Bet",
-              "odds_time": "2026-11-25T13:38:08Z",
+              "estimated_odds": 1.38,
+              "odds_book": "GTbets",
+              "odds_time": "2026-11-25T14:11:54Z",
               "odds_verified": true,
               "reason": "Golden State Warriors: 7/12; Sacramento Kings: 10/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
               "historical_rate": 0.708,
@@ -1067,9 +1045,9 @@
                   "market": "Zwycięstwo gospodarzy",
                   "family": "wynik",
                   "quality": 0.7083,
-                  "estimated_odds": 1.4,
-                  "odds_book": "Nordic Bet",
-                  "odds_time": "2026-11-25T13:38:08Z",
+                  "estimated_odds": 1.38,
+                  "odds_book": "GTbets",
+                  "odds_time": "2026-11-25T14:11:54Z",
                   "odds_verified": true,
                   "reason": "Golden State Warriors: 7/12; Sacramento Kings: 10/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
                   "historical_rate": 0.708
@@ -1097,7 +1075,7 @@
               "quality": 0.6667,
               "estimated_odds": 1.94,
               "odds_book": "Unibet (NL)",
-              "odds_time": "2026-11-25T13:38:12Z",
+              "odds_time": "2026-11-25T14:11:31Z",
               "odds_verified": true,
               "reason": "Columbus Blue Jackets: 8/12; New Jersey Devils: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
               "historical_rate": 0.667,
@@ -1108,7 +1086,7 @@
                   "quality": 0.6667,
                   "estimated_odds": 1.94,
                   "odds_book": "Unibet (NL)",
-                  "odds_time": "2026-11-25T13:38:12Z",
+                  "odds_time": "2026-11-25T14:11:31Z",
                   "odds_verified": true,
                   "reason": "Columbus Blue Jackets: 8/12; New Jersey Devils: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
                   "historical_rate": 0.667
@@ -1116,7 +1094,7 @@
               ]
             }
           ],
-          "estimated_total_odds": 12.62,
+          "estimated_total_odds": 12.53,
           "warning": "Iloczyn kursów z ofert; nie jest gwarantowaną ofertą AKO jednego bukmachera."
         }
       ]
@@ -1138,58 +1116,6 @@
     }
   },
   "events": [
-    {
-      "id": "tennis-live-53007",
-      "sport": "Tenis",
-      "league": "M25 Hradec Kralove",
-      "event": "Braynin/ Cicma — Fidler/ Smejkal",
-      "time": "2026-11-25T13:40:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu.",
-      "rejection_reason": "Tylko terminarz: brak zweryfikowanej historii tenisowej"
-    },
-    {
-      "id": "tennis-live-52547",
-      "sport": "Tenis",
-      "league": "Ankara (Turkey)",
-      "event": "Duran/ Milev — Bianchi/ Sheehy",
-      "time": "2026-11-25T13:45:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu.",
-      "rejection_reason": "Tylko terminarz: brak zweryfikowanej historii tenisowej"
-    },
-    {
-      "id": "tennis-live-53006",
-      "sport": "Tenis",
-      "league": "M25 Hradec Kralove",
-      "event": "Baum/ Cerny — Duda/ Frohlich",
-      "time": "2026-11-25T14:10:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu.",
-      "rejection_reason": "Tylko terminarz: brak zweryfikowanej historii tenisowej"
-    },
-    {
-      "id": "tennis-live-53008",
-      "sport": "Tenis",
-      "league": "M25 Hradec Kralove",
-      "event": "Petrofsky/ Psota — Gundacker/ Kozlovsky",
-      "time": "2026-11-25T14:30:00+00:00",
-      "home_rate": null,
-      "away_rate": null,
-      "source": "Live Tennis API",
-      "source_url": "https://livetennisapi.com/",
-      "note": "Terminarz bez prognozy wyniku i kursu.",
-      "rejection_reason": "Tylko terminarz: brak zweryfikowanej historii tenisowej"
-    },
     {
       "id": "tennis-live-53250",
       "sport": "Tenis",
@@ -1243,6 +1169,19 @@
       "rejection_reason": "Tylko terminarz: brak zweryfikowanej historii tenisowej"
     },
     {
+      "id": "tennis-live-53008",
+      "sport": "Tenis",
+      "league": "M25 Hradec Kralove",
+      "event": "Petrofsky/ Psota — Gundacker/ Kozlovsky",
+      "time": "2026-11-25T14:50:00+00:00",
+      "home_rate": null,
+      "away_rate": null,
+      "source": "Live Tennis API",
+      "source_url": "https://livetennisapi.com/",
+      "note": "Terminarz bez prognozy wyniku i kursu.",
+      "rejection_reason": "Tylko terminarz: brak zweryfikowanej historii tenisowej"
+    },
+    {
       "id": "tennis-live-51852",
       "sport": "Tenis",
       "league": "Davis Cup - World Group Teams",
@@ -1269,6 +1208,19 @@
       "rejection_reason": "Tylko terminarz: brak zweryfikowanej historii tenisowej"
     },
     {
+      "id": "tennis-live-53006",
+      "sport": "Tenis",
+      "league": "M25 Hradec Kralove",
+      "event": "Baum/ Cerny — Duda/ Frohlich",
+      "time": "2026-11-25T15:00:00+00:00",
+      "home_rate": null,
+      "away_rate": null,
+      "source": "Live Tennis API",
+      "source_url": "https://livetennisapi.com/",
+      "note": "Terminarz bez prognozy wyniku i kursu.",
+      "rejection_reason": "Tylko terminarz: brak zweryfikowanej historii tenisowej"
+    },
+    {
       "id": "tennis-live-52553",
       "sport": "Tenis",
       "league": "Ankara (Turkey)",
@@ -1286,7 +1238,7 @@
       "sport": "Tenis",
       "league": "Ankara (Turkey)",
       "event": "Poritskyi/ Ursu — Bobichon/ Catry",
-      "time": "2026-11-25T15:15:00+00:00",
+      "time": "2026-11-25T15:30:00+00:00",
       "home_rate": null,
       "away_rate": null,
       "source": "Live Tennis API",
@@ -1299,7 +1251,7 @@
       "sport": "Tenis",
       "league": "Florianopolis",
       "event": "C. Huertas Del Pino — F. L. Storck",
-      "time": "2026-11-25T16:00:00+00:00",
+      "time": "2026-11-25T15:30:00+00:00",
       "home_rate": null,
       "away_rate": null,
       "source": "Live Tennis API",
@@ -1382,7 +1334,7 @@
       "sport": "Tenis",
       "league": "Florianopolis",
       "event": "N. Kicker — E. Moller",
-      "time": "2026-11-25T17:30:00+00:00",
+      "time": "2026-11-25T17:00:00+00:00",
       "home_rate": null,
       "away_rate": null,
       "source": "Live Tennis API",
@@ -1721,7 +1673,7 @@
       "quality": 0.7083,
       "estimated_odds": 1.54,
       "odds_book": "1xBet",
-      "odds_time": "2026-11-25T13:37:47Z",
+      "odds_time": "2026-11-25T14:12:22Z",
       "odds_verified": true,
       "reason": "Lille: 10/12; Bayern Munich: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
       "historical_rate": 0.708,
@@ -1732,7 +1684,7 @@
           "quality": 0.7083,
           "estimated_odds": 1.54,
           "odds_book": "1xBet",
-          "odds_time": "2026-11-25T13:37:47Z",
+          "odds_time": "2026-11-25T14:12:22Z",
           "odds_verified": true,
           "reason": "Lille: 10/12; Bayern Munich: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
           "historical_rate": 0.708
@@ -1760,7 +1712,7 @@
       "quality": 0.75,
       "estimated_odds": 1.34,
       "odds_book": "Nordic Bet",
-      "odds_time": "2026-11-25T13:37:49Z",
+      "odds_time": "2026-11-25T14:12:21Z",
       "odds_verified": true,
       "reason": "Paris Saint-Germain: 9/12; AS Roma: 9/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 75%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
       "historical_rate": 0.75,
@@ -1771,7 +1723,7 @@
           "quality": 0.75,
           "estimated_odds": 1.34,
           "odds_book": "Nordic Bet",
-          "odds_time": "2026-11-25T13:37:49Z",
+          "odds_time": "2026-11-25T14:12:21Z",
           "odds_verified": true,
           "reason": "Paris Saint-Germain: 9/12; AS Roma: 9/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 75%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
           "historical_rate": 0.75
@@ -1782,7 +1734,7 @@
           "quality": 0.6667,
           "estimated_odds": 1.89,
           "odds_book": "BetAnything",
-          "odds_time": "2026-11-25T13:37:48Z",
+          "odds_time": "2026-11-25T14:11:33Z",
           "odds_verified": true,
           "reason": "Paris Saint-Germain: 8/12; AS Roma: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
           "historical_rate": 0.667
@@ -1828,7 +1780,7 @@
       "quality": 0.8333,
       "estimated_odds": 1.52,
       "odds_book": "GTbets",
-      "odds_time": "2026-11-25T13:37:26Z",
+      "odds_time": "2026-11-25T14:12:00Z",
       "odds_verified": true,
       "reason": "Sporting CP: 10/12; Manchester United: 10/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 83%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
       "historical_rate": 0.833,
@@ -1839,7 +1791,7 @@
           "quality": 0.8333,
           "estimated_odds": 1.52,
           "odds_book": "GTbets",
-          "odds_time": "2026-11-25T13:37:26Z",
+          "odds_time": "2026-11-25T14:12:00Z",
           "odds_verified": true,
           "reason": "Sporting CP: 10/12; Manchester United: 10/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 83%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
           "historical_rate": 0.833
@@ -1922,7 +1874,7 @@
         12,
         12
       ],
-      "quoted_markets": 8,
+      "quoted_markets": 12,
       "qualified_markets": 0,
       "rejection_reason": "Żaden rynek nie spełnił kryteriów historycznych"
     },
@@ -2054,8 +2006,8 @@
       "family": "handicap",
       "quality": 0.7083,
       "estimated_odds": 1.55,
-      "odds_book": "Coolbet",
-      "odds_time": "2026-11-25T13:29:47Z",
+      "odds_book": "Pinnacle",
+      "odds_time": "2026-11-25T14:12:19Z",
       "odds_verified": true,
       "reason": "Boston Bruins: 7/12; Winnipeg Jets: 10/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
       "historical_rate": 0.708,
@@ -2065,8 +2017,8 @@
           "family": "handicap",
           "quality": 0.7083,
           "estimated_odds": 1.55,
-          "odds_book": "Coolbet",
-          "odds_time": "2026-11-25T13:29:47Z",
+          "odds_book": "Pinnacle",
+          "odds_time": "2026-11-25T14:12:19Z",
           "odds_verified": true,
           "reason": "Boston Bruins: 7/12; Winnipeg Jets: 10/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
           "historical_rate": 0.708
@@ -2094,7 +2046,7 @@
       "quality": 0.6667,
       "estimated_odds": 1.45,
       "odds_book": "Coolbet",
-      "odds_time": "2026-11-25T13:29:47Z",
+      "odds_time": "2026-11-25T14:04:03Z",
       "odds_verified": true,
       "reason": "Buffalo Sabres: 9/12; New York Rangers: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
       "historical_rate": 0.667,
@@ -2105,7 +2057,7 @@
           "quality": 0.6667,
           "estimated_odds": 1.45,
           "odds_book": "Coolbet",
-          "odds_time": "2026-11-25T13:29:47Z",
+          "odds_time": "2026-11-25T14:04:03Z",
           "odds_verified": true,
           "reason": "Buffalo Sabres: 9/12; New York Rangers: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
           "historical_rate": 0.667
@@ -2149,9 +2101,9 @@
       "market": "Handicap gości +1.5",
       "family": "handicap",
       "quality": 0.75,
-      "estimated_odds": 1.43,
-      "odds_book": "BetOnline.ag",
-      "odds_time": "2026-11-25T13:38:11Z",
+      "estimated_odds": 1.41,
+      "odds_book": "Coolbet",
+      "odds_time": "2026-11-25T14:04:03Z",
       "odds_verified": true,
       "reason": "Florida Panthers: 7/12; Ottawa Senators: 11/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 75%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
       "historical_rate": 0.75,
@@ -2160,9 +2112,9 @@
           "market": "Handicap gości +1.5",
           "family": "handicap",
           "quality": 0.75,
-          "estimated_odds": 1.43,
-          "odds_book": "BetOnline.ag",
-          "odds_time": "2026-11-25T13:38:11Z",
+          "estimated_odds": 1.41,
+          "odds_book": "Coolbet",
+          "odds_time": "2026-11-25T14:04:03Z",
           "odds_verified": true,
           "reason": "Florida Panthers: 7/12; Ottawa Senators: 11/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 75%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
           "historical_rate": 0.75
@@ -2189,8 +2141,8 @@
       "family": "handicap",
       "quality": 0.75,
       "estimated_odds": 1.4,
-      "odds_book": "Matchbook",
-      "odds_time": "2026-11-25T13:38:11Z",
+      "odds_book": "LeoVegas (SE)",
+      "odds_time": "2026-11-25T14:11:57Z",
       "odds_verified": true,
       "reason": "New York Islanders: 9/12; St. Louis Blues: 9/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 75%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
       "historical_rate": 0.75,
@@ -2200,8 +2152,8 @@
           "family": "handicap",
           "quality": 0.75,
           "estimated_odds": 1.4,
-          "odds_book": "Matchbook",
-          "odds_time": "2026-11-25T13:38:11Z",
+          "odds_book": "LeoVegas (SE)",
+          "odds_time": "2026-11-25T14:11:57Z",
           "odds_verified": true,
           "reason": "New York Islanders: 9/12; St. Louis Blues: 9/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 75%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
           "historical_rate": 0.75
@@ -2228,8 +2180,8 @@
       "family": "handicap",
       "quality": 0.75,
       "estimated_odds": 1.54,
-      "odds_book": "BetOnline.ag",
-      "odds_time": "2026-11-25T13:38:11Z",
+      "odds_book": "Betsson",
+      "odds_time": "2026-11-25T14:11:32Z",
       "odds_verified": true,
       "reason": "Pittsburgh Penguins: 11/12; Calgary Flames: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 75%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
       "historical_rate": 0.75,
@@ -2239,8 +2191,8 @@
           "family": "handicap",
           "quality": 0.75,
           "estimated_odds": 1.54,
-          "odds_book": "BetOnline.ag",
-          "odds_time": "2026-11-25T13:38:11Z",
+          "odds_book": "Betsson",
+          "odds_time": "2026-11-25T14:11:32Z",
           "odds_verified": true,
           "reason": "Pittsburgh Penguins: 11/12; Calgary Flames: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 75%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
           "historical_rate": 0.75
@@ -2268,7 +2220,7 @@
       "quality": 0.8333,
       "estimated_odds": 1.66,
       "odds_book": "Unibet (NL)",
-      "odds_time": "2026-11-25T13:38:12Z",
+      "odds_time": "2026-11-25T14:11:31Z",
       "odds_verified": true,
       "reason": "Washington Capitals: 11/12; Philadelphia Flyers: 9/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 83%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
       "historical_rate": 0.833,
@@ -2279,7 +2231,7 @@
           "quality": 0.8333,
           "estimated_odds": 1.66,
           "odds_book": "Unibet (NL)",
-          "odds_time": "2026-11-25T13:38:12Z",
+          "odds_time": "2026-11-25T14:11:31Z",
           "odds_verified": true,
           "reason": "Washington Capitals: 11/12; Philadelphia Flyers: 9/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 83%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
           "historical_rate": 0.833
@@ -2289,8 +2241,8 @@
           "family": "handicap",
           "quality": 0.8333,
           "estimated_odds": 1.53,
-          "odds_book": "LeoVegas (SE)",
-          "odds_time": "2026-11-25T13:37:24Z",
+          "odds_book": "GTbets",
+          "odds_time": "2026-11-25T14:11:57Z",
           "odds_verified": true,
           "reason": "Washington Capitals: 11/12; Philadelphia Flyers: 9/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 83%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
           "historical_rate": 0.833
@@ -2300,8 +2252,8 @@
           "family": "suma",
           "quality": 0.75,
           "estimated_odds": 2.0,
-          "odds_book": "GTbets",
-          "odds_time": "2026-11-25T13:37:23Z",
+          "odds_book": "William Hill",
+          "odds_time": "2026-11-25T14:11:30Z",
           "odds_verified": true,
           "reason": "Washington Capitals: 10/12; Philadelphia Flyers: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 75%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
           "historical_rate": 0.75
@@ -2329,7 +2281,7 @@
       "quality": 0.6667,
       "estimated_odds": 1.94,
       "odds_book": "Unibet (NL)",
-      "odds_time": "2026-11-25T13:38:12Z",
+      "odds_time": "2026-11-25T14:11:31Z",
       "odds_verified": true,
       "reason": "Columbus Blue Jackets: 8/12; New Jersey Devils: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
       "historical_rate": 0.667,
@@ -2340,7 +2292,7 @@
           "quality": 0.6667,
           "estimated_odds": 1.94,
           "odds_book": "Unibet (NL)",
-          "odds_time": "2026-11-25T13:38:12Z",
+          "odds_time": "2026-11-25T14:11:31Z",
           "odds_verified": true,
           "reason": "Columbus Blue Jackets: 8/12; New Jersey Devils: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
           "historical_rate": 0.667
@@ -2366,9 +2318,9 @@
       "market": "Zwycięstwo gospodarzy",
       "family": "wynik",
       "quality": 0.6667,
-      "estimated_odds": 1.64,
-      "odds_book": "Codere (IT)",
-      "odds_time": "2026-11-25T13:37:18Z",
+      "estimated_odds": 1.65,
+      "odds_book": "BetOnline.ag",
+      "odds_time": "2026-11-25T14:11:52Z",
       "odds_verified": true,
       "reason": "New York Knicks: 9/12; Cleveland Cavaliers: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
       "historical_rate": 0.667,
@@ -2377,9 +2329,9 @@
           "market": "Zwycięstwo gospodarzy",
           "family": "wynik",
           "quality": 0.6667,
-          "estimated_odds": 1.64,
-          "odds_book": "Codere (IT)",
-          "odds_time": "2026-11-25T13:37:18Z",
+          "estimated_odds": 1.65,
+          "odds_book": "BetOnline.ag",
+          "odds_time": "2026-11-25T14:11:52Z",
           "odds_verified": true,
           "reason": "New York Knicks: 9/12; Cleveland Cavaliers: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
           "historical_rate": 0.667
@@ -2400,7 +2352,7 @@
         12,
         12
       ],
-      "quoted_markets": 8,
+      "quoted_markets": 10,
       "qualified_markets": 0,
       "rejection_reason": "Żaden rynek nie spełnił kryteriów historycznych"
     },
@@ -2477,9 +2429,9 @@
       "market": "Handicap gości +1.5",
       "family": "handicap",
       "quality": 0.8333,
-      "estimated_odds": 1.54,
-      "odds_book": "Unibet (SE)",
-      "odds_time": "2026-11-25T13:37:23Z",
+      "estimated_odds": 1.55,
+      "odds_book": "MyBookie.ag",
+      "odds_time": "2026-11-25T14:11:58Z",
       "odds_verified": true,
       "reason": "Dallas Stars: 10/12; Nashville Predators: 10/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 83%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
       "historical_rate": 0.833,
@@ -2488,9 +2440,9 @@
           "market": "Handicap gości +1.5",
           "family": "handicap",
           "quality": 0.8333,
-          "estimated_odds": 1.54,
-          "odds_book": "Unibet (SE)",
-          "odds_time": "2026-11-25T13:37:23Z",
+          "estimated_odds": 1.55,
+          "odds_book": "MyBookie.ag",
+          "odds_time": "2026-11-25T14:11:58Z",
           "odds_verified": true,
           "reason": "Dallas Stars: 10/12; Nashville Predators: 10/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 83%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
           "historical_rate": 0.833
@@ -2518,7 +2470,7 @@
       "quality": 0.7083,
       "estimated_odds": 1.96,
       "odds_book": "Winamax (FR)",
-      "odds_time": "2026-11-25T13:37:47Z",
+      "odds_time": "2026-11-25T14:12:20Z",
       "odds_verified": true,
       "reason": "Minnesota Wild: 9/12; Utah Mammoth: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
       "historical_rate": 0.708,
@@ -2529,7 +2481,7 @@
           "quality": 0.7083,
           "estimated_odds": 1.96,
           "odds_book": "Winamax (FR)",
-          "odds_time": "2026-11-25T13:37:47Z",
+          "odds_time": "2026-11-25T14:12:20Z",
           "odds_verified": true,
           "reason": "Minnesota Wild: 9/12; Utah Mammoth: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
           "historical_rate": 0.708
@@ -2538,9 +2490,9 @@
           "market": "Bramki powyżej 5.5",
           "family": "suma",
           "quality": 0.6667,
-          "estimated_odds": 1.67,
-          "odds_book": "Marathon Bet",
-          "odds_time": "2026-11-25T13:38:18Z",
+          "estimated_odds": 1.68,
+          "odds_book": "Coolbet",
+          "odds_time": "2026-11-25T14:04:03Z",
           "odds_verified": true,
           "reason": "Minnesota Wild: 9/12; Utah Mammoth: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
           "historical_rate": 0.667
@@ -2591,15 +2543,36 @@
       "time": "2026-11-26T02:40:00+00:00",
       "home_rate": 0.5454545454545454,
       "away_rate": 0.375,
-      "source": "ESPN",
+      "source": "ESPN — zakończone mecze",
       "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
       "history_samples": [
         12,
         12
       ],
-      "quoted_markets": 6,
-      "qualified_markets": 0,
-      "rejection_reason": "Żaden rynek nie spełnił kryteriów historycznych"
+      "quoted_markets": 8,
+      "qualified_markets": 1,
+      "market": "Bramki powyżej 5.5",
+      "family": "suma",
+      "quality": 0.75,
+      "estimated_odds": 1.7,
+      "odds_book": "1xBet",
+      "odds_time": "2026-11-25T14:11:07Z",
+      "odds_verified": true,
+      "reason": "Seattle Kraken: 9/12; Chicago Blackhawks: 9/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 75%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+      "historical_rate": 0.75,
+      "markets": [
+        {
+          "market": "Bramki powyżej 5.5",
+          "family": "suma",
+          "quality": 0.75,
+          "estimated_odds": 1.7,
+          "odds_book": "1xBet",
+          "odds_time": "2026-11-25T14:11:07Z",
+          "odds_verified": true,
+          "reason": "Seattle Kraken: 9/12; Chicago Blackhawks: 9/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 75%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+          "historical_rate": 0.75
+        }
+      ]
     },
     {
       "id": "basketball-nba-401909324",
@@ -2615,14 +2588,14 @@
         12,
         12
       ],
-      "quoted_markets": 14,
+      "quoted_markets": 10,
       "qualified_markets": 1,
       "market": "Zwycięstwo gospodarzy",
       "family": "wynik",
       "quality": 0.7083,
-      "estimated_odds": 1.4,
-      "odds_book": "Nordic Bet",
-      "odds_time": "2026-11-25T13:38:08Z",
+      "estimated_odds": 1.38,
+      "odds_book": "GTbets",
+      "odds_time": "2026-11-25T14:11:54Z",
       "odds_verified": true,
       "reason": "Golden State Warriors: 7/12; Sacramento Kings: 10/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
       "historical_rate": 0.708,
@@ -2631,9 +2604,9 @@
           "market": "Zwycięstwo gospodarzy",
           "family": "wynik",
           "quality": 0.7083,
-          "estimated_odds": 1.4,
-          "odds_book": "Nordic Bet",
-          "odds_time": "2026-11-25T13:38:08Z",
+          "estimated_odds": 1.38,
+          "odds_book": "GTbets",
+          "odds_time": "2026-11-25T14:11:54Z",
           "odds_verified": true,
           "reason": "Golden State Warriors: 7/12; Sacramento Kings: 10/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
           "historical_rate": 0.708
@@ -2859,7 +2832,7 @@
       "quality": 0.75,
       "estimated_odds": 1.74,
       "odds_book": "BetOnline.ag",
-      "odds_time": "2026-11-25T13:38:11Z",
+      "odds_time": "2026-11-25T14:11:31Z",
       "odds_verified": true,
       "reason": "Crystal Palace: 10/12; Real Sociedad: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 75%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
       "historical_rate": 0.75,
@@ -2870,7 +2843,7 @@
           "quality": 0.75,
           "estimated_odds": 1.74,
           "odds_book": "BetOnline.ag",
-          "odds_time": "2026-11-25T13:38:11Z",
+          "odds_time": "2026-11-25T14:11:31Z",
           "odds_verified": true,
           "reason": "Crystal Palace: 10/12; Real Sociedad: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 75%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
           "historical_rate": 0.75
@@ -2881,7 +2854,7 @@
           "quality": 0.7083,
           "estimated_odds": 1.57,
           "odds_book": "William Hill",
-          "odds_time": "2026-11-25T13:37:45Z",
+          "odds_time": "2026-11-25T14:12:20Z",
           "odds_verified": true,
           "reason": "Crystal Palace: 8/12; Real Sociedad: 9/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
           "historical_rate": 0.708
@@ -7372,8 +7345,8 @@
     }
   ],
   "status": "ok",
-  "fixtures": 334,
-  "eligible_picks": 15,
+  "fixtures": 332,
+  "eligible_picks": 16,
   "coupons": [
     {
       "name": "Ostrożniejszy",
@@ -7399,7 +7372,7 @@
           "quality": 0.7083,
           "estimated_odds": 1.54,
           "odds_book": "1xBet",
-          "odds_time": "2026-11-25T13:37:47Z",
+          "odds_time": "2026-11-25T14:12:22Z",
           "odds_verified": true,
           "reason": "Lille: 10/12; Bayern Munich: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
           "historical_rate": 0.708,
@@ -7410,7 +7383,7 @@
               "quality": 0.7083,
               "estimated_odds": 1.54,
               "odds_book": "1xBet",
-              "odds_time": "2026-11-25T13:37:47Z",
+              "odds_time": "2026-11-25T14:12:22Z",
               "odds_verified": true,
               "reason": "Lille: 10/12; Bayern Munich: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
               "historical_rate": 0.708
@@ -7438,7 +7411,7 @@
           "quality": 0.7083,
           "estimated_odds": 1.96,
           "odds_book": "Winamax (FR)",
-          "odds_time": "2026-11-25T13:37:47Z",
+          "odds_time": "2026-11-25T14:12:20Z",
           "odds_verified": true,
           "reason": "Minnesota Wild: 9/12; Utah Mammoth: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
           "historical_rate": 0.708,
@@ -7449,7 +7422,7 @@
               "quality": 0.7083,
               "estimated_odds": 1.96,
               "odds_book": "Winamax (FR)",
-              "odds_time": "2026-11-25T13:37:47Z",
+              "odds_time": "2026-11-25T14:12:20Z",
               "odds_verified": true,
               "reason": "Minnesota Wild: 9/12; Utah Mammoth: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
               "historical_rate": 0.708
@@ -7458,9 +7431,9 @@
               "market": "Bramki powyżej 5.5",
               "family": "suma",
               "quality": 0.6667,
-              "estimated_odds": 1.67,
-              "odds_book": "Marathon Bet",
-              "odds_time": "2026-11-25T13:38:18Z",
+              "estimated_odds": 1.68,
+              "odds_book": "Coolbet",
+              "odds_time": "2026-11-25T14:04:03Z",
               "odds_verified": true,
               "reason": "Minnesota Wild: 9/12; Utah Mammoth: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
               "historical_rate": 0.667
@@ -7488,7 +7461,7 @@
           "quality": 0.6667,
           "estimated_odds": 1.94,
           "odds_book": "Unibet (NL)",
-          "odds_time": "2026-11-25T13:38:12Z",
+          "odds_time": "2026-11-25T14:11:31Z",
           "odds_verified": true,
           "reason": "Columbus Blue Jackets: 8/12; New Jersey Devils: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
           "historical_rate": 0.667,
@@ -7499,7 +7472,7 @@
               "quality": 0.6667,
               "estimated_odds": 1.94,
               "odds_book": "Unibet (NL)",
-              "odds_time": "2026-11-25T13:38:12Z",
+              "odds_time": "2026-11-25T14:11:31Z",
               "odds_verified": true,
               "reason": "Columbus Blue Jackets: 8/12; New Jersey Devils: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
               "historical_rate": 0.667
@@ -7534,7 +7507,7 @@
           "quality": 0.8333,
           "estimated_odds": 1.66,
           "odds_book": "Unibet (NL)",
-          "odds_time": "2026-11-25T13:38:12Z",
+          "odds_time": "2026-11-25T14:11:31Z",
           "odds_verified": true,
           "reason": "Washington Capitals: 11/12; Philadelphia Flyers: 9/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 83%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
           "historical_rate": 0.833,
@@ -7545,7 +7518,7 @@
               "quality": 0.8333,
               "estimated_odds": 1.66,
               "odds_book": "Unibet (NL)",
-              "odds_time": "2026-11-25T13:38:12Z",
+              "odds_time": "2026-11-25T14:11:31Z",
               "odds_verified": true,
               "reason": "Washington Capitals: 11/12; Philadelphia Flyers: 9/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 83%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
               "historical_rate": 0.833
@@ -7555,8 +7528,8 @@
               "family": "handicap",
               "quality": 0.8333,
               "estimated_odds": 1.53,
-              "odds_book": "LeoVegas (SE)",
-              "odds_time": "2026-11-25T13:37:24Z",
+              "odds_book": "GTbets",
+              "odds_time": "2026-11-25T14:11:57Z",
               "odds_verified": true,
               "reason": "Washington Capitals: 11/12; Philadelphia Flyers: 9/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 83%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
               "historical_rate": 0.833
@@ -7566,10 +7539,212 @@
               "family": "suma",
               "quality": 0.75,
               "estimated_odds": 2.0,
-              "odds_book": "GTbets",
-              "odds_time": "2026-11-25T13:37:23Z",
+              "odds_book": "William Hill",
+              "odds_time": "2026-11-25T14:11:30Z",
               "odds_verified": true,
               "reason": "Washington Capitals: 10/12; Philadelphia Flyers: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 75%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.75
+            }
+          ]
+        },
+        {
+          "id": "hockey-nhl-401892790",
+          "sport": "NHL",
+          "league": "nhl",
+          "event": "Dallas Stars — Nashville Predators",
+          "time": "2026-11-26T01:00:00+00:00",
+          "home_rate": 0.6956521739130435,
+          "away_rate": 0.65,
+          "source": "ESPN — zakończone mecze",
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
+          "history_samples": [
+            12,
+            12
+          ],
+          "quoted_markets": 6,
+          "qualified_markets": 1,
+          "market": "Handicap gości +1.5",
+          "family": "handicap",
+          "quality": 0.8333,
+          "estimated_odds": 1.55,
+          "odds_book": "MyBookie.ag",
+          "odds_time": "2026-11-25T14:11:58Z",
+          "odds_verified": true,
+          "reason": "Dallas Stars: 10/12; Nashville Predators: 10/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 83%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+          "historical_rate": 0.833,
+          "markets": [
+            {
+              "market": "Handicap gości +1.5",
+              "family": "handicap",
+              "quality": 0.8333,
+              "estimated_odds": 1.55,
+              "odds_book": "MyBookie.ag",
+              "odds_time": "2026-11-25T14:11:58Z",
+              "odds_verified": true,
+              "reason": "Dallas Stars: 10/12; Nashville Predators: 10/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 83%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.833
+            }
+          ]
+        },
+        {
+          "id": "hockey-nhl-401892794",
+          "sport": "NHL",
+          "league": "nhl",
+          "event": "Seattle Kraken — Chicago Blackhawks",
+          "time": "2026-11-26T02:40:00+00:00",
+          "home_rate": 0.5454545454545454,
+          "away_rate": 0.375,
+          "source": "ESPN — zakończone mecze",
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
+          "history_samples": [
+            12,
+            12
+          ],
+          "quoted_markets": 8,
+          "qualified_markets": 1,
+          "market": "Bramki powyżej 5.5",
+          "family": "suma",
+          "quality": 0.75,
+          "estimated_odds": 1.7,
+          "odds_book": "1xBet",
+          "odds_time": "2026-11-25T14:11:07Z",
+          "odds_verified": true,
+          "reason": "Seattle Kraken: 9/12; Chicago Blackhawks: 9/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 75%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+          "historical_rate": 0.75,
+          "markets": [
+            {
+              "market": "Bramki powyżej 5.5",
+              "family": "suma",
+              "quality": 0.75,
+              "estimated_odds": 1.7,
+              "odds_book": "1xBet",
+              "odds_time": "2026-11-25T14:11:07Z",
+              "odds_verified": true,
+              "reason": "Seattle Kraken: 9/12; Chicago Blackhawks: 9/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 75%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.75
+            }
+          ]
+        },
+        {
+          "id": "basketball-nba-401909319",
+          "sport": "Koszykówka",
+          "league": "nba",
+          "event": "New York Knicks — Cleveland Cavaliers",
+          "time": "2026-11-26T00:30:00+00:00",
+          "home_rate": 0.631578947368421,
+          "away_rate": 0.5,
+          "source": "ESPN — zakończone mecze",
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261125&limit=100",
+          "history_samples": [
+            12,
+            12
+          ],
+          "quoted_markets": 10,
+          "qualified_markets": 1,
+          "market": "Zwycięstwo gospodarzy",
+          "family": "wynik",
+          "quality": 0.6667,
+          "estimated_odds": 1.65,
+          "odds_book": "BetOnline.ag",
+          "odds_time": "2026-11-25T14:11:52Z",
+          "odds_verified": true,
+          "reason": "New York Knicks: 9/12; Cleveland Cavaliers: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+          "historical_rate": 0.667,
+          "markets": [
+            {
+              "market": "Zwycięstwo gospodarzy",
+              "family": "wynik",
+              "quality": 0.6667,
+              "estimated_odds": 1.65,
+              "odds_book": "BetOnline.ag",
+              "odds_time": "2026-11-25T14:11:52Z",
+              "odds_verified": true,
+              "reason": "New York Knicks: 9/12; Cleveland Cavaliers: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.667
+            }
+          ]
+        }
+      ],
+      "estimated_total_odds": 7.22,
+      "warning": "Iloczyn kursów z ofert; nie jest gwarantowaną ofertą AKO jednego bukmachera."
+    },
+    {
+      "name": "Wysoki kurs",
+      "picks": [
+        {
+          "id": "soccer-uefa.champions-401915373",
+          "sport": "Piłka nożna",
+          "league": "uefa.champions",
+          "event": "Sporting CP — Manchester United",
+          "time": "2026-11-25T20:00:00+00:00",
+          "home_rate": 0.8,
+          "away_rate": 0.75,
+          "source": "ESPN — zakończone mecze",
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261125&limit=100",
+          "history_samples": [
+            12,
+            12
+          ],
+          "quoted_markets": 8,
+          "qualified_markets": 1,
+          "market": "Handicap gospodarzy +0.5",
+          "family": "handicap",
+          "quality": 0.8333,
+          "estimated_odds": 1.52,
+          "odds_book": "GTbets",
+          "odds_time": "2026-11-25T14:12:00Z",
+          "odds_verified": true,
+          "reason": "Sporting CP: 10/12; Manchester United: 10/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 83%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+          "historical_rate": 0.833,
+          "markets": [
+            {
+              "market": "Handicap gospodarzy +0.5",
+              "family": "handicap",
+              "quality": 0.8333,
+              "estimated_odds": 1.52,
+              "odds_book": "GTbets",
+              "odds_time": "2026-11-25T14:12:00Z",
+              "odds_verified": true,
+              "reason": "Sporting CP: 10/12; Manchester United: 10/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 83%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+              "historical_rate": 0.833
+            }
+          ]
+        },
+        {
+          "id": "hockey-nhl-401892786",
+          "sport": "NHL",
+          "league": "nhl",
+          "event": "Pittsburgh Penguins — Calgary Flames",
+          "time": "2026-11-26T00:00:00+00:00",
+          "home_rate": 0.34782608695652173,
+          "away_rate": 0.44,
+          "source": "ESPN — zakończone mecze",
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
+          "history_samples": [
+            12,
+            12
+          ],
+          "quoted_markets": 8,
+          "qualified_markets": 1,
+          "market": "Handicap gości +1.5",
+          "family": "handicap",
+          "quality": 0.75,
+          "estimated_odds": 1.54,
+          "odds_book": "Betsson",
+          "odds_time": "2026-11-25T14:11:32Z",
+          "odds_verified": true,
+          "reason": "Pittsburgh Penguins: 11/12; Calgary Flames: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 75%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
+          "historical_rate": 0.75,
+          "markets": [
+            {
+              "market": "Handicap gości +1.5",
+              "family": "handicap",
+              "quality": 0.75,
+              "estimated_odds": 1.54,
+              "odds_book": "Betsson",
+              "odds_time": "2026-11-25T14:11:32Z",
+              "odds_verified": true,
+              "reason": "Pittsburgh Penguins: 11/12; Calgary Flames: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 75%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
               "historical_rate": 0.75
             }
           ]
@@ -7594,8 +7769,8 @@
           "family": "handicap",
           "quality": 0.7083,
           "estimated_odds": 1.55,
-          "odds_book": "Coolbet",
-          "odds_time": "2026-11-25T13:29:47Z",
+          "odds_book": "Pinnacle",
+          "odds_time": "2026-11-25T14:12:19Z",
           "odds_verified": true,
           "reason": "Boston Bruins: 7/12; Winnipeg Jets: 10/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
           "historical_rate": 0.708,
@@ -7605,8 +7780,8 @@
               "family": "handicap",
               "quality": 0.7083,
               "estimated_odds": 1.55,
-              "odds_book": "Coolbet",
-              "odds_time": "2026-11-25T13:29:47Z",
+              "odds_book": "Pinnacle",
+              "odds_time": "2026-11-25T14:12:19Z",
               "odds_verified": true,
               "reason": "Boston Bruins: 7/12; Winnipeg Jets: 10/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
               "historical_rate": 0.708
@@ -7634,7 +7809,7 @@
           "quality": 0.7083,
           "estimated_odds": 1.96,
           "odds_book": "Winamax (FR)",
-          "odds_time": "2026-11-25T13:37:47Z",
+          "odds_time": "2026-11-25T14:12:20Z",
           "odds_verified": true,
           "reason": "Minnesota Wild: 9/12; Utah Mammoth: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
           "historical_rate": 0.708,
@@ -7645,7 +7820,7 @@
               "quality": 0.7083,
               "estimated_odds": 1.96,
               "odds_book": "Winamax (FR)",
-              "odds_time": "2026-11-25T13:37:47Z",
+              "odds_time": "2026-11-25T14:12:20Z",
               "odds_verified": true,
               "reason": "Minnesota Wild: 9/12; Utah Mammoth: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
               "historical_rate": 0.708
@@ -7654,222 +7829,9 @@
               "market": "Bramki powyżej 5.5",
               "family": "suma",
               "quality": 0.6667,
-              "estimated_odds": 1.67,
-              "odds_book": "Marathon Bet",
-              "odds_time": "2026-11-25T13:38:18Z",
-              "odds_verified": true,
-              "reason": "Minnesota Wild: 9/12; Utah Mammoth: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
-              "historical_rate": 0.667
-            }
-          ]
-        },
-        {
-          "id": "basketball-nba-401909319",
-          "sport": "Koszykówka",
-          "league": "nba",
-          "event": "New York Knicks — Cleveland Cavaliers",
-          "time": "2026-11-26T00:30:00+00:00",
-          "home_rate": 0.631578947368421,
-          "away_rate": 0.5,
-          "source": "ESPN — zakończone mecze",
-          "source_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261125&limit=100",
-          "history_samples": [
-            12,
-            12
-          ],
-          "quoted_markets": 10,
-          "qualified_markets": 1,
-          "market": "Zwycięstwo gospodarzy",
-          "family": "wynik",
-          "quality": 0.6667,
-          "estimated_odds": 1.64,
-          "odds_book": "Codere (IT)",
-          "odds_time": "2026-11-25T13:37:18Z",
-          "odds_verified": true,
-          "reason": "New York Knicks: 9/12; Cleveland Cavaliers: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
-          "historical_rate": 0.667,
-          "markets": [
-            {
-              "market": "Zwycięstwo gospodarzy",
-              "family": "wynik",
-              "quality": 0.6667,
-              "estimated_odds": 1.64,
-              "odds_book": "Codere (IT)",
-              "odds_time": "2026-11-25T13:37:18Z",
-              "odds_verified": true,
-              "reason": "New York Knicks: 9/12; Cleveland Cavaliers: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
-              "historical_rate": 0.667
-            }
-          ]
-        }
-      ],
-      "estimated_total_odds": 8.27,
-      "warning": "Iloczyn kursów z ofert; nie jest gwarantowaną ofertą AKO jednego bukmachera."
-    },
-    {
-      "name": "Wysoki kurs",
-      "picks": [
-        {
-          "id": "soccer-uefa.champions-401915373",
-          "sport": "Piłka nożna",
-          "league": "uefa.champions",
-          "event": "Sporting CP — Manchester United",
-          "time": "2026-11-25T20:00:00+00:00",
-          "home_rate": 0.8,
-          "away_rate": 0.75,
-          "source": "ESPN — zakończone mecze",
-          "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261125&limit=100",
-          "history_samples": [
-            12,
-            12
-          ],
-          "quoted_markets": 8,
-          "qualified_markets": 1,
-          "market": "Handicap gospodarzy +0.5",
-          "family": "handicap",
-          "quality": 0.8333,
-          "estimated_odds": 1.52,
-          "odds_book": "GTbets",
-          "odds_time": "2026-11-25T13:37:26Z",
-          "odds_verified": true,
-          "reason": "Sporting CP: 10/12; Manchester United: 10/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 83%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
-          "historical_rate": 0.833,
-          "markets": [
-            {
-              "market": "Handicap gospodarzy +0.5",
-              "family": "handicap",
-              "quality": 0.8333,
-              "estimated_odds": 1.52,
-              "odds_book": "GTbets",
-              "odds_time": "2026-11-25T13:37:26Z",
-              "odds_verified": true,
-              "reason": "Sporting CP: 10/12; Manchester United: 10/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 83%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
-              "historical_rate": 0.833
-            }
-          ]
-        },
-        {
-          "id": "hockey-nhl-401892790",
-          "sport": "NHL",
-          "league": "nhl",
-          "event": "Dallas Stars — Nashville Predators",
-          "time": "2026-11-26T01:00:00+00:00",
-          "home_rate": 0.6956521739130435,
-          "away_rate": 0.65,
-          "source": "ESPN — zakończone mecze",
-          "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
-          "history_samples": [
-            12,
-            12
-          ],
-          "quoted_markets": 6,
-          "qualified_markets": 1,
-          "market": "Handicap gości +1.5",
-          "family": "handicap",
-          "quality": 0.8333,
-          "estimated_odds": 1.54,
-          "odds_book": "Unibet (SE)",
-          "odds_time": "2026-11-25T13:37:23Z",
-          "odds_verified": true,
-          "reason": "Dallas Stars: 10/12; Nashville Predators: 10/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 83%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
-          "historical_rate": 0.833,
-          "markets": [
-            {
-              "market": "Handicap gości +1.5",
-              "family": "handicap",
-              "quality": 0.8333,
-              "estimated_odds": 1.54,
-              "odds_book": "Unibet (SE)",
-              "odds_time": "2026-11-25T13:37:23Z",
-              "odds_verified": true,
-              "reason": "Dallas Stars: 10/12; Nashville Predators: 10/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 83%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
-              "historical_rate": 0.833
-            }
-          ]
-        },
-        {
-          "id": "hockey-nhl-401892786",
-          "sport": "NHL",
-          "league": "nhl",
-          "event": "Pittsburgh Penguins — Calgary Flames",
-          "time": "2026-11-26T00:00:00+00:00",
-          "home_rate": 0.34782608695652173,
-          "away_rate": 0.44,
-          "source": "ESPN — zakończone mecze",
-          "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
-          "history_samples": [
-            12,
-            12
-          ],
-          "quoted_markets": 8,
-          "qualified_markets": 1,
-          "market": "Handicap gości +1.5",
-          "family": "handicap",
-          "quality": 0.75,
-          "estimated_odds": 1.54,
-          "odds_book": "BetOnline.ag",
-          "odds_time": "2026-11-25T13:38:11Z",
-          "odds_verified": true,
-          "reason": "Pittsburgh Penguins: 11/12; Calgary Flames: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 75%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
-          "historical_rate": 0.75,
-          "markets": [
-            {
-              "market": "Handicap gości +1.5",
-              "family": "handicap",
-              "quality": 0.75,
-              "estimated_odds": 1.54,
-              "odds_book": "BetOnline.ag",
-              "odds_time": "2026-11-25T13:38:11Z",
-              "odds_verified": true,
-              "reason": "Pittsburgh Penguins: 11/12; Calgary Flames: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 75%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
-              "historical_rate": 0.75
-            }
-          ]
-        },
-        {
-          "id": "hockey-nhl-401892791",
-          "sport": "NHL",
-          "league": "nhl",
-          "event": "Minnesota Wild — Utah Mammoth",
-          "time": "2026-11-26T01:00:00+00:00",
-          "home_rate": 0.8260869565217391,
-          "away_rate": 0.5416666666666666,
-          "source": "ESPN — zakończone mecze",
-          "source_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261125&limit=100",
-          "history_samples": [
-            12,
-            12
-          ],
-          "quoted_markets": 8,
-          "qualified_markets": 2,
-          "market": "Zwycięstwo gospodarzy",
-          "family": "wynik",
-          "quality": 0.7083,
-          "estimated_odds": 1.96,
-          "odds_book": "Winamax (FR)",
-          "odds_time": "2026-11-25T13:37:47Z",
-          "odds_verified": true,
-          "reason": "Minnesota Wild: 9/12; Utah Mammoth: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
-          "historical_rate": 0.708,
-          "markets": [
-            {
-              "market": "Zwycięstwo gospodarzy",
-              "family": "wynik",
-              "quality": 0.7083,
-              "estimated_odds": 1.96,
-              "odds_book": "Winamax (FR)",
-              "odds_time": "2026-11-25T13:37:47Z",
-              "odds_verified": true,
-              "reason": "Minnesota Wild: 9/12; Utah Mammoth: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 71%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
-              "historical_rate": 0.708
-            },
-            {
-              "market": "Bramki powyżej 5.5",
-              "family": "suma",
-              "quality": 0.6667,
-              "estimated_odds": 1.67,
-              "odds_book": "Marathon Bet",
-              "odds_time": "2026-11-25T13:38:18Z",
+              "estimated_odds": 1.68,
+              "odds_book": "Coolbet",
+              "odds_time": "2026-11-25T14:04:03Z",
               "odds_verified": true,
               "reason": "Minnesota Wild: 9/12; Utah Mammoth: 7/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
               "historical_rate": 0.667
@@ -7897,7 +7859,7 @@
           "quality": 0.6667,
           "estimated_odds": 1.94,
           "odds_book": "Unibet (NL)",
-          "odds_time": "2026-11-25T13:38:12Z",
+          "odds_time": "2026-11-25T14:11:31Z",
           "odds_verified": true,
           "reason": "Columbus Blue Jackets: 8/12; New Jersey Devils: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
           "historical_rate": 0.667,
@@ -7908,7 +7870,7 @@
               "quality": 0.6667,
               "estimated_odds": 1.94,
               "odds_book": "Unibet (NL)",
-              "odds_time": "2026-11-25T13:38:12Z",
+              "odds_time": "2026-11-25T14:11:31Z",
               "odds_verified": true,
               "reason": "Columbus Blue Jackets: 8/12; New Jersey Devils: 8/12 meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna 67%, nie prognoza. Kurs z oferty wskazanego bukmachera.",
               "historical_rate": 0.667
@@ -7916,7 +7878,7 @@
           ]
         }
       ],
-      "estimated_total_odds": 13.71,
+      "estimated_total_odds": 13.8,
       "warning": "Iloczyn kursów z ofert; nie jest gwarantowaną ofertą AKO jednego bukmachera."
     }
   ],
@@ -8399,8 +8361,8 @@
     {
       "source": "Live Tennis API",
       "status": "ok",
-      "events": 30,
-      "detail": "API: 200 rekordów; poprawne mecze: 30."
+      "events": 28,
+      "detail": "API: 200 rekordów; poprawne mecze: 28."
     },
     {
       "source": "ESPN — wyniki 90 dni",
@@ -8455,8 +8417,8 @@
     {
       "source": "Analiza Ankara (Turkey)",
       "status": "ok",
-      "events": 3,
-      "detail": "{'Tylko terminarz: brak zweryfikowanej historii tenisowej': 3}"
+      "events": 2,
+      "detail": "{'Tylko terminarz: brak zweryfikowanej historii tenisowej': 2}"
     },
     {
       "source": "Analiza Buenos Aires",
@@ -8479,8 +8441,8 @@
     {
       "source": "Analiza M25 Hradec Kralove",
       "status": "ok",
-      "events": 3,
-      "detail": "{'Tylko terminarz: brak zweryfikowanej historii tenisowej': 3}"
+      "events": 2,
+      "detail": "{'Tylko terminarz: brak zweryfikowanej historii tenisowej': 2}"
     },
     {
       "source": "Analiza Monastir 2 (Tunisia)",
@@ -8570,7 +8532,7 @@
       "source": "Analiza nhl",
       "status": "ok",
       "events": 44,
-      "detail": "{'Zakwalifikowany': 9, 'Żaden rynek nie spełnił kryteriów historycznych': 5, 'Brak dopasowanych aktualnych kursów': 30}"
+      "detail": "{'Zakwalifikowany': 10, 'Żaden rynek nie spełnił kryteriów historycznych': 4, 'Brak dopasowanych aktualnych kursów': 30}"
     },
     {
       "source": "Analiza por.1",
