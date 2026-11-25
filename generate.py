@@ -76,7 +76,7 @@ def nhl(now, diagnostics):
 def historical(now, events, diagnostics):
     from concurrent.futures import ThreadPoolExecutor
     leagues={(sport,league) for label,sport,league in LEAGUES if label!='Tenis' and (sport=='soccer' or any(e['league']==league for e in events))}
-    jobs=[(sport,league,(now.astimezone(WARSAW).date()-dt.timedelta(days=i)).strftime('%Y%m%d')) for sport,league in leagues for i in range(1,46)]
+    jobs=[(sport,league,(now.astimezone(WARSAW).date()-dt.timedelta(days=i)).strftime('%Y%m%d')) for sport,league in leagues for i in range(1,91)]
     def fetch(job):
         sport,league,day=job
         url=f'https://site.api.espn.com/apis/site/v2/sports/{sport}/{league}/scoreboard?dates={day}&limit=100'
@@ -99,7 +99,7 @@ def historical(now, events, diagnostics):
                     rows.setdefault((league,competitor_name(t)),[]).append(row)
                     if league not in ('nba','nhl','wnba','mens-college-basketball'):
                         rows.setdefault(('soccer-all',competitor_name(t)),[]).append(row)
-    diagnostics.append({'source':'ESPN — wyniki 45 dni','status':'ok' if seen else 'error','events':len(seen),'detail':f'Nieudane zapytania: {errors}/{len(jobs)}'})
+    diagnostics.append({'source':'ESPN — wyniki 90 dni','status':'ok' if seen else 'error','events':len(seen),'detail':f'Nieudane zapytania: {errors}/{len(jobs)}'})
     return rows
 
 def enrich(x, history, quotes=None):
@@ -111,6 +111,7 @@ def enrich(x, history, quotes=None):
     h=sorted(history.get((scope,home),[]),reverse=True)[:12]; a=sorted(history.get((scope,away),[]),reverse=True)[:12]
     x['history_samples']=[len(h),len(a)]
     x['quoted_markets']=len(quotes)
+    x['qualified_markets']=0
     if not quotes:
         x['rejection_reason']='Brak dopasowanych aktualnych kursów';return x
     if min(len(h),len(a))<5:
@@ -125,7 +126,7 @@ def enrich(x, history, quotes=None):
         price,book,stamp=quotes[market]
         # Historical frequency is not a forecast. Shrink toward 0.5 for indicative price only.
         proxy=.5+(rate-.5)*.65
-        candidates.append(dict(market=market,family=family,quality=round(rate*min(1,min(len(h),len(a))/10),4),estimated_odds=price,odds_book=book,odds_time=stamp,odds_verified=True,reason=f'{home}: {hh}/{len(h)}; {away}: {aa}/{len(a)} meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 45 dni (piłka: także inne rozgrywki). Częstość historyczna {rate:.0%}, nie prognoza. Kurs z oferty wskazanego bukmachera.',historical_rate=round(rate,3)))
+        candidates.append(dict(market=market,family=family,quality=round(rate*min(1,min(len(h),len(a))/10),4),estimated_odds=price,odds_book=book,odds_time=stamp,odds_verified=True,reason=f'{home}: {hh}/{len(h)}; {away}: {aa}/{len(a)} meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna {rate:.0%}, nie prognoza. Kurs z oferty wskazanego bukmachera.',historical_rate=round(rate,3)))
     if x['sport']=='Piłka nożna':
         for line in sorted({float(k.split()[-1]) for k in quotes if k.startswith('Gole ')}):
             add(f'Gole powyżej {line}','gole',lambda f,g:f+g>line,lambda f,g:f+g>line)
@@ -142,9 +143,14 @@ def enrich(x, history, quotes=None):
             add(f'{unit} poniżej {line}','suma',lambda f,g:f+g<line,lambda f,g:f+g<line)
     add('Zwycięstwo gospodarzy','wynik',lambda f,g:f>g,lambda f,g:f<g)
     add('Zwycięstwo gości','wynik',lambda f,g:f<g,lambda f,g:f>g)
+    for market in quotes:
+        if market.startswith('Handicap '):
+            side, line=market.split()[1:]; line=float(line)
+            if side=='gospodarzy':add(market,'handicap',lambda f,g:f-g+line>0,lambda f,g:g-f+line>0)
+            elif side=='gości':add(market,'handicap',lambda f,g:g-f+line>0,lambda f,g:f-g+line>0)
     if candidates:
         candidates.sort(key=lambda c:(c['quality'],c['estimated_odds']),reverse=True)
-        x.update(candidates[0]);x['markets']=candidates;x['source']='ESPN — zakończone mecze'
+        x['qualified_markets']=len(candidates);x.update(candidates[0]);x['markets']=candidates;x['source']='ESPN — zakończone mecze'
     else:x['rejection_reason']='Żaden rynek nie spełnił kryteriów historycznych'
     return x
 

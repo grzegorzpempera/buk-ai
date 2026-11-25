@@ -12,10 +12,10 @@ def attach(events,get,parse_date,diagnostics,now):
  if not key:
   diagnostics.append(dict(source='The Odds API',status='error',detail='Brak ODDS_API_KEY'));return data
  # One region, two markets; maximum 10 leagues per run.
- leagues=sorted({e['league'] for e in events if e['league'] in KEYS},key=lambda l:(0 if l in ('uefa.champions','uefa.europa') else 1 if l in ('nba','nhl','eng.1','esp.1','ger.1','ita.1','fra.1') else 2,min(e['time'] for e in events if e['league']==l)))[:7]
+ leagues=sorted({e['league'] for e in events if e['league'] in KEYS},key=lambda l:(not any(parse_date(e['time']) and parse_date(e['time'])<=now+dt.timedelta(hours=30) for e in events if e['league']==l),0 if l in ('uefa.champions','uefa.europa') else 1 if l in ('nba','nhl','eng.1','esp.1','ger.1','ita.1','fra.1') else 2,min(e['time'] for e in events if e['league']==l)))[:4]
  for league in leagues:
   try:
-   rows=get('https://api.the-odds-api.com/v4/sports/'+KEYS[league]+'/odds/?'+urlencode(dict(apiKey=key,regions='eu',markets='h2h,totals',oddsFormat='decimal')))
+   rows=get('https://api.the-odds-api.com/v4/sports/'+KEYS[league]+'/odds/?'+urlencode(dict(apiKey=key,regions='eu',markets='h2h,totals,spreads',oddsFormat='decimal')))
    diagnostics.append(dict(source='The Odds API '+league,status='ok',events=len(rows)))
   except Exception:
    diagnostics.append(dict(source='The Odds API '+league,status='error',detail='Zapytanie nieudane; sprawdź limit i dostępność ligi'));continue
@@ -28,13 +28,15 @@ def attach(events,get,parse_date,diagnostics,now):
    for b in matches[0].get('bookmakers',[]):
     for m in b.get('markets',[]):
      stamp=m.get('last_update') or b.get('last_update'); ts=parse_date(stamp)
-     if not ts or not 0<=(now-ts).total_seconds()<=21600:continue
+     if not ts or not -300<=(dt.datetime.now(dt.timezone.utc)-ts).total_seconds()<=21600:continue
      for o in m.get('outcomes',[]):
       price=o.get('price',0); name=o.get('name'); point=o.get('point')
       if not isinstance(price,(int,float)) or not 1<price<100:continue
       if m['key']=='h2h': label='Zwycięstwo gospodarzy' if name==matches[0]['home_team'] else 'Zwycięstwo gości' if name==matches[0]['away_team'] else None
       elif m['key']=='totals' and isinstance(point,(int,float)) and point%1==.5 and name in ('Over','Under'):
        unit='Gole' if e['sport']=='Piłka nożna' else 'Bramki' if e['sport']=='NHL' else 'Punkty';label=f'{unit} {"powyżej" if name=="Over" else "poniżej"} {point}'
+      elif m['key']=='spreads' and isinstance(point,(int,float)) and abs(point)%1==.5 and name in (matches[0]['home_team'],matches[0]['away_team']):
+       label=f'Handicap {"gospodarzy" if name==matches[0]["home_team"] else "gości"} {point:+g}'
       else:continue
       if label:quotes.setdefault(label,[]).append((price,b.get('title',''),stamp))
    # Use a real quoted price nearest the median, not a synthetic average.
