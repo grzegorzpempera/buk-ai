@@ -95,7 +95,7 @@ def historical(now, events, diagnostics):
                 except (ValueError,KeyError,TypeError):continue
                 seen.add(key)
                 for i,t in enumerate(teams):
-                    row=(game.get('date',''),scores[i],scores[1-i],key)
+                    row=(game.get('date',''),scores[i],scores[1-i],key,t.get('homeAway'),competitor_name(teams[1-i]))
                     rows.setdefault((league,competitor_name(t)),[]).append(row)
                     if league not in ('nba','nhl','wnba','mens-college-basketball'):
                         rows.setdefault(('soccer-all',competitor_name(t)),[]).append(row)
@@ -124,9 +124,15 @@ def enrich(x, history, quotes=None):
         if rate<.65:return
         if market not in quotes:return
         price,book,stamp=quotes[market]
-        # Historical frequency is not a forecast. Shrink toward 0.5 for indicative price only.
-        proxy=.5+(rate-.5)*.65
-        candidates.append(dict(market=market,family=family,quality=round(rate*min(1,min(len(h),len(a))/10),4),estimated_odds=price,odds_book=book,odds_time=stamp,odds_verified=True,reason=f'{home}: {hh}/{len(h)}; {away}: {aa}/{len(a)} meczów zgodnych z kryterium. Próba: ostatnie maks. 12 meczów z 90 dni (piłka: także inne rozgrywki). Częstość historyczna {rate:.0%}, nie prognoza. Kurs z oferty wskazanego bukmachera.',historical_rate=round(rate,3)))
+        recent=(sum(fh(r[1],r[2]) for r in h[:5])/len(h[:5])+sum(fa(r[1],r[2]) for r in a[:5])/len(a[:5]))/2
+        hv=[r for r in h if len(r)>4 and r[4]=='home']; av=[r for r in a if len(r)>4 and r[4]=='away']
+        venue=(sum(fh(r[1],r[2]) for r in hv)/len(hv)+sum(fa(r[1],r[2]) for r in av)/len(av))/2 if min(len(hv),len(av))>=3 else None
+        quality=(.65*rate+.35*recent) if venue is None else (.5*rate+.3*recent+.2*venue)
+        if recent<.5 or (venue is not None and venue<.5):return
+        def avg(rows,i):return sum(r[i] for r in rows)/len(rows)
+        direct=[r for r in h if len(r)>5 and r[5]==away]
+        detail=f' Ostatnie 5: {recent:.0%}. Dom/wyjazd: '+(f'{venue:.0%} (próby {len(hv)}/{len(av)})' if venue is not None else 'za mała próba')+f'. Średnie zdobyte/stracone: {home} {avg(h,1):.1f}/{avg(h,2):.1f}; {away} {avg(a,1):.1f}/{avg(a,2):.1f}. H2H: '+(f'{sum(fh(r[1],r[2]) for r in direct)}/{len(direct)}' if direct else 'brak w próbie')+'.'
+        candidates.append(dict(market=market,family=family,quality=round(quality*min(1,min(len(h),len(a))/10),4),estimated_odds=price,odds_book=book,odds_time=stamp,odds_verified=True,reason=f'{home}: {hh}/{len(h)}; {away}: {aa}/{len(a)}. Częstość historyczna {rate:.0%}, nie prognoza.'+detail,historical_rate=round(rate,3)))
     if x['sport']=='Piłka nożna':
         for line in sorted({float(k.split()[-1]) for k in quotes if k.startswith('Gole ')}):
             add(f'Gole powyżej {line}','gole',lambda f,g:f+g>line,lambda f,g:f+g>line)
@@ -185,25 +191,37 @@ def build(now=None):
         end=start+dt.timedelta(days=1,hours=6)
         daily=[x for x in events if x["time"] and start <= dt.datetime.fromisoformat(x["time"]).astimezone(WARSAW) <= end]
         by_date[date]=make_coupons(daily)
+        by_date[date]['by_sport']={sport:make_coupons([e for e in daily if e['sport']==sport]) for sport in sorted({e['sport'] for e in daily})}
     selected=dates[0]
     return {'generated_at':now.isoformat(),'timezone':'Europe/Warsaw','betting_day_end':'06:00','available_dates':dates,'by_date':by_date,'events':events,'status':'ok' if events else 'no_data','fixtures':len(events),'eligible_picks':sum('estimated_odds' in x for x in events),'coupons':by_date[selected]['coupons'],'diagnostics':diagnostics,'errors':[d['source']+': '+d['detail'] for d in diagnostics if d['status']=='error'],'disclaimer':'Kursy pochodzą z ofert bukmacherów; niekoniecznie Superbet. Brak wiarygodnej oceny prawdopodobieństwa.'}
 
 def make_coupons(events):
-    picks=sorted((x for x in events if 'estimated_odds' in x),key=lambda x:x.get('quality',0),reverse=True);coupons=[];used=set()
-    for idx in range(3):
-        best=None
-        for n in (3,4,5):
-            for combo in itertools.islice(itertools.combinations(picks[:26],n),12000):
-                odds=math.prod(x['estimated_odds'] for x in combo)
-                if odds<5 or (idx==0 and odds>9) or (idx==1 and not 7<=odds<=16) or (idx==2 and odds<12):continue
-                overlap=sum(x['id'] in used for x in combo)
-                score=(overlap*25+abs(odds-[6,10,18][idx])+max(0,2-len({x['league'] for x in combo}))*5)
-                if best is None or score<best[0]:best=(score,combo,odds)
-            if best:break
+    from collections import Counter
+    pool=[{**e,**m} for e in events for m in e.get('markets',[]) if m.get('odds_verified') and m.get('estimated_odds',0)>1]
+    pool.sort(key=lambda p:(-p['quality'],p['id'],p['market']))
+    used=set(); signatures=set(); coupons=[]
+    for name in ('MIX','Statystyczny','Alternatywny'):
+        beam=[([],1.)]; best=None
+        for depth in range(5):
+            nxt=[]
+            for picks,total in beam:
+                ids={p['id'] for p in picks}; families=Counter(p['family'] for p in picks)
+                for p in pool[:100]:
+                    if p['id'] in ids or families[p['family']]>=2 or (name=='Statystyczny' and p['family']=='wynik'):continue
+                    q=picks+[p]; t=total*p['estimated_odds']; sig=tuple(sorted((v['id'],v['market']) for v in q))
+                    score=sum(v['quality'] for v in q)/len(q)+.15*len({v['sport'] for v in q})+.12*len({v['family'] for v in q})-.18*sum(v['id'] in used for v in q)-.05*abs(math.log(t/6))
+                    if t>=5 and len(q)>=2 and sig not in signatures and len({v['family'] for v in q})>=2:
+                        if best is None or score>best[0]:best=(score,q,t,sig)
+                    if t<5:nxt.append((score,q,t,sig))
+            nxt.sort(key=lambda z:-z[0]); seen=set();beam=[]
+            for _,q,t,sig in nxt:
+                if sig in seen:continue
+                seen.add(sig);beam.append((q,t))
+                if len(beam)>=40:break
+            if not beam:break
         if best:
-            _,combo,odds=best;used.update(x['id'] for x in combo)
-            coupons.append({'name':['Ostrożniejszy','Zrównoważony','Wysoki kurs'][idx],'picks':list(combo),'estimated_total_odds':round(odds,2),'warning':'Iloczyn kursów z ofert; nie jest gwarantowaną ofertą AKO jednego bukmachera.'})
-    return {'fixtures':len(events),'eligible_picks':len(picks),'coupons':coupons}
+            _,q,t,sig=best;signatures.add(sig);used.update(v['id'] for v in q);coupons.append(dict(name=name,picks=q,estimated_total_odds=round(t,2)))
+    return dict(fixtures=len(events),eligible_picks=len(pool),coupons=coupons)
 
 if __name__=='__main__':
     result=build();(ROOT/'data').mkdir(exist_ok=True)
