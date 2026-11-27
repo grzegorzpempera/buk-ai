@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-11-26T06:06:28.363143+00:00",
+  "updated_at": "2026-11-27T06:10:00.939538+00:00",
   "note": "Zawód Typer: jawnie oznaczone fragmenty, niezweryfikowane statystycznie",
   "items": [
+    {
+      "source": "Zawód Typer — Typy Dnia",
+      "title": "Typy Dnia - 27 listopada (piątek)",
+      "url": "https://zawodtyper.pl/typy-dnia-27-listopada-piatek/",
+      "published": "",
+      "selections": []
+    },
     {
       "source": "Zawód Typer — Typy Dnia",
       "title": "Typy Dnia - 26 listopada (czwartek)",
@@ -66,13 +73,6 @@
       "selections": []
     },
     {
-      "source": "Zawód Typer — Typy Dnia",
-      "title": "Typy Dnia - 17 listopada (wtorek)",
-      "url": "https://zawodtyper.pl/typy-dnia-17-listopada-wtorek/",
-      "published": "",
-      "selections": []
-    },
-    {
       "source": "Zawód Typer — Typy redaktorów",
       "title": "Typy Dnia - największa społeczność Typerów w Polsce",
       "url": "https://zawodtyper.pl/typy-dnia/",
@@ -81,7 +81,7 @@
     },
     {
       "source": "Zawód Typer — Typy redaktorów",
-      "title": "Sunderland - Jagiellonia Białystok Typy Dziś 21:00",
+      "title": "Sunderland - Jagiellonia Białystok Typy Zakończono",
       "url": "https://zawodtyper.pl/sunderland-jagiellonia-bialystok-typy/",
       "published": "",
       "selections": []
